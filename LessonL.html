@@ -236,15 +236,51 @@
       <p>Each Latin sentence below contains an italicized English portion (or two). Use the context of the
         sentence to render the correct translation of that portion into Latin.</p>
       <ol type="1">
-        <li>Pārs <em>of Caesar’s army</em> ad Belgium iter fēcit.</li>
-        <li>Multa vehicula virīs legiōnum <em>victuals </em>tulērunt.</li>
-        <li>Dux noster magnum dolōrem <em>in his knees</em> sēnsit.</li>
-        <li>Didicimus <em>that the spirits</em> auxiliōrum īmōs esse.</li>
-        <li>Uxor mea tribus annīs <em>older</em> sorōre suā erat.</li>
-        <li>Animal Africānus <em>four huge horns</em> habuit.</li>
-        <li><em>Because of our arrival</em> hostēs māximē horruērunt.</li>
-        <li><em>Frost</em> in grāmine herī vīdimus.</li>
-        <li>Estne <em>the implement </em>idōneus <em>for (all/both) sexes?</em></li>
+        <li>Pārs <em>of Caesar’s army</em> ad Belgium iter fēcit.<br/>
+        <input type="text" size="20"><br/>
+        <button id="reveal-trans1" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans1').show();">Translate:</button>
+          <span id="trans1" style="display: none; font-weight: bold">exercitūs Caesaris</span>
+        </li>
+        <li>Multa vehicula virīs legiōnum <em>victuals </em>tulērunt.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans2" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans2').show();">Translate:</button>
+          <span id="trans2" style="display: none; font-weight: bold">vīctūs</span>
+        </li>
+        <li>Dux noster magnum dolōrem <em>in his knees</em> sēnsit.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans3" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans3').show();">Translate:</button>
+          <span id="trans3" style="display: none; font-weight: bold">in genibus (suīs)</span>
+        </li>
+        <li>Didicimus <em>that the spirits</em> auxiliōrum īmōs esse.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans4" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans4').show();">Translate:</button>
+          <span id="trans4" style="display: none; font-weight: bold">spīritūs</span>
+        </li>
+        <li>Uxor mea tribus annīs <em>older</em> sorōre suā erat.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans5" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans5').show();">Translate:</button>
+          <span id="trans5" style="display: none; font-weight: bold">maior nātū</span>
+        </li>
+        <li>Animal Āfricānum <em>four huge horns</em> habuit.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans6" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans6').show();">Translate:</button>
+          <span id="trans6" style="display: none; font-weight: bold">quattuor ingentia cornua</span>
+        </li>
+        <li><em>Because of our arrival</em> hostēs māximē horruērunt.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans7" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans7').show();">Translate:</button>
+          <span id="trans7" style="display: none; font-weight: bold">Propter adventum nostrum</span>
+        </li>
+        <li><em>Frost</em> in grāmine herī vīdimus.<br/>
+          <input type="text" size="20"><br/>
+          <button id="reveal-trans8" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans8').show();">Translate:</button>
+          <span id="trans8" style="display: none; font-weight: bold">Gelū</span>
+        </li>
+        <li>Estne <em>the implement </em>idōneus <em>for (all/both) sexes?</em><br/>
+          <input type="text" size="20"> <input type="text" size="20"><br/>
+          <button id="reveal-trans9" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#trans9').show();">Translate:</button>
+          <span id="trans9" style="display: none; font-weight: bold">apparātus...omnibus/ambōbus sexibus</span>
+        </li>
       </ol>
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
