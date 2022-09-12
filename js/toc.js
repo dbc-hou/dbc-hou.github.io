@@ -5,15 +5,16 @@ function tableOfContents() {
   tocHTML += volIILinks();
   tocHTML += volIIILinks();
   tocHTML += volIVLinks();
-  // tocHTML += volVLinks();
+  tocHTML += volVLinks();
   // tocHTML += volVILinks();
 
   return tocHTML;
 }
+// Make these consistent & use max-height & overflow!!!
 
 function introLinks() {
-  return `<div id="intro-div"><li class="list-group-item volume" href="#" onclick="$('#intro-parts').slideToggle('slow')">Introduction
-  <div id="intro-list-div" style="overflow-y: scroll"><ul id="intro-parts" class="list-group sublist">
+  return `<div id="intro-div"><li class="list-group-item volume" href="#" onclick="$('.sublist').hide();$('#intro-parts').slideToggle('slow')">Introduction
+  <div id="intro-list-div"><ul id="intro-parts" class="list-group sublist">
     <li id="intro-prae" class="list-group-item pl-2 chapter"><a id="intro-prae-link" class="chapter-link" href="IntroPrae.html">Praelūdium</a></li>
     <li id="intro-a" class="list-group-item pl-2 chapter"><a id="intro-a-link" class="chapter-link" href="IntroA.html">A. Why Latin?</strong></li>
     <li id="intro-b" class="list-group-item pl-2 chapter"><a id="intro-b-link" class="chapter-link" href="IntroB.html">B. Evolution of Latin</a></li>
@@ -29,8 +30,8 @@ function introLinks() {
 }
 
 function volILinks() {
-  return `<div id="vol-i-div"><li class="list-group-item volume" onclick="$('#vol-i-parts').slideToggle('slow')">Volūmen I
-    <div id="vol-i-list-div" style="overflow-y: auto"><ul id="vol-i-parts" class="list-group sublist">
+  return `<div id="vol-i-div"><li class="list-group-item volume" onclick="$('.sublist').hide();$('#vol-i-parts').slideToggle('slow')">Volūmen I
+    <div id="vol-i-list-div"><ul id="vol-i-parts" class="list-group sublist">
       <li id="i-prae" class="list-group-item pl-2 chapter"><a id="vol-i-prae-link" class="chapter-link" href="PraeludiumI.html">Praelūdium I</a></li>
       <li id="lesson01" class="list-group-item pl-2 chapter"><a id="lesson-i-link" class="chapter-link" href="LessonI.html">I. Famīliae Rōmānae</a></li>
       <li id="lesson02" class="list-group-item pl-2 chapter"><a id="lesson-ii-link" class="chapter-link" href="LessonII.html">II. Forms of Address</a></li>
@@ -49,8 +50,8 @@ function volILinks() {
 }
 
 function volIILinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-ii-parts').slideToggle('slow')">Volūmen II
-    <ul id="vol-ii-parts" class="list-group sublist">
+  return `<div id="vol-ii-div"><li class="list-group-item volume" onclick="$('.sublist').hide();$('#vol-ii-parts').slideToggle('slow')">Volūmen II
+    <div id="vol-ii-list-div"><ul id="vol-ii-parts" class="list-group sublist">
       <li id="ii-prae" class="list-group-item pl-2 chapter"><a id="vol-ii-prae-link" class="chapter-link" href="PraeludiumII.html">Praelūdium II</a></li>
       <li id="lesson13" class="list-group-item pl-2 chapter"><a id="lesson-xiii-link" class="chapter-link" href="LessonXIII.html">XIII. Accompaniment</a></li>
       <li id="lesson14" class="list-group-item pl-2 chapter"><a id="lesson-xiv-link" class="chapter-link" href="LessonXIV.html">XIV. Ego et Tū, Brūte</a></li>
@@ -64,13 +65,13 @@ function volIILinks() {
       <li id="lesson22" class="list-group-item pl-2 chapter"><a id="lesson-xxii-link" class="chapter-link" href="LessonXXII.html">XXII. Irregular Imperfect and Future</a></li>
       <li id="lesson23" class="list-group-item pl-2 chapter"><a id="lesson-xxiii-link" class="chapter-link" href="LessonXXIII.html">XXIII. Passive Voice Endings (I am verbed)</a></li>
       <li id="lesson24" class="list-group-item pl-2 chapter"><a id="lesson-xxiv-link" class="chapter-link" href="LessonXXIV.html">XXIV. Recēnsus II</a></li>
-    </ul>
-  </li>`
+    </ul></div>
+  </li></div>`
 }
 
 function volIIILinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-iii-parts').slideToggle('slow')">Volūmen III
-    <ul id="vol-iii-parts" class="list-group sublist">
+  return `<div id="vol-iii-div"><li class="list-group-item volume" onclick="$('.sublist').hide();$('#vol-iii-parts').slideToggle('slow')">Volūmen III
+    <div id="vol-iii-list-div"><ul id="vol-iii-parts" class="list-group sublist">
       <li id="iii-prae" class="list-group-item pl-2 chapter"><a id="vol-i-prae-link" class="chapter-link" href="PraeludiumIII.html">Praelūdium III</a></li>
       <li id="lesson25" class="list-group-item pl-2 chapter"><a id="lesson-xxv-link" class="chapter-link" href="LessonXXV.html">XXV. Colōrēs</a></li>
       <li id="lesson26" class="list-group-item pl-2 chapter"><a id="lesson-xxvi-link" class="chapter-link" href="LessonXXVI.html">XXVI. Superlative Adjectives</a></li>
@@ -89,8 +90,8 @@ function volIIILinks() {
 }
 
 function volIVLinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-iv-parts').slideToggle('slow')">Volūmen IV
-    <ul id="vol-iv-parts" class="list-group sublist">
+  return `<div id="vol-iv-div"><li class="list-group-item volume" onclick="$('.sublist').hide();$('#vol-iv-parts').slideToggle('slow')">Volūmen IV
+    <div id="vol-iv-list-div"><ul id="vol-iv-parts" class="list-group sublist">
       <li id="iv-prae-a" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-a" class="chapter-link" href="PraeludiumIVa.html">Praelūdium IV: Principal Parts of Verbs</a></li>
       <li id="iv-prae-b" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-b" class="chapter-link" href="PraeludiumIVb.html">Praelūdium IV: Verbs into Nouns</a></li>
       <li id="iv-prae-c" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-c" class="chapter-link" href="PraeludiumIVc.html">Praelūdium IV: Verbs into Adjectives</a></li>
@@ -111,43 +112,43 @@ function volIVLinks() {
   </li>`
 }
 
-/** function volVLinks() {
-*  return `<li class="list-group-item volume" onclick="$('#vol-v-parts').slideToggle('slow')">Volūmen V
-*    <ul id="vol-iv-parts" class="list-group sublist">
-*      <li id="v-prae" class="list-group-item pl-2 chapter"><a id="vol-v-prae-link" class="chapter-link" href="PraeludiumV.html">Praelūdium V</a></li>
-*      <li id="lesson49" class="list-group-item pl-2 chapter"><a id="lesson-xlix-link" class="chapter-link" href="LessonXLIX.html">XLIX. Timely Nouns</a></li>
-*      <li id="lesson50" class="list-group-item pl-2 chapter"><a id="lesson-l-link" class="chapter-link" href="LessonL.html">L. Declension IV</a></li>
-*      <li id="lesson51" class="list-group-item pl-2 chapter"><a id="lesson-li-link" class="chapter-link" href="LessonLI.html">LI. Declension IV Neuter and Vebal Nouns</a></li>
-*      <li id="lesson52" class="list-group-item pl-2 chapter"><a id="lesson-lii-link" class="chapter-link" href="LessonLII.html">LII. Declension V</a></li>
-*      <li id="lesson53" class="list-group-item pl-2 chapter"><a id="lesson-liii-link" class="chapter-link" href="LessonLIII.html">LIII. In Exercitū Nunc Es</a></li>
-*      <li id="lesson54" class="list-group-item pl-2 chapter"><a id="lesson-liv-link" class="chapter-link" href="LessonLIV.html">LIV. Perfect System, Passive Voice</a></li>
-*      <li id="lesson55" class="list-group-item pl-2 chapter"><a id="lesson-lv-link" class="chapter-link" href="LessonLV.html">LV. Complex Compounds</a></li>
-*      <li id="lesson56" class="list-group-item pl-2 chapter"><a id="lesson-lvi-link" class="chapter-link" href="LessonLVI.html">LVI. More Compounds and a Complex Pronoun</a></li>
-*      <li id="lesson57" class="list-group-item pl-2 chapter"><a id="lesson-lvii-link" class="chapter-link" href="LessonLVII.html">LVII. Pronominal Declension</a></li>
-*      <li id="lesson58" class="list-group-item pl-2 chapter"><a id="lesson-lviii-link" class="chapter-link" href="LessonLVIII.html">LVIII. -dex, -fex, -spex, and -tas Nouns</a></li>
-*      <li id="lesson59" class="list-group-item pl-2 chapter"><a id="lesson-lix-link" class="chapter-link" href="LessonLIX.html">LIX. Nouns Having Been Verbed</a></li>
-*      <li id="lesson60" class="list-group-item pl-2 chapter"><a id="lesson-lx-link" class="chapter-link" href="LessonLX.html">LX. Recēnsus V</a></li>
-*    </ul>
-*  </li>`
-*}
-*
-*function volVILinks() {
-*  return `<li class="list-group-item volume" onclick="$('#vol-vi-parts').slideToggle('slow')">Volūmen VI
-*    <ul id="vol-vi-parts" class="list-group sublist">
-*      <li id="vi-prae" class="list-group-item pl-2 chapter"><a id="vol-vi-prae-link" class="chapter-link" href="PraeludiumVI.html">Praelūdium VI</a></li>
-*      <li id="lesson61" class="list-group-item pl-2 chapter"><a id="lesson-lxi-link" class="chapter-link" href="LessonLXI.html">LXI. Adjectives in Review</a></li>
-*      <li id="lesson62" class="list-group-item pl-2 chapter"><a id="lesson-lxii-link" class="chapter-link" href="LessonLXII.html">LXII. Adjectives in Antonymic Pairs</a></li>
-*      <li id="lesson63" class="list-group-item pl-2 chapter"><a id="lesson-lxiii-link" class="chapter-link" href="LessonLXIII.html">LXIII. Deponent Verbs, Conjugation I</a></li>
-*      <li id="lesson64" class="list-group-item pl-2 chapter"><a id="lesson-lxiv-link" class="chapter-link" href="LessonLXIV.html">LXIV. Gerunds and Gerundives</a></li>
-*      <li id="lesson65" class="list-group-item pl-2 chapter"><a id="lesson-lxv-link" class="chapter-link" href="LessonLXV.html">LXV. Deponent Verbs, Conjungations II and III</a></li>
-*      <li id="lesson66" class="list-group-item pl-2 chapter"><a id="lesson-lxvi-link" class="chapter-link" href="LessonLXVI.html">LXVI. Deponent Verbs, Conjungations III-i and Iv</a></li>
-*      <li id="lesson67" class="list-group-item pl-2 chapter"><a id="lesson-lxvii-link" class="chapter-link" href="LessonLXVII.html">LXVII. Body Parts, Part I
-*      <li id="lesson68" class="list-group-item pl-2 chapter"><a id="lesson-lxviii-link" class="chapter-link" href="LessonLXVIII.html">LXVIII. Body Parts, Part II</a></li>
-*      <li id="lesson69" class="list-group-item pl-2 chapter"><a id="lesson-lxix-link" class="chapter-link" href="LessonLXIX.html">LXIX. Leōnēs, Tigrēsque, Ursīque! Ō Mī!</a></li>
-*      <li id="lesson70" class="list-group-item pl-2 chapter"><a id="lesson-lxx-link" class="chapter-link" href="LessonLXX.html">LXX. Avēs</a></li>
-*      <li id="lesson71" class="list-group-item pl-2 chapter"><a id="lesson-lxxi-link" class="chapter-link" href="LessonLXXI.html">LXXI. Famīlia Extenta</a></li>
-*      <li id="lesson72" class="list-group-item pl-2 chapter"><a id="lesson-lxxii-link" class="chapter-link" href="LessonLXXII.html">LXXII. Recēnsus vI</a></li>
-*    </ul>
-*  </li>`
-*}
-*/
+function volVLinks() {
+  return `<div id="vol-v-div"><li class="list-group-item volume" onclick="$('.sublist').hide();$('#vol-v-parts').slideToggle('slow')">Volūmen V
+    <div id="vol-v-list-div"><ul id="vol-v-parts" class="list-group sublist">
+      <li id="v-prae" class="list-group-item pl-2 chapter"><a id="vol-v-prae-link" class="chapter-link" href="PraeludiumV.html">Praelūdium V</a></li>
+      <li id="lesson49" class="list-group-item pl-2 chapter"><a id="lesson-xlix-link" class="chapter-link" href="LessonXLIX.html">XLIX. Timely Nouns</a></li>
+      <li id="lesson50" class="list-group-item pl-2 chapter"><a id="lesson-l-link" class="chapter-link" href="LessonL.html">L. Declension IV</a></li>
+      <li id="lesson51" class="list-group-item pl-2 chapter"><a id="lesson-li-link" class="chapter-link" href="LessonLI.html">LI. Declension IV Neuter and Vebal Nouns</a></li>
+<!--      <li id="lesson52" class="list-group-item pl-2 chapter"><a id="lesson-lii-link" class="chapter-link" href="LessonLII.html">LII. Declension V</a></li>-->
+<!--      <li id="lesson53" class="list-group-item pl-2 chapter"><a id="lesson-liii-link" class="chapter-link" href="LessonLIII.html">LIII. In Exercitū Nunc Es</a></li>-->
+<!--      <li id="lesson54" class="list-group-item pl-2 chapter"><a id="lesson-liv-link" class="chapter-link" href="LessonLIV.html">LIV. Perfect System, Passive Voice</a></li>-->
+<!--      <li id="lesson55" class="list-group-item pl-2 chapter"><a id="lesson-lv-link" class="chapter-link" href="LessonLV.html">LV. Complex Compounds</a></li>-->
+<!--      <li id="lesson56" class="list-group-item pl-2 chapter"><a id="lesson-lvi-link" class="chapter-link" href="LessonLVI.html">LVI. More Compounds and a Complex Pronoun</a></li>-->
+<!--      <li id="lesson57" class="list-group-item pl-2 chapter"><a id="lesson-lvii-link" class="chapter-link" href="LessonLVII.html">LVII. Pronominal Declension</a></li>-->
+<!--      <li id="lesson58" class="list-group-item pl-2 chapter"><a id="lesson-lviii-link" class="chapter-link" href="LessonLVIII.html">LVIII. -dex, -fex, -spex, and -tas Nouns</a></li>-->
+<!--      <li id="lesson59" class="list-group-item pl-2 chapter"><a id="lesson-lix-link" class="chapter-link" href="LessonLIX.html">LIX. Nouns Having Been Verbed</a></li>-->
+<!--      <li id="lesson60" class="list-group-item pl-2 chapter"><a id="lesson-lx-link" class="chapter-link" href="LessonLX.html">LX. Recēnsus V</a></li>-->
+    </ul>
+  </li>`
+}
+
+// *function volVILinks() {
+// *  return `<li class="list-group-item volume" onclick="$('#vol-vi-parts').slideToggle('slow')">Volūmen VI
+// *    <ul id="vol-vi-parts" class="list-group sublist">
+// *      <li id="vi-prae" class="list-group-item pl-2 chapter"><a id="vol-vi-prae-link" class="chapter-link" href="PraeludiumVI.html">Praelūdium VI</a></li>
+// *      <li id="lesson61" class="list-group-item pl-2 chapter"><a id="lesson-lxi-link" class="chapter-link" href="LessonLXI.html">LXI. Adjectives in Review</a></li>
+// *      <li id="lesson62" class="list-group-item pl-2 chapter"><a id="lesson-lxii-link" class="chapter-link" href="LessonLXII.html">LXII. Adjectives in Antonymic Pairs</a></li>
+// *      <li id="lesson63" class="list-group-item pl-2 chapter"><a id="lesson-lxiii-link" class="chapter-link" href="LessonLXIII.html">LXIII. Deponent Verbs, Conjugation I</a></li>
+// *      <li id="lesson64" class="list-group-item pl-2 chapter"><a id="lesson-lxiv-link" class="chapter-link" href="LessonLXIV.html">LXIV. Gerunds and Gerundives</a></li>
+// *      <li id="lesson65" class="list-group-item pl-2 chapter"><a id="lesson-lxv-link" class="chapter-link" href="LessonLXV.html">LXV. Deponent Verbs, Conjungations II and III</a></li>
+// *      <li id="lesson66" class="list-group-item pl-2 chapter"><a id="lesson-lxvi-link" class="chapter-link" href="LessonLXVI.html">LXVI. Deponent Verbs, Conjungations III-i and Iv</a></li>
+// *      <li id="lesson67" class="list-group-item pl-2 chapter"><a id="lesson-lxvii-link" class="chapter-link" href="LessonLXVII.html">LXVII. Body Parts, Part I
+// *      <li id="lesson68" class="list-group-item pl-2 chapter"><a id="lesson-lxviii-link" class="chapter-link" href="LessonLXVIII.html">LXVIII. Body Parts, Part II</a></li>
+// *      <li id="lesson69" class="list-group-item pl-2 chapter"><a id="lesson-lxix-link" class="chapter-link" href="LessonLXIX.html">LXIX. Leōnēs, Tigrēsque, Ursīque! Ō Mī!</a></li>
+// *      <li id="lesson70" class="list-group-item pl-2 chapter"><a id="lesson-lxx-link" class="chapter-link" href="LessonLXX.html">LXX. Avēs</a></li>
+// *      <li id="lesson71" class="list-group-item pl-2 chapter"><a id="lesson-lxxi-link" class="chapter-link" href="LessonLXXI.html">LXXI. Famīlia Extenta</a></li>
+// *      <li id="lesson72" class="list-group-item pl-2 chapter"><a id="lesson-lxxii-link" class="chapter-link" href="LessonLXXII.html">LXXII. Recēnsus vI</a></li>
+// *    </ul>
+// *  </li>`
+// *}
+

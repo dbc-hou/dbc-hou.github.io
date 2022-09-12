@@ -186,8 +186,9 @@ blockquote {
   border: none;
 }
 
-.sublist {
-  overflow-y: scroll;
+.sublist{
+  max-height: 250px;
+  overflow: auto;
 }
 
 .conj-subhead {
@@ -216,8 +217,10 @@ blockquote {
 /*}*/
 
 #table-of-contents {
-  position: absolute;
+  position: fixed;
+  max-height: 400px;
   margin-top: 5em;
+  margin-right: 1em;
   overflow-y: scroll;
 }
 
@@ -225,7 +228,7 @@ blockquote {
   /*position: relative;*/
   /*top: 5em;*/
   margin-top: 5em;
-  margin-left: 20em;
+  margin-left: 22em;
 }
 
 #site-title {
