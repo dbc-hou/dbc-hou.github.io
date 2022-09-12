@@ -1,5 +1,6 @@
 function tableOfContents() {
-  var tocHTML = introLinks();
+  var tocHTML = `<div id="index"><li class="list-group-item volume"><a href="index.html">Main Page</a></li></div>`
+  tocHTML += introLinks();
   tocHTML += volILinks();
   tocHTML += volIILinks();
   tocHTML += volIIILinks();
