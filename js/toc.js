@@ -121,9 +121,9 @@ function volVLinks() {
       <li id="lesson51" class="list-group-item pl-2 chapter"><a id="lesson-li-link" class="chapter-link" href="LessonLI.html">LI. Declension IV Neuter and Vebal Nouns</a></li>
       <li id="lesson52" class="list-group-item pl-2 chapter"><a id="lesson-lii-link" class="chapter-link" href="LessonLII.html">LII. Declension V</a></li>
       <li id="lesson53" class="list-group-item pl-2 chapter"><a id="lesson-liii-link" class="chapter-link" href="LessonLIII.html">LIII. In Exercitū Nunc Es</a></li>
-<!--      <li id="lesson54" class="list-group-item pl-2 chapter"><a id="lesson-liv-link" class="chapter-link" href="LessonLIV.html">LIV. Perfect System, Passive Voice</a></li>-->
-<!--      <li id="lesson55" class="list-group-item pl-2 chapter"><a id="lesson-lv-link" class="chapter-link" href="LessonLV.html">LV. Complex Compounds</a></li>-->
-<!--      <li id="lesson56" class="list-group-item pl-2 chapter"><a id="lesson-lvi-link" class="chapter-link" href="LessonLVI.html">LVI. More Compounds and a Complex Pronoun</a></li>-->
+      <li id="lesson54" class="list-group-item pl-2 chapter"><a id="lesson-liv-link" class="chapter-link" href="LessonLIV.html">LIV. Perfect System, Passive Voice</a></li>
+      <li id="lesson55" class="list-group-item pl-2 chapter"><a id="lesson-lv-link" class="chapter-link" href="LessonLV.html">LV. Complex Compounds</a></li>
+      <li id="lesson56" class="list-group-item pl-2 chapter"><a id="lesson-lvi-link" class="chapter-link" href="LessonLVI.html">LVI. More Compounds and a Complex Pronoun</a></li>
 <!--      <li id="lesson57" class="list-group-item pl-2 chapter"><a id="lesson-lvii-link" class="chapter-link" href="LessonLVII.html">LVII. Pronominal Declension</a></li>-->
 <!--      <li id="lesson58" class="list-group-item pl-2 chapter"><a id="lesson-lviii-link" class="chapter-link" href="LessonLVIII.html">LVIII. -dex, -fex, -spex, and -tas Nouns</a></li>-->
 <!--      <li id="lesson59" class="list-group-item pl-2 chapter"><a id="lesson-lix-link" class="chapter-link" href="LessonLIX.html">LIX. Nouns Having Been Verbed</a></li>-->
