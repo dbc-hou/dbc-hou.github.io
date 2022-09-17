@@ -235,7 +235,7 @@ function displayVerbs() {
 
   for (let i = 0; i < verbsLength; i++) {
     iteration += `<div id="verb-item-${j}" class="container-flex"><li id="li-${j}">`;
-    iteration += `<div id="top-row-${j}" class="row">`
+    iteration += `<div id="top-row-${j}" class="row">`;
     iteration += `<span id="latin-span-${j}" style="width: 100%; margin-left: 20px"><strong>${verbsReview5[i].entry}, ${verbsReview5[i].infinitive}, </strong> `;
     iteration += `<input id="third-part-${j}" type="text" size="15" placeholder="(third part)"> `
     iteration += `<input id="fourth-part-${j}" type="text" size="15" placeholder="(supine)"> `
