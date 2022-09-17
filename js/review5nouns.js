@@ -413,6 +413,11 @@ const activities5 = [
     gender: "m.",
     inflection: "coitum",
     meanings: "sexual intercourse"},
+  {entry: "cursus",
+    caseNumber: "Dat. pl.",
+    gender: "m.",
+    inflection: "cursibus",
+    meanings: "course, run, running"},
   {entry: "dictum",
     caseNumber: "Nom. pl.",
     gender: "n.",
@@ -581,26 +586,30 @@ let buildingsLength = buildings5.length;
 let commonObjLength = commonObjects5.length;
 let activitiesLength = activities5.length;
 let miscLength = miscellany5.length;
-let nounsLength = peopleLength + nhaLength + bodyMindLength + naturalWorldLength + buildingsLength +
-  commonObjLength + activitiesLength + miscLength;
+let part2Length = peopleLength + nhaLength;
+let part3Length = part2Length + bodyMindLength;
+let part4Length = part3Length + naturalWorldLength;
+let part5Length = part4Length + buildingsLength;
+let part6Length = part5Length + commonObjLength;
+let part7Length = part6Length + activitiesLength;
+let nounsLength = part7Length + miscLength;
 
-function displayNouns(array, numElements, start) {
-  let j = 1;
-  let html = `<ol style="1" start="${start}">`;
+function displayNouns(a,b,c) {
+  let html = `<ol style="1" start="${a}">`;
   let iteration = "";
-
-  for (let i = 0; i < numElements; i++) {
-    iteration += `<div id="noun-item-${j}" class="container-flex"><li id="li-${j}">`;
-    iteration += `<div id="top-row-${j}" class="row">`
-    iteration += `<span id="latin-span-${j}" style="width: 100%; margin-left: 20px"><strong>${nounsReview4[i].entry}, `;
-    iteration += `${nounsReview4[i].genitive}</strong> `;
-    iteration += `(${nounsReview4[i].gender}) `;
-    iteration += ` — <em>${nounsReview4[i].meanings}</em></span>`;
-    iteration += `</div></li><hr/>`;
-    }
+  let j = a;
+  for (let i = 0; i < b; i++) {
+    iteration += `<li>`;
+    iteration += `<span id="noun-span-${j}" class="col-6">${c[i].entry}—${c[i].caseNumber}</span><br/>`;
+    iteration += `<span id="form-span-${j}" class="col-6">Form: </span><input id="input${j}" type="text" size="12" style="margin-left: 1em"><br/>`
+    iteration += `<span id="gender-span-${j}" class="col-6">Gender: </span><input id="input${j}" type="text" size="3" style="margin-left: 1em"><br/>`
+    iteration += `<span id="meaning-span-${j}" class="col-6">Meanings: </span><input id="input${j}" type="text" size="30" style="margin-left: 1em"><br/>`
+    iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span> `;
+    iteration += `<span id="vocab${j}" class="vocab-span col-6"><strong>${c[i].inflection}</strong> |
+        ${c[i].gender} | <em>${c[i].meanings}</em></span><hr/></li>`;
     j++;
-
-  html += iteration;
-  html += "</ol>";
+  }
+  html += iteration + "</ol>";
   return html;
 }
+

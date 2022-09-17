@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson LX: Recēnsus V</title>
+    <link rel="stylesheet" href="css/latin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="js/jquery.js"></script>
+    <script src="js/toc.js"></script>
+    <script src="js/review5nouns.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header id="site-title" class="text-center col-12">
+  <h1>LATIN FOR THE END OF THE WORLD</h1>
+</header>
+<div id="main-container" class="container">
+  <div id="content-row" class="row d-flex justify-items-center">
+    <div id="table-of-contents" class="col-3">
+      <ul id="content-links" class="list-group">
+        <script>document.getElementById("content-links").innerHTML = tableOfContents();</script>
+      </ul>
+    </div>
+    <div id="main-text" class="col-9" style="background-color: beige; color: purple">
+      <div id="previous-next-top" class="row justify-content-between mb-4">
+        <td><button id="previous-top" class="btn btn-outline-dark col-4"><a href="LessonLX.html"><<-Previous</a></button>
+        <td><button id="next-top" class="btn btn-outline-dark col-4"><a href="LessonLXb.html">Next->></a></button>
+      </div>
+
+      <h3>Vocabulary—Nouns</h3>
+      <p>More than two-thirds of the vocabulary in this volume, including the related vocabulary, consists of nouns.
+        Supply the requested case-number form for each noun below. Then, as in earlier review lessons, also supply
+        the gender of the noun (f./m./n./u.) and one or more of ites English meanings.</p>
+      <p>For <strong>-ius/-eus</strong> and <strong>-ium</strong> nouns, use the <strong>-iī</strong> variant
+        for Genitive singular.</p>
+      <p>You can tap the buttons to view or hide the correct answers.</p>
+
+      <h4>People</h4>
+      <div id="nouns-people" style="width: 100%">
+        <script>document.getElementById("nouns-people").innerHTML = displayNouns(1,peopleLength,people5);</script>
+      </div>
+
+      <h4>Non-Human Animals</h4>
+      <div id="nouns-nha" style="width: 100%">
+        <script>document.getElementById("nouns-nha").innerHTML = displayNouns(peopleLength+1,nhaLength,nha5);</script>
+      </div>
+
+      <h4>The Body and the Mind</h4>
+      <div id="nouns-places" style="width: 100%">
+        <script>document.getElementById("nouns-places").innerHTML = displayNouns(part2Length + 1, bodyMindLength, bodyMind5);</script>
+      </div>
+
+      <h4>Geography and the Natural World</h4>
+      <div id="nouns-natural-world" style="width: 100%">
+        <script>document.getElementById("nouns-natural-world").innerHTML = displayNouns(part3Length + 1,naturalWorldLength,naturalWorld5);</script>
+      </div>
+
+      <h4>The Built Environment</h4>
+      <div id="nouns-buildings" style="width: 100%">
+        <script>document.getElementById("nouns-buildings").innerHTML = displayNouns(part4Length + 1, buildingsLength, buildings5);</script>
+      </div>
+
+      <h4>Common Objects</h4>
+      <div id="nouns-common-objects" style="width: 100%">
+        <script>document.getElementById("nouns-common-objects").innerHTML = displayNouns(part5Length + 1, commonObjLength, commonObjects5);</script>
+      </div>
+
+      <h4>Actions and Activities</h4>
+      <div id="nouns-activities" style="width: 100%">
+        <script>document.getElementById("nouns-activities").innerHTML = displayNouns(part6Length + 1, activitiesLength, activities5);</script>
+      </div>
+
+      <h4>Abstract Nouns, States of Being, and Miscellaneous</h4>
+      <div id="nouns-miscellany" style="width: 100%">
+        <script>document.getElementById("nouns-miscellany").innerHTML = displayNouns(part7Length + 1, miscLength, miscellany5);</script>
+      </div>
+
+      <div id="previous-next-bottom" class="row justify-content-between mb-4">
+        <td><button id="previous-bottom" class="btn btn-outline-dark col-4"><a href="LessonLX.html"><<-Previous</a></button>
+        <td><button id="next-bottom" class="btn btn-outline-dark col-4"><a href="LessonLXb.html">Next->></a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(".reveal-vocab").click(function () {
+    var buttonId = $(this).attr("id");
+    var revealNum = buttonId.substring(6);
+    var vocabNum = "vocab" + revealNum;
+    console.log(vocabNum);
+    $("#" + vocabNum).toggle();
+  });
+
+</script>
+</body>
+</html>
