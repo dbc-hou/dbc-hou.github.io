@@ -186,21 +186,14 @@ blockquote {
   border: none;
 }
 
-.sublist{
-  max-height: 250px;
-  overflow: auto;
+.sublist {
+  overflow-y: scroll;
 }
 
 .conj-subhead {
   background-color: gold;
   color: purple;
   text-align: center;
-}
-
-.dbc-image {
-  float: left;
-  margin: 5px;
-  border-radius: 10%;
 }
 
 /*Elements by ID*/
@@ -217,10 +210,8 @@ blockquote {
 /*}*/
 
 #table-of-contents {
-  position: fixed;
-  max-height: 400px;
+  position: absolute;
   margin-top: 5em;
-  margin-right: 1em;
   overflow-y: scroll;
 }
 
@@ -228,7 +219,7 @@ blockquote {
   /*position: relative;*/
   /*top: 5em;*/
   margin-top: 5em;
-  margin-left: 22em;
+  margin-left: 20em;
 }
 
 #site-title {
