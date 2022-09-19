@@ -64,15 +64,15 @@ li {
   padding: 0;
 }
 
-li.chapter {
-  font-size: small;
-  color: black;
-}
+/*li.chapter {*/
+/*  font-size: small;*/
+/*  color: black;*/
+/*}*/
 
-li.chapter:hover {
-  background-color: purple;
-  color: gold;
-}
+/*li.chapter:hover {*/
+/*  background-color: purple;*/
+/*  color: gold;*/
+/*}*/
 
 thead {
   background-color: purple;
@@ -100,25 +100,44 @@ blockquote {
 }
 
 /*CSS classes, including custom & Bootstrap classes*/
-.chapter:hover {
-  background-color: purple;
-  color: gold;
-}
 
 .volume-link {
   color: black;
 }
 
+.volume {
+  width: 33%;
+  background-color: purple;
+  text-align: center;
+}
+
 .volume:hover {
+  background-color: gold;
+  color: purple;
+}
+
+.intro {
+  width: 100%
+}
+
+.intro:hover {
   background-color: purple;
   color: gold;
 }
 
-.volume {
-  overflow: scroll;
+.intro > a {
+  color: black;
 }
 
-.form-check:hover, .volume:hover, .chapter:hover {
+.intro > a:hover {
+  color: gold;
+}
+
+.volume-row {
+  justify-items: stretch;
+}
+
+.form-check:hover, .volume:hover {
   background-color: purple;
   color: gold;
 }
@@ -128,8 +147,22 @@ blockquote {
   left: 3em;
 }
 
+/*.list-group-item:hover {*/
+/*  color: gold;*/
+/*}*/
+
+.chapter {
+  font-size: small;
+}
+
 .chapter-link {
   color: black;
+}
+
+.chapter:hover {
+  background-color: purple;
+  color: gold;
+  font-weight: bold;
 }
 
 .chapter-link:hover {
@@ -197,12 +230,12 @@ blockquote {
 }
 
 /*Elements by ID*/
-#intro-parts, #vol-i-parts, #vol-ii-parts, #vol-iii-parts, #vol-iv-parts, #vol-v-parts, #vol-vi-parts {
-  display: none;
+/*#intro-parts, #vol-i-parts, #vol-ii-parts, #vol-iii-parts, #vol-iv-parts, #vol-v-parts, #vol-vi-parts {*/
+/*  display: none;*/
   /*padding-left: 2em;*/
-}
+/*}*/
 
-#intro-div:hover, vol-i-div:hover, vol-ii-div:hover, vol-iii-div:hover, vol-iv-div:hover, vol-v-div:hover, vol-vi-div:hover {
+#intro-div:hover {
   color: gold;
 }
 /*#content-row {*/
@@ -262,12 +295,9 @@ blockquote {
   overflow: scroll;
 }
 
-#list-group-item:hover {
-  color: gold;
-}
-
-.dbc-image {
-  float: left;
-  margin: 5px;
-  border-radius: 10%;
+#volume-contents {
+  width: 100%;
+  background-color: white;
+  height: 400px;
+  overflow-y: scroll;
 }
