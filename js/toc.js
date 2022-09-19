@@ -30,6 +30,7 @@ function introLinks() {
   function volILinks() {
     return `<div id="vol-i-div"><li class="list-group-item volume" onclick="$('#vol-i-parts').slideToggle('slow')">Volūmen I
     <div id="vol-i-list-div" style="overflow-y: auto"><ul id="vol-i-parts" class="list-group sublist">
+      <li id="i-main" class="list-group-item pl-2 chapter"><a id="vol-i-main-link" class="chapter-link" href="VolumeI.html">Vol. I Main</a></li>
       <li id="i-prae" class="list-group-item pl-2 chapter"><a id="vol-i-prae-link" class="chapter-link" href="PraeludiumI.html">Praelūdium I</a></li>
       <li id="lesson01" class="list-group-item pl-2 chapter"><a id="lesson-i-link" class="chapter-link" href="LessonI.html">I. Famīliae Rōmānae</a></li>
       <li id="lesson02" class="list-group-item pl-2 chapter"><a id="lesson-ii-link" class="chapter-link" href="LessonII.html">II. Forms of Address</a></li>
@@ -50,6 +51,7 @@ function introLinks() {
   function volIILinks() {
     return `<div id="vol-ii-div"><li class="list-group-item volume" onclick="$('#vol-ii-parts').slideToggle('slow')">Volūmen II
     <ul id="vol-ii-parts" class="list-group sublist">
+      <li id="ii-main" class="list-group-item pl-2 chapter"><a id="vol-ii-main-link" class="chapter-link" href="VolumeII.html">Vol. II Main</a></li>
       <li id="ii-prae" class="list-group-item pl-2 chapter"><a id="vol-ii-prae-link" class="chapter-link" href="PraeludiumII.html">Praelūdium II</a></li>
       <li id="lesson13" class="list-group-item pl-2 chapter"><a id="lesson-xiii-link" class="chapter-link" href="LessonXIII.html">XIII. Accompaniment</a></li>
       <li id="lesson14" class="list-group-item pl-2 chapter"><a id="lesson-xiv-link" class="chapter-link" href="LessonXIV.html">XIV. Ego et Tū, Brūte</a></li>
@@ -70,6 +72,7 @@ function introLinks() {
   function volIIILinks() {
     return `<div id="vol-iii-div"><li class="list-group-item volume" onclick="$('#vol-iii-parts').slideToggle('slow')">Volūmen III
     <ul id="vol-iii-parts" class="list-group sublist">
+      <li id="iii-main" class="list-group-item pl-2 chapter"><a id="vol-iii-main-link" class="chapter-link" href="VolumeIII.html">Vol. III Main</a></li>
       <li id="iii-prae" class="list-group-item pl-2 chapter"><a id="vol-i-prae-link" class="chapter-link" href="PraeludiumIII.html">Praelūdium III</a></li>
       <li id="lesson25" class="list-group-item pl-2 chapter"><a id="lesson-xxv-link" class="chapter-link" href="LessonXXV.html">XXV. Colōrēs</a></li>
       <li id="lesson26" class="list-group-item pl-2 chapter"><a id="lesson-xxvi-link" class="chapter-link" href="LessonXXVI.html">XXVI. Superlative Adjectives</a></li>
@@ -90,6 +93,7 @@ function introLinks() {
   function volIVLinks() {
     return `<div id="vol-iv-div"><li class="list-group-item volume" onclick="$('#vol-iv-parts').slideToggle('slow')">Volūmen IV
     <ul id="vol-iv-parts" class="list-group sublist">
+      <li id="iv-main" class="list-group-item pl-2 chapter"><a id="vol-iv-main-link" class="chapter-link" href="VolumeIV.html">Vol. IV Main</a></li>
       <li id="iv-prae-a" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-a" class="chapter-link" href="PraeludiumIVa.html">Praelūdium IV: Principal Parts of Verbs</a></li>
       <li id="iv-prae-b" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-b" class="chapter-link" href="PraeludiumIVb.html">Praelūdium IV: Verbs into Nouns</a></li>
       <li id="iv-prae-c" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-c" class="chapter-link" href="PraeludiumIVc.html">Praelūdium IV: Verbs into Adjectives</a></li>
@@ -113,6 +117,7 @@ function introLinks() {
   function volVLinks() {
     return `<div id="vol-v-div"><li class="list-group-item volume" onclick="$('#vol-v-parts').slideToggle('slow')">Volūmen V
     <ul id="vol-v-parts" class="list-group sublist">
+      <li id="v-main" class="list-group-item pl-2 chapter"><a id="vol-v-main-link" class="chapter-link" href="VolumeV.html">Vol. V Main</a></li>
       <li id="v-prae" class="list-group-item pl-2 chapter"><a id="vol-v-prae-link" class="chapter-link" href="PraeludiumV.html">Praelūdium V</a></li>
       <li id="lesson49" class="list-group-item pl-2 chapter"><a id="lesson-xlix-link" class="chapter-link" href="LessonXLIX.html">XLIX. Timely Nouns</a></li>
       <li id="lesson50" class="list-group-item pl-2 chapter"><a id="lesson-l-link" class="chapter-link" href="LessonL.html">L. Declension IV</a></li>
