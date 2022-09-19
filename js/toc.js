@@ -48,7 +48,7 @@ function volILinks() {
 }
 
 function volIILinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-ii-parts').slideToggle('slow')">Volūmen II
+  return `<div id="vol-ii-div"><li class="list-group-item volume" onclick="$('#vol-ii-parts').slideToggle('slow')">Volūmen II
     <ul id="vol-ii-parts" class="list-group sublist">
       <li id="ii-prae" class="list-group-item pl-2 chapter"><a id="vol-ii-prae-link" class="chapter-link" href="PraeludiumII.html">Praelūdium II</a></li>
       <li id="lesson13" class="list-group-item pl-2 chapter"><a id="lesson-xiii-link" class="chapter-link" href="LessonXIII.html">XIII. Accompaniment</a></li>
@@ -68,7 +68,7 @@ function volIILinks() {
 }
 
 function volIIILinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-iii-parts').slideToggle('slow')">Volūmen III
+  return `<div id="vol-iii-div"><li class="list-group-item volume" onclick="$('#vol-iii-parts').slideToggle('slow')">Volūmen III
     <ul id="vol-iii-parts" class="list-group sublist">
       <li id="iii-prae" class="list-group-item pl-2 chapter"><a id="vol-i-prae-link" class="chapter-link" href="PraeludiumIII.html">Praelūdium III</a></li>
       <li id="lesson25" class="list-group-item pl-2 chapter"><a id="lesson-xxv-link" class="chapter-link" href="LessonXXV.html">XXV. Colōrēs</a></li>
@@ -88,7 +88,7 @@ function volIIILinks() {
 }
 
 function volIVLinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-iv-parts').slideToggle('slow')">Volūmen IV
+  return `<div id="vol-iv-div"><li class="list-group-item volume" onclick="$('#vol-iv-parts').slideToggle('slow')">Volūmen IV
     <ul id="vol-iv-parts" class="list-group sublist">
       <li id="iv-prae-a" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-a" class="chapter-link" href="PraeludiumIVa.html">Praelūdium IV: Principal Parts of Verbs</a></li>
       <li id="iv-prae-b" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-b" class="chapter-link" href="PraeludiumIVb.html">Praelūdium IV: Verbs into Nouns</a></li>
@@ -111,7 +111,7 @@ function volIVLinks() {
 }
 
 function volVLinks() {
-  return `<li class="list-group-item volume" onclick="$('#vol-v-parts').slideToggle('slow')">Volūmen V
+  return `<div id="vol-v-div"><li class="list-group-item volume" onclick="$('#vol-v-parts').slideToggle('slow')">Volūmen V
     <ul id="vol-iv-parts" class="list-group sublist">
       <li id="v-prae" class="list-group-item pl-2 chapter"><a id="vol-v-prae-link" class="chapter-link" href="PraeludiumV.html">Praelūdium V</a></li>
       <li id="lesson49" class="list-group-item pl-2 chapter"><a id="lesson-xlix-link" class="chapter-link" href="LessonXLIX.html">XLIX. Timely Nouns</a></li>
@@ -131,7 +131,7 @@ function volVLinks() {
 }
 
 // function volVILinks() {
-//   return `<li class="list-group-item volume" onclick="$('#vol-vi-parts').slideToggle('slow')">Volūmen VI
+//   return `<div id="vol-vi-div"><li class="list-group-item volume" onclick="$('#vol-vi-parts').slideToggle('slow')">Volūmen VI
 //     <ul id="vol-vi-parts" class="list-group sublist">
 //       <li id="vi-prae" class="list-group-item pl-2 chapter"><a id="vol-vi-prae-link" class="chapter-link" href="PraeludiumVI.html">Praelūdium VI</a></li>
 //       <li id="lesson61" class="list-group-item pl-2 chapter"><a id="lesson-lxi-link" class="chapter-link" href="LessonLXI.html">LXI. Adjectives in Review</a></li>
