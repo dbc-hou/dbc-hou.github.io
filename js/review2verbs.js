@@ -63,8 +63,8 @@ const conjForms = [
 const verbsAnswers = [
   "<strong>abestis</strong>, <em>y'all are absent</em>, I",
   "<strong>aderam</strong>, <em>I was present</em>, I",
-  "<strong>appellantur</strong>, <em>they are called/named, T</em>",
-  "<strong>appropinquābis</strong>, <em>you will approach, T</em>",
+  "<strong>appellantur</strong>, <em>they are called/named</em>, T",
+  "<strong>appropinquābis</strong>, <em>you will approach</em>, T",
   "<strong>audēbāmus</strong>, <em>we were daring</em>, I",
   "<strong>augētur</strong>, <em>it is increased</em>, T",
   "<strong>cēlābimur</strong>, <em>we shall hide</em>, T",
@@ -132,15 +132,13 @@ function displayVerbs() {
   html += "</ol>";
   return html;
 }
-
-function shuffle(array) {
-  let k = []
-  for (let i = array.length - 1; i >= 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-    k.push(array[i]);
-  }
-  return k;
-}
-
-console.log(shuffle(verbsAnswers));
+//
+// function shuffle(array) {
+//   let k = []
+//   for (let i = array.length - 1; i >= 0; i--) {
+//     let j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//     k.push(array[i]);
+//   }
+//   return k;
+// }

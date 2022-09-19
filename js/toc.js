@@ -8,7 +8,7 @@ function tableOfContents() {
   html += `<div id="iv-through-vi" class="d-flex row volume-row">`;
   html += `<span id="vol-iv-span" class="list-group-item volume" onclick="fillContentsBox(volIVLinks());">IV</span>`;
   html += `<span id="vol-v-span" class="list-group-item volume" onclick="fillContentsBox(volVLinks());">V</span>`;
-  html += `<span id="vol-vi-span" class="list-group-item volume" onclick="fillContentsBox(volVILinks());">VI</span></div>`;
+  html += `<span id="vol-vi-span" class="list-group-item volume" onclick="fillContentsBox('<p>Sorry, Volume VI is still under construction.</p>');">VI</span></div>`;
   html += `<div id="volume-contents"></div>`;
   return html
 }

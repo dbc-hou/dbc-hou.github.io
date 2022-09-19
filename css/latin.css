@@ -140,6 +140,8 @@ blockquote {
 .form-check:hover, .volume:hover {
   background-color: purple;
   color: gold;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .form-check-input {
@@ -229,6 +231,11 @@ blockquote {
   text-align: center;
 }
 
+.dbc-image {
+  float: left;
+  margin: 5px;
+}
+
 /*Elements by ID*/
 /*#intro-parts, #vol-i-parts, #vol-ii-parts, #vol-iii-parts, #vol-iv-parts, #vol-v-parts, #vol-vi-parts {*/
 /*  display: none;*/
@@ -237,13 +244,15 @@ blockquote {
 
 #intro-div:hover {
   color: gold;
+  font-weight: bold;
+  text-decoration: underline;
 }
 /*#content-row {*/
 /*  margin-top: 5em;*/
 /*}*/
 
 #table-of-contents {
-  position: absolute;
+  position: fixed;
   margin-top: 5em;
   overflow-y: scroll;
 }
@@ -299,5 +308,5 @@ blockquote {
   width: 100%;
   background-color: white;
   height: 400px;
-  overflow-y: scroll;
+  overflow: scroll;
 }
