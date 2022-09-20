@@ -101,10 +101,6 @@ blockquote {
 
 /*CSS classes, including custom & Bootstrap classes*/
 
-.volume-link {
-  color: black;
-}
-
 .volume {
   width: 33%;
   background-color: purple;
@@ -114,6 +110,7 @@ blockquote {
 .volume:hover {
   background-color: gold;
   color: purple;
+  font-weight: bold;
 }
 
 .intro {
@@ -125,11 +122,11 @@ blockquote {
   color: gold;
 }
 
-.intro > a {
+.intro>a {
   color: black;
 }
 
-.intro > a:hover {
+.intro>a:hover {
   color: gold;
 }
 
