@@ -133,9 +133,9 @@
       <table><thead>
       <tr>
         <td></td>
-        <td><strong><em>I &amp; II</em></strong></td>
-        <td><strong><em>III (1-termination)</em></strong></td>
-        <td><strong><em>III (2-termination)</em></strong></td>
+        <td>I &amp; II</td>
+        <td>III (1-termination)</td>
+        <td>III (2-termination)</td>
       </tr>
       </thead>
       <tbody>
@@ -149,28 +149,28 @@
         <td><strong>pugnāciter</strong></td>
         <td><strong>ūtiliter</strong></td>
       </tr>
-      <tr><td><strong><em>Comparative Adj. </em></strong></td>
+      <tr><td><strong><em>Comparative Adjective</em></strong></td>
         <td><strong>dēnsior, -ius</strong></td>
         <td><strong>pugnācior, -ius</strong></td>
         <td><strong>ūtilior, -ius</strong></td>
       </tr>
-      <tr><td><strong><em>Comparative Adv.</em></strong></td>
+      <tr><td><strong><em>Comparative Adverb</em></strong></td>
         <td><strong>dēnsius</strong></td>
         <td><strong>pugnācius</strong></td>
         <td><strong>ūtilius</strong></td>
       </tr>
-      <tr><td><strong><em>Superlative Adj.</em></strong></td>
+      <tr><td><strong><em>Superlative Adjective</em></strong></td>
         <td><strong>dēnsissimus/-a/-um</strong></td>
         <td><strong>pugnācissimus/-a/-um</strong></td>
         <td><strong>ūtilissimus/-a/-um</strong></td>
       </tr>
-      <tr><td><strong><em>Superlative Adv.</em></strong></td>
+      <tr><td><strong><em>Superlative Adverb</em></strong></td>
         <td><strong>dēnsissimē</strong></td>
         <td><strong>pugnācissimē</strong></td>
         <td><strong>ūtilissimē</strong></td>
       </tr>
       <tr><td><strong><em>Noun Conversion</em></strong></td>
-        <td><strong>-tās, -tūs, -tūdō, -ēdō,</strong> or<strong> -tia</strong>, depending on the adjective</td>
+        <td colspan="3"><strong>-tās, -tūs, -tūdō, -ēdō,</strong> or<strong> -tia</strong>, depending on the adjective</td>
       </tr>
       </tbody></table>
 
@@ -220,12 +220,13 @@
         One has some neuter forms terminating in <strong>d</strong>; another has the <strong>-que</strong>
         suffix that indicates <em>each</em> or <em>every</em>. These adjectives from that subset were introduced
         in Volume V, Lesson LVI:</p>
-      <blockquote class="border border-1 border-dark p-1 m-1"><strong>alius, alter, neuter, nūllus, sōlus, tōtus, ūllus, uter, uterque</strong></blockquote>
+      <blockquote class="border border-1 border-dark p-1 m-1" style="text-align: center"><strong>alius, alter, neuter, nūllus, sōlus, tōtus, ūllus, uter, uterque</strong></blockquote>
       <p>These demonstrative and intensive pronouns double as adjectives, agreeing with their nouns in case,
         number, and gender, but often looking very different.</p>
 
       <ul>
         <li><strong>hic, haec, hoc</strong></li>
+        <li><strong>īdem, eadem, idem</strong></li>
         <li><strong>ille, illa, illud</strong></li>
         <li><strong>ipse, ipsa, ipsum</strong></li>
         <li><strong>is, ea, id</strong></li>
@@ -249,25 +250,164 @@
 
       <h3>Exercise LXI: Comparisons</h3>
       <p>Write out the positive, comparative, and superlative forms for each adjective in the case, number,
-        and gender specified. For additional practice, convert them all to adverbs in all three degrees.</p>
+        and gender specified.</p>
+      <p>For additional practice, mentally convert them all to adverbs in all three degrees. Then click the button
+        at the bottom to reveal all the adverb forms in a table. (This will involve a lot of repetition!)</p>
 
       <ol type="1">
-        <li><strong>aliēnus</strong>—Dat. s. m.</li>
-        <li><strong>bellicōsus</strong>—Abl. pl. f.</li>
-        <li><strong>dēnsus</strong>—Acc. s. n.</li>
-        <li><strong>iocõsus</strong>—Gen. pl. f.</li>
-        <li><strong>īrātus</strong>—Voc. s. m.</li>
-        <li><strong>plānus</strong>—Nom. pl. n.</li>
-        <li><strong>quadrātus</strong>—Dat. s. f.</li>
-        <li><strong>pugnāx</strong>—Abl. s. m.</li>
-        <li><strong>rārus</strong>—Acc. pl. f.</li>
-        <li><strong>rotundus</strong>—Gen. s. n.</li>
-        <li><strong>tacitus</strong>—Voc. pl. f.</li>
-        <li><strong>taediōsus</strong>—Dat. pl. n.</li>
-        <li><strong>tranquillus</strong>—Abl. s. m.</li>
-        <li><strong>ūtilis</strong>—Acc. pl. n.</li>
+        <li><strong>aliēnus</strong>—Dat. s. m.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp1" style="display: none; font-weight: bold">aliēniōrī</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe1" style="display: none; font-weight: bold">aliēnissimō</span><br/>
+          <button id="reveal1" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>bellicōsus</strong>—Abl. pl. f.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp2" style="display: none; font-weight: bold">bellicōsiōribus</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe2" style="display: none; font-weight: bold">bellicōsissimīs</span><br/>
+          <button id="reveal2" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>dēnsus</strong>—Acc. s. n.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp3" style="display: none; font-weight: bold">dēnsiōrem</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe3" style="display: none; font-weight: bold">dēnsissimum</span><br/>
+          <button id="reveal3" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>iocõsus</strong>—Gen. pl. f.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp4" style="display: none; font-weight: bold">iocōsiōrum</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe4" style="display: none; font-weight: bold">iocōsissimārum</span><br/>
+          <button id="reveal4" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>īrātus</strong>—Voc. s. m.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp5" style="display: none; font-weight: bold">īrātior</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe5" style="display: none; font-weight: bold">īrātissime</span><br/>
+          <button id="reveal5" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>plānus</strong>—Nom. pl. n.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp6" style="display: none; font-weight: bold">plāniōra</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe6" style="display: none; font-weight: bold">plānissima</span><br/>
+          <button id="reveal6" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>pugnāx</strong>—Abl. s. m.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp7" style="display: none; font-weight: bold">pugnāciōre</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe7" style="display: none; font-weight: bold">pugnācissimō</span><br/>
+          <button id="reveal7" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>quadrātus</strong>—Dat. s. f.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp8" style="display: none; font-weight: bold">quadrātiōrī</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe8" style="display: none; font-weight: bold">quadrātissimae</span><br/>
+          <button id="reveal8" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>rārus</strong>—Acc. pl. f.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp9" style="display: none; font-weight: bold">rāriōrēs</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe9" style="display: none; font-weight: bold">rārissimās</span><br/>
+          <button id="reveal9" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>rotundus</strong>—Gen. s. n.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp10" style="display: none; font-weight: bold">rotundiōris</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe10" style="display: none; font-weight: bold">rotundissimī</span><br/>
+          <button id="reveal10" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>tacitus</strong>—Voc. pl. f.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp11" style="display: none; font-weight: bold">tacitiōrēs</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe11" style="display: none; font-weight: bold">tacitissimae</span><br/>
+          <button id="reveal11" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>taediōsus</strong>—Dat. pl. n.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp12" style="display: none; font-weight: bold">taediōsiōribus</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe12" style="display: none; font-weight: bold">taediōsissimīs</span><br/>
+          <button id="reveal12" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>tranquillus</strong>—Abl. s. m.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp13" style="display: none; font-weight: bold">tranquilliōre</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe13" style="display: none; font-weight: bold">tranquillissimō</span><br/>
+          <button id="reveal13" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
+        <li><strong>ūtilis</strong>—Acc. pl. n.<br/>
+          Comparative: <input type="text" size="15"> <span id="comp14" style="display: none; font-weight: bold">ūtiliōra</span><br/>
+          Superlative: <input type="text" size="15"> <span id="supe14" style="display: none; font-weight: bold">ūtilissima</span><br/>
+          <button id="reveal14" class="reveal-answer btn btn-outline-dark mt-2">Answers</button><br/>
+        </li>
       </ol>
-
+      <button id="reveal-adverbs" class="reveal-answer btn btn-outline-dark mt-2" onclick="$('#adverb-table').show()">Adverb Forms</button><br/>
+      <table id="adverb-table" style="width: 100%; display: none">
+        <thead>
+          <tr>
+            <td>Positive Adverb</td>
+            <td>Comparative Adverb</td>
+            <td>Superlative Adverb</td>
+          </tr>
+        </thead>
+        <tbody style="font-weight: bold">
+          <tr>
+            <td>aliēnē</td>
+            <td>aliēnius</td>
+            <td>aliēnissimē</td>
+          </tr>
+          <tr>
+            <td>bellicōsē</td>
+            <td>bellicōsius</td>
+            <td>bellicōsissimē</td>
+          </tr>
+          <tr>
+            <td>dēnsē</td>
+            <td>dēnsius</td>
+            <td>dēnsissimē</td>
+          </tr>
+          <tr>
+            <td>iocōsē</td>
+            <td>iocōsius</td>
+            <td>iocōsissimē</td>
+          </tr>
+          <tr>
+            <td>plānē</td>
+            <td>plānius</td>
+            <td>plānissimē</td>
+          </tr>
+          <tr>
+            <td>pugnāciter</td>
+            <td>pugnāius</td>
+            <td>pugnācissimē</td>
+          </tr>
+          <tr>
+            <td>quadrātē</td>
+            <td>quadrātius</td>
+            <td>quadrātissimē</td>
+          </tr>
+          <tr>
+            <td>rārē</td>
+            <td>rārius</td>
+            <td>rārissimē</td>
+          </tr>
+          <tr>
+            <td>rotundē</td>
+            <td>rotundius</td>
+            <td>rotundissimē</td>
+          </tr>
+          <tr>
+            <td>tacitē</td>
+            <td>tacitius</td>
+            <td>tacitissimē</td>
+          </tr>
+          <tr>
+            <td>taediōsē</td>
+            <td>taediōsius</td>
+            <td>taediōsissimē</td>
+          </tr>
+          <tr>
+            <td>tranquillē</td>
+            <td>tranquillius</td>
+            <td>tranquillissimē</td>
+          </tr>
+          <tr>
+            <td>ūtiliter</td>
+            <td>ūtilius</td>
+            <td>ūtilissimē</td>
+          </tr>
+          <tr>
+            <td>aliēnē</td>
+            <td>aliēnius</td>
+            <td>aliēnissimē</td>
+          </tr>
+        </tbody>
+      </table>
         <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
       <button id="previous-bottom" class="btn btn-outline-dark col-4"><a href="PraeludiumVI.html"><<-Previous</a></button>
       <button id="next-bottom" class="btn btn-outline-dark col-4"><a href="LessonLXII.html">Next->></a></button>
@@ -275,5 +415,15 @@
     </div>
   </div>
 </div>
+<script>
+  $(".reveal-answer").click (function (){
+    let buttonId = $(this).attr("id");
+    let buttonNum = buttonId.substring(6);
+    let compId = "comp" + buttonNum;
+    let supeId = "supe" + buttonNum;
+    $("#" + compId).show();
+    $("#" + supeId).show();
+  });
+</script>
 </body>
 </html>
