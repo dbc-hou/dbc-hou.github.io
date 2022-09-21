@@ -138,8 +138,8 @@ function volVILinks() {
       <li id="vi-prae" class="list-group-item pl-2 chapter"><a id="vol-vi-prae-link" class="chapter-link" href="PraeludiumVI.html">Praelūdium VI</a></li>
       <li id="lesson61" class="list-group-item pl-2 chapter"><a id="lesson-lxi-link" class="chapter-link" href="LessonLXI.html">LXI. Adjectives in Review</a></li>
       <li id="lesson62" class="list-group-item pl-2 chapter"><a id="lesson-lxii-link" class="chapter-link" href="LessonLXII.html">LXII. Adjectives in Antonymic Pairs</a></li>
-<!--      <li id="lesson63" class="list-group-item pl-2 chapter"><a id="lesson-lxiii-link" class="chapter-link" href="LessonLXIII.html">LXIII. Deponent Verbs, Conjugation I</a></li>-->
-<!--      <li id="lesson64" class="list-group-item pl-2 chapter"><a id="lesson-lxiv-link" class="chapter-link" href="LessonLXIV.html">LXIV. Gerunds and Gerundives</a></li>-->
+      <li id="lesson63" class="list-group-item pl-2 chapter"><a id="lesson-lxiii-link" class="chapter-link" href="LessonLXIII.html">LXIII. Deponent Verbs, Conjugation I</a></li>
+      <li id="lesson64" class="list-group-item pl-2 chapter"><a id="lesson-lxiv-link" class="chapter-link" href="LessonLXIV.html">LXIV. Gerunds and Gerundives</a></li>
 <!--      <li id="lesson65" class="list-group-item pl-2 chapter"><a id="lesson-lxv-link" class="chapter-link" href="LessonLXV.html">LXV. Deponent Verbs, Conjungations II and III</a></li>-->
 <!--      <li id="lesson66" class="list-group-item pl-2 chapter"><a id="lesson-lxvi-link" class="chapter-link" href="LessonLXVI.html">LXVI. Deponent Verbs, Conjungations III-i and Iv</a></li>-->
 <!--      <li id="lesson67" class="list-group-item pl-2 chapter"><a id="lesson-lxvii-link" class="chapter-link" href="LessonLXVII.html">LXVII. Body Parts, Part I-->
