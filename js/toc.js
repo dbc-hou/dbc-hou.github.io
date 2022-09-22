@@ -26,7 +26,7 @@ function fillContentsBox(contents) {
 function introLinks() {
   return `
     <ul id="intro-parts" class="list-group sublist">
-      <li id="intro-main" class="list-group-item pl-2 chapter"><a id="intro-main-link" class="chapter-link" href="IntroMain.html">Vol. I Main</a></li>
+      <li id="intro-main" class="list-group-item pl-2 chapter"><a id="intro-main-link" class="chapter-link" href="IntroMain.html">Intro Main</a></li>
       <li id="intro-prae" class="list-group-item pl-2 chapter"><a id="intro-prae-link" class="chapter-link" href="IntroPrae.html">Praelūdium</a></li>
       <li id="intro-a" class="list-group-item pl-2 chapter"><a id="intro-a-link" class="chapter-link" href="IntroA.html">A. Why Latin?</strong></li>
       <li id="intro-b" class="list-group-item pl-2 chapter"><a id="intro-b-link" class="chapter-link" href="IntroB.html">B. Evolution of Latin</a></li>
