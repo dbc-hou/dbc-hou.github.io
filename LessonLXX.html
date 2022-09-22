@@ -18,7 +18,9 @@
   <div id="content-row" class="row d-flex justify-items-center">
     <div id="table-of-contents" class="col-3 toc">
       <ul id="content-links" class="list-group">
-        <script>document.getElementById("content-links").innerHTML = tableOfContents();</script>
+        <script>document.getElementById("content-links").innerHTML = tableOfContents();
+        fillContentsBox(volVILinks());
+        </script>
       </ul>
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
@@ -136,23 +138,93 @@
         <li>Diē nātālī meō cōniunx mihi duodecim alaud<input type="text" size="4"> dedit.<br/>
           <button id="reveal1" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
           <span id="answer1" style="display:none; font-weight: bold">alaud<u>ās</u></span><br/>
-          <span id="function1" style="display: none">direct object</span>
-        </li>
+          <span id="function1" style="display: none">Accusative direct object</span>
+        <hr/></li>
         <li>Avēs āl<input type="text" size="4"> nōn sōlum volant sed etiam sē dēfendunt.<br/>
           <button id="reveal2" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
           <span id="answer2" class="vocab-span" style="font-weight: bold">āl<u>īs</u></span><br/>
-          <span id="function2" class="vocab-span">means</span>
-        </li>
+          <span id="function2" class="vocab-span">Ablative of means</span>
+        <hr/></li>
         <li>Frusta (<em>pieces</em>) pānis anāt<input type="text" size="4"> amīc<input type="text" size="4"> prope lacum dedimus.<br/>
           <button id="reveal3" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
           <span id="answer3" class="vocab-span" style="font-weight: bold">anāt<u>ibus</u> amīc<u>īs</u></span><br/>
-          <span id="function3" class="vocab-span">indirect object</span>
-        </li>
+          <span id="function3" class="vocab-span">Dative indirect object</span>
+        <hr/></li>
         <li>Per agrum cum anser<input type="text" size="4"> vagāta sum.<br/>
           <button id="reveal4" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
           <span id="answer4" class="vocab-span" style="font-weight: bold">anser<u>ibus</u></span><br/>
-          <span id="function4" class="vocab-span">accompaniment</span>
-        </li>
+          <span id="function4" class="vocab-span">Ablative accompaniment</span>
+        <hr/></li>
+        <li>Aquil<input type="text" size="4"> expuls<input type="text" size="4"> , parva animālia in silvam rediērunt (<em>returned</em>).<br/>
+          <button id="reveal5" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer5" class="vocab-span" style="font-weight: bold">Aquil<u>īs</u> expuls<u>īs</u></span><br/>
+          <span id="function5" class="vocab-span">Ablative absolute</span>
+        <hr/></li>
+        <li>Cūr lapidēs ad av<input type="text" size="4"> cōniēcistis?<br/>
+          <button id="reveal6" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer6" class="vocab-span" style="font-weight: bold">av<u>ēs</u></span><br/>
+          <span id="function6" class="vocab-span">Accusative place to which</span>
+        <hr/></li>
+        <li>Nōn potuī dormīre propter clāmōrem ist<input type="text" size="4"> būbōn<input type="text" size="4"><br/>
+          <button id="reveal7" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer7" class="vocab-span" style="font-weight: bold">ist<u>ōrum</u> būbon<u>um</u></span><br/>
+          <span id="function7" class="vocab-span">Genitive object of "of" (could also be a possessor)</span>
+        <hr/></li>
+        <li>Intellēxī corv<input type="text" size="4"> rectissimē (<em>very straight</em>) volāre.<br/>
+          <button id="reveal8" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer8" class="vocab-span" style="font-weight: bold">corv<u>ōs</u></span><br/>
+          <span id="function8" class="vocab-span">Accusative subject of infinitive (indirect statement)</span>
+        <hr/></li>
+        <li>Ova gallīn<input type="text" size="4"> servāmus in calidā camerā.<br/>
+          <button id="reveal9" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer9" class="vocab-span" style="font-weight: bold">gallīn<u>ārum</u></span><br/>
+          <span id="function9" class="vocab-span">Genitive possessor (could also be an object of "of")</span>
+        <hr/></li>
+        <li>Quam vēlōcissimē ā falcōn ēsurient fūgimus!<br/>
+          <button id="reveal10" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer10" class="vocab-span" style="font-weight: bold">falcōn<u>ibus</u> ēsurient<u>ibus</u></span><br/>
+          <span id="function10" class="vocab-span">Ablative place from which</span>
+        <hr/></li>
+        <li>Multum frūmentum ā passer<input type="text" size="4"> ēsum est.<br/>
+          <button id="reveal11" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer11" class="vocab-span" style="font-weight: bold">passer<u>ibus</u></span><br/>
+          <span id="function11" class="vocab-span">Ablative personal agent</span>
+        <hr/></li>
+        <li>Vīsus (<em>The sight</em>) nostrī canis pāvōn<input type="text" size="4"> nōn placuit.<br/>
+          <button id="reveal12" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer12" class="vocab-span" style="font-weight: bold">pāvōn<u>ibus</u></span><br/>
+          <span id="function12" class="vocab-span">Dative object of certain intransitive verbs</span>
+        <hr/></li>
+        <li>In hāc prōvinciā sunt avēs pulcherrim<input type="text" size="4"> penn<input type="text" size="4">.<br/>
+          <button id="reveal13" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer13" class="vocab-span" style="font-weight: bold">pulcherrim<u>īs/-ārum</u> penn<u>īs/-ārum</u></span><br/>
+          <span id="function13" class="vocab-span">Ablative or Genitive of description</span>
+        <hr/></li>
+        <li>Trēs annōs inter psittac<input type="text" size="4"> Āfricae vīxī.<br/>
+          <button id="reveal14" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer14" class="vocab-span" style="font-weight: bold">psittac<u>ōs</u></span><br/>
+          <span id="function14" class="vocab-span">Accusative object of certain prepositions</span>
+        <hr/></li>
+        <li>M. Gracchus gladiōs acūtiōrēs rostr<input type="text" size="4"> aquilārum facit.<br/>
+          <button id="reveal15" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer15" class="vocab-span" style="font-weight: bold">rostr<u>īs</u></span><br/>
+          <span id="function15" class="vocab-span">Ablative of comparison</span>
+        <hr/></li>
+        <li>In horreō vestrō pauc<input type="text" size="4"> strīg<input type="text" size="4"> multōs mūrēs rapiēbant.<br/>
+          <button id="reveal16" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer16" class="vocab-span" style="font-weight: bold">pauc<u>ae</u> strīg<u>ēs</u></span><br/>
+          <span id="function16" class="vocab-span">Nominative, subject (of a finite verb)</span>
+        <hr/></li>
+        <li>Aegyptiōrum scientia strūthiōn<input type="text" size="4"> māxima est in mundō.<br/>
+          <button id="reveal17" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer17" class="vocab-span" style="font-weight: bold">strūthiōn<u>um</u></span><br/>
+          <span id="function17" class="vocab-span">objective Genitive</span>
+        <hr/></li>
+        <li>Aper mortuus in viā ill<input type="text" size="4"> vultur<input type="text" size="4"> vēscendus est.<br/>
+          <button id="reveal18" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer18" class="vocab-span" style="font-weight: bold">ill<u>īs</u> vultūr<u>ibus</u></span><br/>
+          <span id="function18" class="vocab-span">Dative personal agent with gerundive</span>
+        <hr/></li>
       </ol>
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">

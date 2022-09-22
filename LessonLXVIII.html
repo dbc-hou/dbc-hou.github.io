@@ -18,7 +18,10 @@
   <div id="content-row" class="row d-flex justify-items-center">
     <div id="table-of-contents" class="col-3 toc">
       <ul id="content-links" class="list-group">
-        <script>document.getElementById("content-links").innerHTML = tableOfContents();</script>
+        <script>
+          document.getElementById("content-links").innerHTML = tableOfContents();
+          fillContentsBox(volVILinks());
+        </script>
       </ul>
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
