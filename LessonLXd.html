@@ -19,7 +19,10 @@
   <div id="content-row" class="row d-flex justify-items-center">
     <div id="table-of-contents" class="col-3">
       <ul id="content-links" class="list-group">
-        <script>document.getElementById("content-links").innerHTML = tableOfContents();</script>
+        <script>
+          document.getElementById("content-links").innerHTML = tableOfContents();
+          fillContentsBox(volVLinks());
+        </script>
       </ul>
     </div>
     <div id="main-text" class="col-9" style="background-color: beige; color: purple">
@@ -32,7 +35,10 @@
       <p>Fill in the remaining parts for these verbs (from memory if possible, open-book if necessary);
         then provide at least one English translation for each.</p>
       <div id="grammar-list" style="width: 100%">
-        <script>document.getElementById("grammar-list").innerHTML = displayGrammar();</script>
+        <script>
+          document.getElementById("content-links").innerHTML = tableOfContents();
+          fillContentsBox(volVLinks());
+        </script>
       </div>
 
       <div id="previous-next-bottom" class="row justify-content-between mb-4">
