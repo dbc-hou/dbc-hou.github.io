@@ -27,13 +27,14 @@
         <button id="next-top" class="btn btn-outline-dark col-4"><a href="LessonLXXI.html">Next->></a></button>
       </div>
 
-      <h2>LXX. Avēs</h2>
+      <h2>LXX. Avēs, Maria!</h2>
       <p>In this lesson we shall focus on the world of birds beyond <strong>aquila</strong>, listing just a few
         of the birds known to the ancient Romans. Gender indicators given after the slash represent the genders
         used in written Latin. Almost all of these birds, or parts thereof, might end up on the <strong>triclinia</strong>
         of wealthy Roman homes.</p>
 
-      <table><thead><tr><td>Nouns</td>
+      <table><thead>
+      <tr><td>Nouns</td>
         <td>Related Adjective</td>
         <td>English</td>
       </tr>
@@ -93,7 +94,6 @@
       </tbody></table>
 
       <p>Below we add some nouns for parts of avian anatomy:</p>
-
       <table><thead>
       <tr><td>Nouns</td>
         <td>English</td>
@@ -115,7 +115,8 @@
       <p><strong><u>būbō, strīx:</u></strong> The former is more of a general word for <em>owl</em>, but it can be
         used to distinguish between the different sounds characteristic of different owls, hooting or screeching.
         Another noun for <em>owl</em> is <strong>ulula, -ae</strong>, related to <strong>ululō, -āre</strong>,
-        which can mean <em>shriek</em> or <em>howl</em>.</p>
+        which can mean <em>shriek</em> or <em>howl</em>. The noun <strong>būbō</strong> also refers to the
+        primary symptom of <em>bubonic plague</em>.</p>
       <p><strong><u>corvus, passer:</u></strong> Passerine birds (Order <strong><em>Passeriformes</em></strong>)
         include not just sparrows, but jays, wrens, crows and other corvids, and dozens of other families.</p>
       <p><strong><u>gallus:</u></strong> Small <strong>g</strong> for poultry, capital <strong>G</strong> for the
@@ -126,15 +127,50 @@
         the same as the <strong>nāsus</strong>, but that which connects the <strong>nāsus</strong> to the rest of
         the <strong>faciēs</strong>.</p>
 
-      <h3>Exercise LXX:</h3>
-      <p>(Not yet created.)</p>
+      <h3>Exercise LXX: Usages of Birds</h3>
+      <p>Thus far we have covered about 30 functions for nouns, 12 of which are (or can be) represented
+        in Latin by the Ablative case. The sentences below have birds or parts or birds playing 18 of those 30
+        grammatical rolles. Add the missing <u>plural</u> endings for each bird or bird-part, and for any adjectives
+        that modify the birds, based on its use in the sentence.</p>
+      <ol type="1">
+        <li>Diē nātālī meō cōniunx mihi duodecim alaud<input type="text" size="4"> dedit.<br/>
+          <button id="reveal1" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer1" style="display:none; font-weight: bold">alaud<u>ās</u></span><br/>
+          <span id="function1" style="display: none">direct object</span>
+        </li>
+        <li>Avēs āl<input type="text" size="4"> nōn sōlum volant sed etiam sē dēfendunt.<br/>
+          <button id="reveal2" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer2" class="vocab-span" style="font-weight: bold">āl<u>īs</u></span><br/>
+          <span id="function2" class="vocab-span">means</span>
+        </li>
+        <li>Frusta (<em>pieces</em>) pānis anāt<input type="text" size="4"> amīc<input type="text" size="4"> prope lacum dedimus.<br/>
+          <button id="reveal3" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer3" class="vocab-span" style="font-weight: bold">anāt<u>ibus</u> amīc<u>īs</u></span><br/>
+          <span id="function3" class="vocab-span">indirect object</span>
+        </li>
+        <li>Per agrum cum anser<input type="text" size="4"> vagāta sum.<br/>
+          <button id="reveal4" class="reveal-answer btn btn-outline-dark mt-2">Answer</button>
+          <span id="answer4" class="vocab-span" style="font-weight: bold">anser<u>ibus</u></span><br/>
+          <span id="function4" class="vocab-span">accompaniment</span>
+        </li>
+      </ol>
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4"><a href="LessonLVIII.html"><<-Previous</a></button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4"><a href="LessonLXX.html">Next->></a></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4"><a href="LessonLXIX.html"><<-Previous</a></button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4"><a href="LessonLXXI.html">Next->></a></button>
       </div>
     </div>
   </div>
 </div>
+<script>
+  $(".reveal-answer").click (function (){
+    let buttonId = $(this).attr("id");
+    let buttonNum = buttonId.substring(6);
+    let answerId = "answer" + buttonNum;
+    let functionId = "function" + buttonNum
+    $("#" + answerId).show();
+    $("#" + functionId).show();
+  });
+</script>
 </body>
 </html>
