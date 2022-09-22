@@ -100,10 +100,10 @@ function volIIILinks() {
 function volIVLinks() {
   return `
     <ul id="vol-iv-parts" class="list-group sublist">
-      <li id="iv-prae-a" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-a" class="chapter-link" href="PraeludiumIVa.html">Praelūdium IV: Principal Parts of Verbs</a></li>
-      <li id="iv-prae-b" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-b" class="chapter-link" href="PraeludiumIVb.html">Praelūdium IV: Verbs into Nouns</a></li>
-      <li id="iv-prae-c" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-c" class="chapter-link" href="PraeludiumIVc.html">Praelūdium IV: Verbs into Adjectives</a></li>
-      <li id="iv-prae-d" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-d" class="chapter-link" href="PraeludiumIVd.html">Praelūdium IV: Adjectives into Nouns</a></li>
+      <li id="iv-prae-a" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-a" class="chapter-link" href="PraeludiumIVa.html">Praelūdium IV.A: Principal Parts of Verbs</a></li>
+      <li id="iv-prae-b" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-b" class="chapter-link" href="PraeludiumIVb.html">Praelūdium IV.B: Verbs into Nouns</a></li>
+      <li id="iv-prae-c" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-c" class="chapter-link" href="PraeludiumIVc.html">Praelūdium IV.C: Verbs into Adjectives</a></li>
+      <li id="iv-prae-d" class="list-group-item pl-2 chapter"><a id="vol-iv-prae-link-d" class="chapter-link" href="PraeludiumIVd.html">Praelūdium IV.D: Adjectives into Nouns</a></li>
       <li id="lesson37" class="list-group-item pl-2 chapter"><a id="lesson-xxxvii-link" class="chapter-link" href="LessonXXXVII.html">XXXVII. Timely Nouns</a></li>
       <li id="lesson38" class="list-group-item pl-2 chapter"><a id="lesson-xxxviii-link" class="chapter-link" href="LessonXXXVIII.html">XXXVIII. Timely Adverbs</a></li>
       <li id="lesson39" class="list-group-item pl-2 chapter"><a id="lesson-xxxix-link" class="chapter-link" href="LessonXXXIX.html">XXXIX. Conjugation IV</a></li>
