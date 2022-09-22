@@ -1,15 +1,21 @@
 function tableOfContents() {
   let html = `<div id="main-page" class="list-group-item intro"><a href="index.html">Main Page</a></div>`;
   html += `<div id="intro-div" class="list-group-item intro" onclick="fillContentsBox(introLinks());">Introduction</div>`;
-  html += `<div id="i-through-iii" class="d-flex row volume-row">`;
-  html += `<span id="vol-i-span" class="list-group-item volume" onclick="fillContentsBox(volILinks());">I</span>`;
-  html += `<span id="vol-ii-span" class="list-group-item volume" onclick="fillContentsBox(volIILinks());">II</span>`;
-  html += `<span id="vol-iii-span" class="list-group-item volume" onclick="fillContentsBox(volIIILinks());">III</span></div>`;
-  html += `<div id="iv-through-vi" class="d-flex row volume-row">`;
-  html += `<span id="vol-iv-span" class="list-group-item volume" onclick="fillContentsBox(volIVLinks());">IV</span>`;
-  html += `<span id="vol-v-span" class="list-group-item volume" onclick="fillContentsBox(volVLinks());">V</span>`;
-  html += `<span id="vol-vi-span" class="list-group-item volume" onclick="fillContentsBox(volVILinks());">VI</span></div>`;
+  html += `<div id="i-through-vi" class="d-flex row volume-row">`;
+  html += `<span id="vol-i-span" class="volume" onclick="fillContentsBox(volILinks());">I</span>`;
+  html += `<span id="vol-ii-span" class="volume" onclick="fillContentsBox(volIILinks());">II</span>`;
+  html += `<span id="vol-iii-span" class="volume" onclick="fillContentsBox(volIIILinks());">III</span>`;
+  html += `<span id="vol-iv-span" class="volume" onclick="fillContentsBox(volIVLinks());">IV</span>`;
+  html += `<span id="vol-v-span" class="volume" onclick="fillContentsBox(volVLinks());">V</span>`;
+  html += `<span id="vol-vi-span" class="volume" onclick="fillContentsBox(volVILinks());">VI</span></div>`;
   html += `<div id="volume-contents"></div>`;
+  html += `<div id="vii-through-xii" class="d-flex row volume-row">`;
+  html += `<span id="vol-vii-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">VII</span>`;
+  html += `<span id="vol-viii-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">VIII</span>`;
+  html += `<span id="vol-ix-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">IX</span>`;
+  html += `<span id="vol-x-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">X</span>`;
+  html += `<span id="vol-xi-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">XI</span>`;
+  html += `<span id="vol-xii-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">XII</span></div>`;
   return html
 }
 
@@ -143,7 +149,7 @@ function volVILinks() {
       <li id="lesson65" class="list-group-item pl-2 chapter"><a id="lesson-lxv-link" class="chapter-link" href="LessonLXV.html">LXV. Deponent Verbs, Conjungations II and III</a></li>
       <li id="lesson66" class="list-group-item pl-2 chapter"><a id="lesson-lxvi-link" class="chapter-link" href="LessonLXVI.html">LXVI. Deponent Verbs, Conjungations III-i and Iv</a></li>
       <li id="lesson67" class="list-group-item pl-2 chapter"><a id="lesson-lxvii-link" class="chapter-link" href="LessonLXVII.html">LXVII. Body Parts, Part I
-<!--      <li id="lesson68" class="list-group-item pl-2 chapter"><a id="lesson-lxviii-link" class="chapter-link" href="LessonLXVIII.html">LXVIII. Body Parts, Part II</a></li>-->
+      <li id="lesson68" class="list-group-item pl-2 chapter"><a id="lesson-lxviii-link" class="chapter-link" href="LessonLXVIII.html">LXVIII. Body Parts, Part II</a></li>
 <!--      <li id="lesson69" class="list-group-item pl-2 chapter"><a id="lesson-lxix-link" class="chapter-link" href="LessonLXIX.html">LXIX. Leōnēs, Tigrēsque, Ursīque! Ō Mī!</a></li>-->
 <!--      <li id="lesson70" class="list-group-item pl-2 chapter"><a id="lesson-lxx-link" class="chapter-link" href="LessonLXX.html">LXX. Avēs</a></li>-->
 <!--      <li id="lesson71" class="list-group-item pl-2 chapter"><a id="lesson-lxxi-link" class="chapter-link" href="LessonLXXI.html">LXXI. Famīlia Extenta</a></li>-->
