@@ -1,21 +1,21 @@
 function tableOfContents() {
   let html = `<div id="main-page" class="list-group-item intro"><a href="index.html">Main Page</a></div>`;
-  html += `<div id="intro-div" class="list-group-item intro" onclick="fillContentsBox(introLinks());">Introduction</div>`;
+  html += `<div id="intro-div" class="list-group-item intro" onmouseover="fillContentsBox(introLinks());">Introduction</div>`;
   html += `<div id="i-through-vi" class="d-flex row volume-row">`;
-  html += `<span id="vol-i-span" class="volume" onclick="fillContentsBox(volILinks());">I</span>`;
-  html += `<span id="vol-ii-span" class="volume" onclick="fillContentsBox(volIILinks());">II</span>`;
-  html += `<span id="vol-iii-span" class="volume" onclick="fillContentsBox(volIIILinks());">III</span>`;
-  html += `<span id="vol-iv-span" class="volume" onclick="fillContentsBox(volIVLinks());">IV</span>`;
-  html += `<span id="vol-v-span" class="volume" onclick="fillContentsBox(volVLinks());">V</span>`;
-  html += `<span id="vol-vi-span" class="volume" onclick="fillContentsBox(volVILinks());">VI</span></div>`;
+  html += `<span id="vol-i-span" class="volume" onmouseover="fillContentsBox(volILinks());">I</span>`;
+  html += `<span id="vol-ii-span" class="volume" onmouseover="fillContentsBox(volIILinks());">II</span>`;
+  html += `<span id="vol-iii-span" class="volume" onmouseover="fillContentsBox(volIIILinks());">III</span>`;
+  html += `<span id="vol-iv-span" class="volume" onmouseover="fillContentsBox(volIVLinks());">IV</span>`;
+  html += `<span id="vol-v-span" class="volume" onmouseover="fillContentsBox(volVLinks());">V</span>`;
+  html += `<span id="vol-vi-span" class="volume" onmouseover="fillContentsBox(volVILinks());">VI</span></div>`;
   html += `<div id="volume-contents"></div>`;
   html += `<div id="vii-through-xii" class="d-flex row volume-row">`;
-  html += `<span id="vol-vii-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">VII</span>`;
-  html += `<span id="vol-viii-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">VIII</span>`;
-  html += `<span id="vol-ix-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">IX</span>`;
-  html += `<span id="vol-x-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">X</span>`;
-  html += `<span id="vol-xi-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">XI</span>`;
-  html += `<span id="vol-xii-span" class="volume-not-ready" onclick="fillContentsBox('This volume is not ready yet.');">XII</span></div>`;
+  html += `<span id="vol-vii-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">VII</span>`;
+  html += `<span id="vol-viii-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">VIII</span>`;
+  html += `<span id="vol-ix-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">IX</span>`;
+  html += `<span id="vol-x-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">X</span>`;
+  html += `<span id="vol-xi-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">XI</span>`;
+  html += `<span id="vol-xii-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">XII</span></div>`;
   return html
 }
 
