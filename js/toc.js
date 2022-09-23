@@ -2,12 +2,12 @@ function tableOfContents() {
   let html = `<div id="main-page" class="list-group-item intro"><a href="index.html">Main Page</a></div>`;
   html += `<div id="intro-div" class="list-group-item intro" onmouseover="fillContentsBox(introLinks());">Introduction</div>`;
   html += `<div id="i-through-vi" class="d-flex row volume-row">`;
-  html += `<span id="vol-i-span" class="volume" onmouseover="fillContentsBox(volILinks());">I</span>`;
-  html += `<span id="vol-ii-span" class="volume" onmouseover="fillContentsBox(volIILinks());">II</span>`;
-  html += `<span id="vol-iii-span" class="volume" onmouseover="fillContentsBox(volIIILinks());">III</span>`;
-  html += `<span id="vol-iv-span" class="volume" onmouseover="fillContentsBox(volIVLinks());">IV</span>`;
-  html += `<span id="vol-v-span" class="volume" onmouseover="fillContentsBox(volVLinks());">V</span>`;
-  html += `<span id="vol-vi-span" class="volume" onmouseover="fillContentsBox(volVILinks());">VI</span></div>`;
+  html += `<span id="vol-i-span" class="volume" onmouseover="fillContentsBox(volILinks());"><a href="VolumeI.html>">I</a></span>`;
+  html += `<span id="vol-ii-span" class="volume" onmouseover="fillContentsBox(volIILinks());"><a href="VolumeII.html>">II</a></span>`;
+  html += `<span id="vol-iii-span" class="volume" onmouseover="fillContentsBox(volIIILinks());"><a href="VolumeIII.html>">III</a></span>`;
+  html += `<span id="vol-iv-span" class="volume" onmouseover="fillContentsBox(volIVLinks());"><a href="VolumeIV.html>">IV</a></span>`;
+  html += `<span id="vol-v-span" class="volume" onmouseover="fillContentsBox(volVLinks());"><a href="VolumeV.html>">V</a></span>`;
+  html += `<span id="vol-vi-span" class="volume" onmouseover="fillContentsBox(volVILinks());"><a href="VolumeVI.html>">VI</a></span></div>`;
   html += `<div id="volume-contents"></div>`;
   html += `<div id="vii-through-xii" class="d-flex row volume-row">`;
   html += `<span id="vol-vii-span" class="volume-not-ready" onmouseover="fillContentsBox('This volume is not ready yet.');">VII</span>`;
