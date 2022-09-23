@@ -153,6 +153,6 @@ function volVILinks() {
       <li id="lesson69" class="list-group-item pl-2 chapter"><a id="lesson-lxix-link" class="chapter-link" href="LessonLXIX.html">LXIX. Leōnēs, Tigrēsque, Ursīque! Ō Mī!</a></li>
       <li id="lesson70" class="list-group-item pl-2 chapter"><a id="lesson-lxx-link" class="chapter-link" href="LessonLXX.html">LXX. Avēs</a></li>
       <li id="lesson71" class="list-group-item pl-2 chapter"><a id="lesson-lxxi-link" class="chapter-link" href="LessonLXXI.html">LXXI. Famīlia Extenta</a></li>
-<!--      <li id="lesson72" class="list-group-item pl-2 chapter"><a id="lesson-lxxii-link" class="chapter-link" href="LessonLXXII.html">LXXII. Recēnsus VI</a></li>-->
+      <li id="lesson72" class="list-group-item pl-2 chapter"><a id="lesson-lxxii-link" class="chapter-link" href="LessonLXXII.html">LXXII. Recēnsus VI</a></li>
     </ul>`
 }
