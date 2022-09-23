@@ -1,6 +1,6 @@
 function tableOfContents() {
   let html = `<div id="main-page" class="list-group-item intro"><a href="index.html">Main Page</a></div>`;
-  html += `<div id="intro-div" class="list-group-item intro" onmouseover="fillContentsBox(introLinks());">Introduction</div>`;
+  html += `<div id="intro-div" class="list-group-item intro" onmouseover="fillContentsBox(introLinks());" onclick="window.location='IntroMain.html';">Introduction</div>`;
   html += `<div id="i-through-vi" class="d-flex row volume-row">`;
   html += `<span id="vol-i-span" class="volume" onmouseover="fillContentsBox(volILinks());" onclick="window.location='VolumeI.html';">I</span>`;
   html += `<span id="vol-ii-span" class="volume" onmouseover="fillContentsBox(volIILinks());" onclick="window.location='VolumeII.html';">II</span>`;
