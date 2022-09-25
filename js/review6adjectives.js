@@ -156,7 +156,14 @@ function displayAdjectives() {
     iteration += `<li><span id="latin-span-${j}" style="margin-left: 10px"><strong>${adjectivesReview6[i].entry}</strong> = </span> `;
     iteration += `<input id="meaning-${j}" type="text" size="35" placeholder="(meanings)"> <span id="meaning-span-${j}" class="vocab-span"><em>${adjectivesReview6[i].meanings}</em></span><br/>`;
     iteration += `<span id="agree-span-${j}" style="margin-left: 10px"><strong>${adjectivesReview6[i].nounToAgree}</strong></span> `;
-    iteration += `<input id="inflected-${j}" type="text" size="25" placeholder="(make it agree)">`;
+    iteration += `<input id="inflected-${j}-a" type="text" size="15" placeholder="(make it agree)"> `;
+    if (adjectivesReview6[i].nounToAgree.includes("(2)")) {
+      iteration += `<input id="inflected-${j}-b" type="text" size="15"> `;
+    }
+    if (adjectivesReview6[i].nounToAgree.includes("(3)")) {
+      iteration += `<input id="inflected-${j}-b" type="text" size="15"> `;
+      iteration += `<input id="inflected-${j}-c" type="text" size="15">`;
+    }
     iteration += `<span id="inflection-span-${j}" class="vocab-span"><strong>${adjectivesReview6[i].inflected}</strong></span><br/>`
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark" style="margin-top: .5em">--></button></span>`;
     iteration += `</li><hr/>`;
