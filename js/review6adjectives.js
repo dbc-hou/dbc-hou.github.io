@@ -110,7 +110,7 @@ const adjectivesReview6 = [
   {entry: "taediōsus",
     nounToAgree: "experīmenta",
     inflected: "taeidōsa",
-    meanings: "boring"},
+    meanings: "boring, tedious"},
   {entry: "tardus",
     nounToAgree: "lāpsum",
     inflected: "tardum",
@@ -124,24 +124,24 @@ const adjectivesReview6 = [
     inflected: "tranquilla",
     meanings: "calm, peaceful"},
   {entry: "tūtus",
-    nounToAgree: "nurūs",
+    nounToAgree: "nurūs (2)",
     inflected: "tūtae, tūtās",
     meanings: "safe, protected"},
   {entry: "ūtilis",
-    nounToAgree: "uterī",
+    nounToAgree: "uterī (2)",
     inflected: "ūtilēs, ūtilis",
     meanings: "useful, usable"},
   {entry: "vacuus",
-    nounToAgree: "ventrēs",
+    nounToAgree: "ventrēs (2)",
     inflected: "vacuī, vacuōs",
     meanings: "empty"},
   {entry: "vagus",
-    nounToAgree: "fūr",
-    inflected: "vague, vage",
+    nounToAgree: "fūr (2)",
+    inflected: "vagus, vage",
     meanings: "wandering, roaming"},
   {entry: "vīvus",
     nounToAgree: "testis (3)",
-    inflected: "tūtus, tūte, tūtī",
+    inflected: "vīvus, vīve, vīvī",
     meanings: "living, alive"}
 ]
 
@@ -153,16 +153,13 @@ function displayAdjectives() {
   let iteration = "";
 
   for (let i = 0; i < adjectivesLength; i++) {
-    iteration += `<div id="adjective-item-${j}" class="container-flex"><li id="li-${j}">`;
-    iteration += `<div id="top-row-${j}" class="row">`
-    iteration += `<span id="latin-span-${j}" style="width: 100%; margin-left: 20px"><strong>${adjectivesReview6[i].entry}: </strong></span><br/>`;
-    iteration += `<span id="translation-span-${j}"><input id="meaning-${j}" type="text" size="25" placeholder="(meanings)"></span>`
-    iteration += `<span id="meaning-span-${j}" class="vocab-span"><em>${adjectivesReview6[i].meanings}</em></span><br/>`
-    iteration += `<span id="agree-span-${j}" style="margin-left: 20px"><strong>${adjectivesReview6[i].nounToAgree}: </strong>`;
-    iteration += `<input id="inflected-${j}" type="text" size="25" placeholder="(make it agree)"></span>`
+    iteration += `<li><span id="latin-span-${j}" style="margin-left: 10px"><strong>${adjectivesReview6[i].entry}</strong> = </span> `;
+    iteration += `<input id="meaning-${j}" type="text" size="35" placeholder="(meanings)"> <span id="meaning-span-${j}" class="vocab-span"><em>${adjectivesReview6[i].meanings}</em></span><br/>`;
+    iteration += `<span id="agree-span-${j}" style="margin-left: 10px"><strong>${adjectivesReview6[i].nounToAgree}</strong></span> `;
+    iteration += `<input id="inflected-${j}" type="text" size="25" placeholder="(make it agree)">`;
     iteration += `<span id="inflection-span-${j}" class="vocab-span"><strong>${adjectivesReview6[i].inflected}</strong></span><br/>`
-    iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark" style="margin-top: .5em">--></button></span> `;
-    iteration += `</div></li></div><hr/>`;
+    iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark" style="margin-top: .5em">--></button></span>`;
+    iteration += `</li><hr/>`;
     j++;
   }
 
