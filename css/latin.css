@@ -212,6 +212,7 @@ blockquote {
 
 .declension, .conjugation, .matching, .hidden-declension-table {
   display: none;
+  font-weight: bold;
 }
 
 .show-active-conj, .show-passive-conj {
