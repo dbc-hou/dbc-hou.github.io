@@ -192,6 +192,7 @@
     input.addEventListener("dragenter", dragEnter);
     input.addEventListener("dragleave", dragLeave);
     input.addEventListener("drop", dragDrop);
+    input.addEventListener("input", clearInput);
   })
 
   let dragItem = null;
@@ -223,6 +224,16 @@
     let grab = dragItem.innerText;
     this.setAttribute("value",grab);
     dragItem.setAttribute("style","color: white");
+  }
+
+  function clearInput() {
+    items.forEach(item => {
+      if (item.textContent === this.getAttribute("value")) {
+        item.setAttribute("style","color: purple");
+      }
+    });
+    this.value = "";
+    console.log(this.value);
   }
 
   $(".reveal-answer").click(function () {
