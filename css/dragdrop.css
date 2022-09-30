@@ -16,7 +16,7 @@
   font-size: 22px
 }
 
-.item {
+.word-box-item {
   border-radius: 3px;
   cursor: pointer;
   height: 1em;
@@ -26,4 +26,8 @@
 
 .invisible {
   display: none
+}
+
+.carousel {
+  min-height: 300px;
 }
