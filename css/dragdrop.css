@@ -31,4 +31,13 @@
 .carousel {
   min-height: 300px;
   margin-top: 20px;
+  background-color: gold;
+}
+
+.carousel-indicators {
+  color: black;
+}
+
+.exercise-item {
+  margin: 0 6em 0 6em;
 }
