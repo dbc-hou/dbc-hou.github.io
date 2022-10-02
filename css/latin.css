@@ -243,10 +243,6 @@ blockquote {
 }
 
 /*Elements by ID*/
-/*#intro-parts, #vol-i-parts, #vol-ii-parts, #vol-iii-parts, #vol-iv-parts, #vol-v-parts, #vol-vi-parts {*/
-/*  display: none;*/
-  /*padding-left: 2em;*/
-/*}*/
 
 #intro-div:hover {
   color: gold;
@@ -259,6 +255,7 @@ blockquote {
 
 #table-of-contents {
   position: fixed;
+  max-width: 150px;
   margin-top: 5em;
   margin-right: 2em;
   overflow-y: scroll;
