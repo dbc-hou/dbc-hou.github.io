@@ -260,6 +260,7 @@ blockquote {
 #table-of-contents {
   position: fixed;
   margin-top: 5em;
+  margin-right: 2em;
   overflow-y: scroll;
 }
 
