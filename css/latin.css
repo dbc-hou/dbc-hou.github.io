@@ -255,7 +255,7 @@ blockquote {
 
 #table-of-contents {
   position: fixed;
-  max-width: 300px;
+  max-width: 18em;
   margin-top: 5em;
   margin-right: 2em;
   overflow-y: scroll;
