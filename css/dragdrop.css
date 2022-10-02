@@ -1,6 +1,7 @@
 .container {
   font-family: "Trebuchet MS", sans-serif;
   display: flex;
+  vertical-align: center;
 }
 
 .dragbox {
@@ -29,15 +30,20 @@
 }
 
 .carousel {
-  min-height: 300px;
+  min-height: 200px;
   margin-top: 20px;
+  margin-bottom: 50px;
   background-color: gold;
 }
 
-.carousel-indicators {
-  color: black;
+.carousel-control-prev, .carousel-control-next {
+  height: 100px;
+  width: 50px;
+  vertical-align: center;
 }
 
 .exercise-item {
-  margin: 0 6em 0 6em;
+  margin: 0 7em 0 7em;
+  width: calc(100% - 200px);
+  flex-wrap: wrap;
 }
