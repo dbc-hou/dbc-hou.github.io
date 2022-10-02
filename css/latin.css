@@ -102,14 +102,14 @@ blockquote {
 /*CSS classes, including custom & Bootstrap classes*/
 
 .volume {
-  width: 15%;
+  width: 16%;
   background-color: gold;
   color: purple;
   text-align: center;
 }
 
 .volume-not-ready {
-  width: 15%;
+  width: 16%;
   background-color: gold;
   color: darkgray;
   text-align: center;
@@ -268,7 +268,7 @@ blockquote {
   /*position: relative;*/
   /*top: 5em;*/
   margin-top: 5em;
-  margin-left: 20em;
+  margin-left: 22em;
 }
 
 #site-title {
