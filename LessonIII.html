@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
   <title>Lesson III: Conjugating Irregular Verbs</title>
   <link rel="stylesheet" href="css/latin.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <script src="js/jquery.js"></script>
@@ -30,9 +31,16 @@
         <button id="next-top" class="btn btn-outline-dark col-4"><a href="LessonIV.html">Next->></a></button>
       </div>
       <h2>III. Conjugating Irregular Verbs</h2>
-      <p>This Latin textbook is irregular, to say the least. Therefore, it is appropriate that we introduce verbs with some that are considered irregular. We are taking this approach because, after mastering the conjugation of irregular verbs, the regular verbs seem that much easier. It just so happens that some of the most commonly used verbs in Latin, as in several other European languages, are irregular.</p>
-      <p>The word <em>conjugate</em> is derived from a Latin verb meaning <em>join together</em>. Conjugation is the joining together of a stem and an ending, sometimes with some other parts thrown in.</p>
-      <p>As noted in the Introduction, most Latin verbs can be conjugated in six tenses, two voices, and three moods. One of the moods, the <em>imperative</em>, has only a few conjugated forms in it. Ignoring the imperative mood, each combination of tense-voice-mood combination has six forms. Thus, a Latin verb might take 120 forms or more. (The <em>subjunctive</em> mood has only four of the six tenses.)</p>
+      <p>This Latin textbook is irregular, to say the least. Therefore, it is appropriate that we introduce verbs
+        with some that are considered irregular. We are taking this approach because, after mastering the conjugation
+        of irregular verbs, the regular verbs seem that much easier. It just so happens that some of the most
+        commonly used verbs in Latin, as in several other European languages, are irregular.</p>
+      <p>The word <em>conjugate</em> is derived from a Latin verb meaning <em>join together</em>.
+        Conjugation is the joining together of a stem and an ending, sometimes with some other parts thrown in.</p>
+      <p>As noted in the Introduction, most Latin verbs can be conjugated in six tenses, two voices, and three moods.
+        One of the moods, the <em>imperative</em>, has only a few conjugated forms in it. Ignoring the imperative mood,
+        each combination of tense-voice-mood combination has six forms. Thus, a Latin verb might take 120 forms or more.
+        (The <em>subjunctive</em> mood has only four of the six tenses.)</p>
       <p>We are <em>not</em> going to learn all those forms right away.</p>
 
       <table>
@@ -76,7 +84,7 @@
         </tr>
         </tbody>
       </table>
-      <p>To spice things up, let’s add a few common adverbs that deal with places and times.</p>
+      <p>To spice things up, let's add a few common adverbs that deal with places and times.</p>
 
       <table>
         <thead>
@@ -320,9 +328,10 @@
           <td><strong>vult</strong> (<em>he/she/it wants</em>)</td>
           <td><strong>nōn vult</strong> (<em>he/she/it refuses</em>)</td>
         </tr>
-        <td>1<sup>st</sup> pl.</td>
-        <td><strong>volumus</strong> (<em>we want</em>)</td>
-        <td><strong>nōlumus</strong> (<em>we refuse</em>)</td>
+        <tr>
+          <td>1<sup>st</sup> pl.</td>
+          <td><strong>volumus</strong> (<em>we want</em>)</td>
+          <td><strong>nōlumus</strong> (<em>we refuse</em>)</td>
         </tr>
         <tr>
           <td>2<sup>nd</sup> pl.</td>
@@ -415,12 +424,47 @@
         <li><strong><u>pīrāta:</u></strong> pirate, piracy, piratical</li>
         <li><strong><u>poēta:</u></strong> poet, poetry, poetic</li>
       </ul>
+
+<!--      <h3>Vocabulary Flash Cards</h3>-->
+<!--      <p>Now that we have enough vocabulary words to warrant it, here is a drill featuring vocabulary from-->
+<!--        Lessons I through III and the prelude to this volume.</p>-->
+<!--      <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>-->
+      <div class="modal fade" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true">
+<!--        <div class="modal-dialog">-->
+          <div class="modal-content">
+<!--            <div class="modal-header">-->
+<!--              <h5 class="modal-title">Vocabulary Drill through Lesson III</h5>-->
+<!--              <button type="button" id="close-modal" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>-->
+<!--            </div>-->
+            <div class="modal-body">
+              <h6>nōn</h6>
+              <p><em>not</em></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="vocab-drill">Close</button>
+            </div>
+          </div>
+<!--        </div>-->
+      </div>
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4"><a href="LessonII.html"><<-Previous</a></button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4"><a href="LessonIV.html">Next->></a></button>
-    </div>
+        <button id="previous-bottom" class="btn btn-outline-dark col-4"><a href="LessonII.html"><<-Previous</a></button>
+        <button id="next-bottom" class="btn btn-outline-dark col-4"><a href="LessonIV.html">Next->></a></button>
+      </div>
     </div>
   </div>
 </div>
+<script>
+  $("#launch-modal").click(function() {
+    modal.style.display = "block";
+  });
+
+  $("#close-modal").click(function() {
+    modal.style.display = "none";
+  });
+
+  window.onclick = function() {
+    modal.style.display = "none";
+  }
+</script>
 </body>
 </html>
