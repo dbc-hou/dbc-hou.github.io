@@ -475,16 +475,17 @@
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
 
-  let timeoutID = setTimeout(function () {
-    $(".vocab-span").style("display: inline");
+  let timeoutID = setTimeout(function() {
+    $(".vocab-span").css("display: block");
   }, delay);
 
   $("#launch-modal").click(function() {
+    $("#carousel-display").val(displayRandom(vocab3));
     $("#vocab-drill").show();
   });
 
   $("#reveal").click(function() {
-    $(".vocab-span").show();
+    $(".vocab-span").css("display: block");
   });
 
   $(".btn-close").click(function() {
@@ -498,14 +499,14 @@
   };
 
   $(".slide-navigator").click(function () {
-    $(".vocab-span").hide();
+    $(".vocab-span").css("display: none");
     timeoutID = setTimeout(function () {
-      $(".vocab-span").show();
-    }, $("#num-seconds").val());
+      $(".vocab-span").css("display: block");
+    }, delay);
   });
 
   $("#num-seconds").change(function () {
-    delay = this.value() * 1000;
+    delay = $(this).val() * 1000;
   });
 
 </script>

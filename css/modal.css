@@ -8,6 +8,7 @@
 }
 
 .modal-content {
+  display: flex;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -42,6 +43,7 @@
   font-size: 16pt;
   font-style: italic;
   color: gold;
+  display: none;
 }
 
 .carousel-inner {
