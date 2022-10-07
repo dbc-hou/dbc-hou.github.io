@@ -147,7 +147,6 @@ const miscellaneousAnswers = [
 ];
 
 let peopleLength = peopleLatin.length;
-let divinitiesLength = divinitiesLatin.length;
 let nhaLength = nhaLatin.length;
 let placesLength = placesLatin.length;
 let buildingsLength = buildingsLatin.length;
@@ -163,7 +162,7 @@ function displayPeople() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${peopleLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${peopleAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${peopleAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
@@ -179,7 +178,7 @@ function displayNHA() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${nhaLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${nhaAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${nhaAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
@@ -195,7 +194,7 @@ function displayPlaces() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${placesLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${placesAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${placesAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
@@ -211,7 +210,7 @@ function displayBuildings() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${buildingsLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${buildingsAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${buildingsAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
@@ -227,7 +226,7 @@ function displayFoodDrink() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${foodDrinkLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${foodDrinkAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${foodDrinkAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
@@ -243,7 +242,7 @@ function displayLearning() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${artScienceLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${artScienceAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${artScienceAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
@@ -259,7 +258,7 @@ function displayMiscellany() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${miscellaneousLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${miscellaneousAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${miscellaneousAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;

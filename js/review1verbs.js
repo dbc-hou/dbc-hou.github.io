@@ -66,7 +66,7 @@ function displayVerbs() {
     iteration += `<li><div class="row" id="li-${j}" style="width: 100%; height: 50px">`;
     iteration += `<span id="noun-span-${j}" class="col-2">${verbsLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-5"><strong>${verbsAnswers[i]}</strong></span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-8"><strong>${verbsAnswers[i]}</strong></span></li>`;
     j++;
   }
   html += iteration;
