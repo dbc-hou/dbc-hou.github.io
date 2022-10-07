@@ -44,9 +44,9 @@ const vocab3 = [
   {latin: "nōn",
     english: "not"},
   {latin: "nōnne?",
-    english: "(introduces a yes/no question expecting a yes answer)"},
+    english: "(expecting a yes answer)"},
   {latin: "num?",
-    english: "(introduces a yes/no question expecting a no answer)"},
+    english: "(expecting a no answer)"},
   {latin: "nunc",
     english: "now, at this time"},
   {latin: "pīrāta",
@@ -103,7 +103,7 @@ function displayRandom(array) {
     j++;
     iteration = `<div class="carousel-item">`;
     iteration += `<h6 class="latin-span">${shuffledArray[i].latin}</h6>`;
-    iteration += `<span id="translation${j}" class="vocab-span">${shuffledArray[i].english}</span>`;
+    iteration += `<p id="translation${j}" class="vocab-span">${shuffledArray[i].english}</p>`;
     iteration += `</div>`;
     html += iteration;
   }
