@@ -110,4 +110,4 @@ function displayRandom(array) {
   return html;
 }
 
-console.log(displayRandom(vocab3));
+// console.log(displayRandom(vocab3));
