@@ -90,9 +90,9 @@ label {
   left: 2em;
 }
 
-blockquote {
-  margin-bottom: 30px;
-}
+/*blockquote {*/
+/*  margin-bottom: 5em;*/
+/*}*/
 
 [type=radio] {
   margin: 3px;
