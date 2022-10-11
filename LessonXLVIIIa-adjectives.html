@@ -33,7 +33,7 @@
 
       <h3>Exercise XLVIII.A: Adjectives</h3>
       <div id="adjective-list" style="width: 100%">
-        <script>document.getElementById("adjective-list").innerHTML = displayadjectives();</script>
+        <script>document.getElementById("adjective-list").innerHTML = displayAdjectives();</script>
       </div>
 
       <div id="previous-next-bottom" class="row justify-content-between mb-4">
@@ -47,6 +47,7 @@
   $(".reveal-vocab").click(function () {
     var buttonId = $(this).attr("id");
     var revealNum = buttonId.substring(6);
+    console.log(revealNum);
     var vocabNum = "vocab" + revealNum;
     console.log(vocabNum);
     $("#" + vocabNum).toggle();

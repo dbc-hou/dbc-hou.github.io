@@ -195,7 +195,7 @@ const adjectivesReview4 = [
 
 let adjectivesLength = adjectivesReview4.length;
 
-function displayadjectives() {
+function displayAdjectives() {
   let j = 1;
   let html = `<ol style="1" start="${j}">`;
   let iteration = "";
@@ -204,16 +204,17 @@ function displayadjectives() {
     iteration += `<div id="adjective-item-${j}" class="container-flex"><li id="li-${j}">`;
     iteration += `<div id="top-row-${j}" class="row">`
     iteration += `<span id="latin-span-${j}" style="width: 100%; margin-left: 20px"><strong>${adjectivesReview4[i].entry} `;
-    if (adjectivesReview4[i].comparative != "---") {
+    if (adjectivesReview4[i].comparative !== "---") {
       iteration += `(${adjectivesReview4[i].comparative}, `;
       iteration += `${adjectivesReview4[i].superlative}) `;
     }
     iteration += `</strong> — <em>${adjectivesReview4[i].meanings}</em></span>`;
     iteration += `</div></li><hr/>`;
-    }
     j++;
-
+  }
   html += iteration;
   html += "</ol>";
   return html;
 }
+
+
