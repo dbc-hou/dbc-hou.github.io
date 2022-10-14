@@ -95,6 +95,9 @@ const intoAdjectives = [
   {entry: "collum",
     latinPart: "collāris, -e",
     meanings: "neck"},
+  {entry: "columba",
+    latinPart: "columbīnus, -a, -um",
+    meanings: "dove, pigeon"},
   {entry: "corvus/-a",
     latinPart: "corvīnus, -a, -um",
     meanings: "crow, raven"},
@@ -346,10 +349,7 @@ const others = [
     meanings: "ostrich"},
   {entry: "tergum—Acc. s.",
     latinPart: "tergum",
-    meanings: "back, rear surface"},
-  {entry: "vultur—Nom. pl.",
-    latinPart: "vultūrēs",
-    meanings: "vulture"}
+    meanings: "back, rear surface"}
 ]
 
 
