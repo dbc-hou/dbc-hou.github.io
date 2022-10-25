@@ -31,30 +31,32 @@
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonIII.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonIV.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonVI.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonVII.html'">Next->></button>
       </div>
 
       <h3>Vocabulary Flash Cards</h3>
-      <p>Now that we have enough vocabulary words to warrant it, here is a drill featuring vocabulary from
-        Lessons I through III and the prelude to this volume.</p>
+      <p>Here is a drill featuring vocabulary from Lessons IV through VI. It consists of <span id="how-many-words"></span>
+        words, mostly nouns and verbs plus a pronoun and a preposition. On the popup screen, the Latin word will appear
+        at the top, and then after five seconds the English meaning(s) will show up.</p>
+      <p>Click the navigation buttons on the popup to move through the list.</p>
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill through Lesson III</h5>
+              <h5 class="modal-title">Vocabulary Drill through Lesson VI</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab3);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab6);
                   </script>
                 </div>
-                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>
-                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>
+<!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
+<!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
@@ -74,14 +76,17 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonIII.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonIV.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonVI.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonVII.html'">Next->></button>
     </div>
     </div>
   </div>
 </div>
 
 <script>
+  window.onload = function () {
+    document.getElementById("how-many-words").innerText = vocab6.length;
+  }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
@@ -91,7 +96,7 @@
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab3));
+    $("#carousel-display").val(displayRandom(vocab6));
     $("#vocab-drill").show();
   });
 

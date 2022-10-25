@@ -166,13 +166,20 @@ label {
   color: black;
 }
 
-.chapter:hover {
+.vocab-link {
+  font-weight: bold;
+  font-style: italic;
+  color: darkred;
+  text-underline: darkred;
+}
+
+.chapter:hover, .vocab-review:hover {
   background-color: purple;
   color: gold;
   font-weight: bold;
 }
 
-.chapter-link:hover {
+.chapter-link:hover, .vocab-link:hover {
   background-color: purple;
   color: gold;
 }
