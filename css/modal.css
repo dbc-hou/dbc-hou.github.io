@@ -37,7 +37,7 @@
   font-weight: bolder;
 }
 
-.vocab-span {
+.vocab-span, .notes-span {
   text-align: center;
   font-size: 16pt;
   font-style: italic;
