@@ -26,7 +26,7 @@ const adjectivesAnswers = [
   "<em>Gallic, Celtic</em>—<strong>Gallārum</strong>",
   "<em>German, Germanic</em>—<strong>Germānīs</strong>",
   "<em>Greek</em>—<strong>Graecā</strong>",
-  "<em>Helvetia, Swiss</em>—<strong>Helvētiōrum</strong>",
+  "<em>Helvetian, Swiss</em>—<strong>Helvētiōrum</strong>",
   "<em>Spanish</em>—<strong>Hispāna</strong>",
   "<em>Illyrian</em>—<strong>Illyriīs</strong>",
   "<em>unfriendly</em>—<strong>inimīcum</strong>",
@@ -57,7 +57,7 @@ function displayAdjectives() {
     iteration += `<span id="adjective-span-${j}" class="col-3">${adjectivesLatin[i]}</span>`;
     iteration += `<span id="button-span-${j}" class="col-1"><button id="reveal${j}" class="reveal-vocab btn btn-outline-dark">--></button></span>`;
     iteration += `<span id="agrees-with-${j}" class="col-2" style="margin-left: 10px">${adjectivesAgreeWith[i]}</span>`;
-    iteration += `<span id="vocab${j}" class="vocab-span col-4">${adjectivesAnswers[i]}</span></li>`;
+    iteration += `<span id="vocab${j}" class="vocab-span col-5">${adjectivesAnswers[i]}</span></li>`;
     j++;
   }
   html += iteration;
