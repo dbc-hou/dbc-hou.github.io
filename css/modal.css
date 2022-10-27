@@ -37,10 +37,17 @@
   font-weight: bolder;
 }
 
-.vocab-span, .notes-span {
+.vocab-span {
   text-align: center;
   font-size: 16pt;
   font-style: italic;
+  color: gold;
+  display: none;
+}
+
+.notes-span {
+  text-align: center;
+  font-size: 14pt;
   color: gold;
   display: none;
 }

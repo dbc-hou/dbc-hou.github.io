@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Vocab Review 3</title>
+  <link rel="stylesheet" href="css/latin.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/dragdrop.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/toc.js"></script>
+  <script src="js/vocabCarousel2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+<header id="site-title" class="text-center col-12">
+  <h1>LATIN FOR THE END OF THE WORLD</h1>
+</header>
+<div id="main-container" class="container">
+  <div id="content-row" class="row d-flex justify-items-center">
+    <div id="table-of-contents" class="col-3">
+      <ul id="content-links" class="list-group">
+        <script>
+          document.getElementById("content-links").innerHTML = tableOfContents();
+          fillContentsBox(volIILinks());
+        </script>
+      </ul>
+    </div>
+    <div id="main-text" class="col-8" style="background-color: beige; color: purple">
+      <div id="previous-next-top" class="row justify-content-between mb-4">
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXVI.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXVII.html'">Next->></button>
+      </div>
+
+      <h3>Vocabulary Flash Cards</h3>
+      <p>Here is a drill featuring vocabulary from Lessons XIII through XVI. This time around, we have a mix of
+        nouns, verbs, adjectives, adverbs, pronouns, and conjunctions. The total number of flash cards in this deck is
+        <span id="how-many-words"></span>.</p>
+      <p>The personal pronouns (<strong>ego, tū, nōs, vōs, suī</strong>), as well as the interrogative pronoun
+        (singular forms only) will appear in their various inflected forms—<em>e.g.</em>, <strong>ego, meī, mihi,</strong>
+        and <strong>mē</strong>.</p>
+      <p>The adjectives all appear in their "dictionary" forms: Nominative singular masculine. Practice pronouncing them
+        along with the equivalent feminine and neuter forms.</p>
+      <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
+      <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Vocabulary Drill, Lessons XIII-XVI</h5>
+              <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
+                <div id="carousel-display" class="carousel-inner">
+                  <script>
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab20);
+                  </script>
+                </div>
+<!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
+<!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
+                <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="next" onclick="$('.vocab-span').hide();">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="close" type="button" class="btn btn-close btn-outline-secondary">Hide This Box</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXVI.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXVII.html'">Next->></button>
+    </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.onload = function () {
+    document.getElementById("how-many-words").innerText = vocab20.length;
+  }
+
+  const modal = document.getElementById("vocab-drill");
+  let delay = 5000;
+
+  let timeoutID = setTimeout(function() {
+    $(".vocab-span").show();
+  }, delay);
+
+  $("#launch-modal").click(function() {
+    $("#carousel-display").val(displayRandom(vocab20));
+    $("#vocab-drill").show();
+  });
+
+  $("#reveal").click(function() {
+    $(".vocab-span").show();
+  });
+
+  $(".btn-close").click(function() {
+    $("#vocab-drill").hide();
+  });
+
+  window.onclick = function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  };
+
+  $(".slide-navigator").click(function () {
+    $(".vocab-span").hide();
+    timeoutID = setTimeout(function () {
+      $(".vocab-span").show();
+    }, delay);
+  });
+
+  $("#num-seconds").change(function () {
+    delay = $("this").val() * 1000;
+  });
+
+</script>
+</body>
+</html>
