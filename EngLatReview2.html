@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review 5</title>
+  <title>English-Latin Review 1</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -25,38 +25,39 @@
       <ul id="content-links" class="list-group">
         <script>
           document.getElementById("content-links").innerHTML = tableOfContents();
-          fillContentsBox(volIILinks());
+          fillContentsBox(volILinks());
         </script>
       </ul>
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXX.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXI.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='VocabReview6.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXIV.html'">Next->></button>
       </div>
 
       <h3>Vocabulary Flash Cards</h3>
-      <p>Here is a drill featuring vocabulary from Lessons XVII through XX. As in the previous review, we have a mix of
-        nouns, verbs, adjectives, adverbs, pronouns, and conjunctions. The total number of flash cards in this deck is
-        <span id="how-many-words"></span>.</p>
-      <p>The only pronoun introduced in these lessons is the reflexive pronoun, which in this review will appear
-        in all its inflected forms.</p>
+      <p>There is no need to feel any compulsion to work through this entire list of vocabulary from Lessons XIII
+        through XXIII. After all, there are more than 200 words here, presented in random order.</p>
+      <p>This volume does not contain many pairs or sets of words with overlapping meanings. However, note that we have
+        a noun for <em>happiness</em> and a word for <em>joy</em>, which are only partially synonymous. From the
+        perspective of the ancient world, and of ancient Romans in particular, joy is a momentary, transitory emotion,
+        whereas happiness is more of a long-term condition.</p>
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XVII-XX</h5>
+              <h5 class="modal-title">English-Latin Vocabulary Drill, Volume II</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab20);
+                    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(allVolumeIIVocab);
                   </script>
                 </div>
-<!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
+                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>
 <!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -77,17 +78,17 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXVI.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXVII.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='VocabReview6.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXIV.html'">Next->></button>
     </div>
     </div>
   </div>
 </div>
 
 <script>
-  window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab20.length;
-  }
+  // window.onload = function () {
+  //   document.getElementById("how-many-words").innerText = allVolumeIIVocab.length;
+  // }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
@@ -97,7 +98,7 @@
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab20));
+    $("#carousel-display").val(displayRandomEngLat(allVolumeIIVocab));
     $("#vocab-drill").show();
   });
 

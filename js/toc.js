@@ -58,7 +58,7 @@ function volILinks() {
       <li id="vocab03" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-iii-link" class="vocab-link" href="VocabReview3.html">Vocabulary Review 3</a></li>
       <li id="lesson10" class="list-group-item pl-2 chapter"><a id="lesson-x-link" class="chapter-link" href="LessonX.html">X. Neuter Nouns</a></li>
       <li id="lesson11" class="list-group-item pl-2 chapter"><a id="lesson-xi-link" class="chapter-link" href="LessonXI.html">XI. Indirect Objects</a></li>
-      <li id="englat01" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-englat-link" class="vocab-link" href="EngLatReview1.html">English-Latin Review 1</a></li>
+      <li id="englat01" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-englat1-link" class="vocab-link" href="EngLatReview1.html">English-Latin Review 1</a></li>
       <li id="lesson12" class="list-group-item pl-2 chapter"><a id="lesson-xii-link" class="chapter-link" href="LessonXII.html">XII. Recēnsus I</a></li>
     </ul>`
 }
@@ -71,13 +71,17 @@ function volIILinks() {
       <li id="lesson14" class="list-group-item pl-2 chapter"><a id="lesson-xiv-link" class="chapter-link" href="LessonXIV.html">XIV. Ego et Tū, Brūte</a></li>
       <li id="lesson15" class="list-group-item pl-2 chapter"><a id="lesson-xv-link" class="chapter-link" href="LessonXV.html">XV. Dative Objects</a></li>
       <li id="lesson16" class="list-group-item pl-2 chapter"><a id="lesson-xvi-link" class="chapter-link" href="LessonXVI.html">XVI. Imperative Verb Forms</a></li>
+      <li id="vocab04" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-iv-link" class="vocab-link" href="VocabReview4.html">Vocabulary Review 4</a></li>
       <li id="lesson17" class="list-group-item pl-2 chapter"><a id="lesson-xvii-link" class="chapter-link" href="LessonXVII.html">XVII. Preposition Power</a></li>
       <li id="lesson18" class="list-group-item pl-2 chapter"><a id="lesson-xviii-link" class="chapter-link" href="LessonXVII.html">XVIII. Dative with Adjectives</a></li>
       <li id="lesson19" class="list-group-item pl-2 chapter"><a id="lesson-xix-link" class="chapter-link" href="LessonXIX.html">XIX. Fun with Infinitives</a></li>
       <li id="lesson20" class="list-group-item pl-2 chapter"><a id="lesson-xx-link" class="chapter-link" href="LessonXX.html">XX. Imperfect Tense (I was/were verbing)</a></li>
+      <li id="vocab05" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-v-link" class="vocab-link" href="VocabReview5.html">Vocabulary Review 5</a></li>
       <li id="lesson21" class="list-group-item pl-2 chapter"><a id="lesson-xxi-link" class="chapter-link" href="LessonXXI.html">XXI. Future Tense (I will verb)</a></li>
       <li id="lesson22" class="list-group-item pl-2 chapter"><a id="lesson-xxii-link" class="chapter-link" href="LessonXXII.html">XXII. Irregular Imperfect and Future</a></li>
       <li id="lesson23" class="list-group-item pl-2 chapter"><a id="lesson-xxiii-link" class="chapter-link" href="LessonXXIII.html">XXIII. Passive Voice Endings (I am verbed)</a></li>
+      <li id="vocab06" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-vi-link" class="vocab-link" href="VocabReview6.html">Vocabulary Review 6</a></li>
+      <li id="englat02" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-englat2-link" class="vocab-link" href="EngLatReview2.html">English-Latin Review 2</a></li>
       <li id="lesson24" class="list-group-item pl-2 chapter"><a id="lesson-xxiv-link" class="chapter-link" href="LessonXXIV.html">XXIV. Recēnsus II</a></li>
     </ul>`
 }
