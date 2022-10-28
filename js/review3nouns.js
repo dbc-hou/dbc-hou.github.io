@@ -79,7 +79,7 @@ const nhaAnswers = [
 const placesLatin = ["Aegyptus—Abl. s.", "Āfrica—Acc. s.", "arbor—Dat. s.", "Āsia—Dat. s.", "collis—Dat. pl.",
   "Corsica—Gen. s.", "Crēta—Voc. s.", "Cyprus—Gen. s.", "Etrūria—Dat. s.", "flūmen—Abl. s.", "fōns—Abl. pl.",
   "Iudaea—Abl. s.", "Lātium—Gen. s.", "Lusitānia—Acc. s.", "Macedōnia—Dat. s.", "mare—Acc. pl.", "Mauretānia—Dat. s.",
-  "mōns—Acc. s.", "nix—Gen. s.", "nōx—Nom. pl.", "Numidia—Dat. s.", "regiō—Gen. pl.", "Syria—Abl. s.",
+  "mōns—Acc. s.", "nix—Gen. s.", "nōx—Nom. pl.", "Numidia—Dat. s.", "Persia—Abl. s.", "regiō—Gen. pl.", "Syria—Abl. s.",
   "tempus—Nom. pl.", "vallēs—Acc. pl."];
 const placesAnswers = [
   "<em>Egypt</em>—<strong>Aegyptō</strong>",
@@ -103,6 +103,7 @@ const placesAnswers = [
   "<em>snow</em>—<strong>nivis</strong>",
   "<em>night</em>—<strong>noctēs</strong>",
   "<em>Numidia (northwestern Africa)</em>—<strong>Numidiae</strong>",
+  "<em>Persia (now Iran)</em>—<strong>Persiā</strong>",
   "<em>region</em>—<strong>regiōnum</strong>",
   "<em>Syria</em>—<strong>Syriā</strong>",
   "<em>time, weather</em>—<strong>tempora</strong>",
