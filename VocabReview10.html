@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review 8</title>
+  <title>Vocab Review 10</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -31,39 +31,33 @@
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXX.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXI.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXV.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVI.html'">Next->></button>
       </div>
 
       <h3>Vocabulary Flash Cards</h3>
-      <p>Lessons XXVIII through XXX are noun-heavy. Lesson XXVIII also reintroduces some familiar nouns that are
-        spelled very much like their English equivalents; those nouns are <em>not</em> included in this review.</p>
-      <p>Remember the stem changes that nouns in the preceding lessons undergo:</p>
+      <p>This final Latin-to-English vocabulary drill is all about the Declension III adjectives. These adjectives come
+        in three main varieties: one-, two-, and three-termination.
+      <p>In addition to the adjectives, Lesson XXXIV contains two nouns that are in the tiny subcategory
+        Declension III-i-neuter:</p>
       <ul>
-        <li>from <strong>-or</strong> to <strong>-ōris</strong></li>
-        <li>from <strong>-ō</strong> to <strong>-ōnis, -inis,</strong> or just <strong>-nis</strong></li>
-        <li>from <strong>-x</strong> to <strong>-cis</strong>, <strong>-gis</strong> (after <strong>e/ē</strong>),
-          or the rare <strong>-vis</strong></li>
+        <li><strong>animal, animālis</strong> = <em>animal</em></li>
+        <li><strong>mare, maris</strong> = <em>sea</em></li>
       </ul>
-      <p>Again, verbs in these lessons are very sparse. Here is the whole collection of verbs:</p>
-      <ul>
-        <li><strong>gregō, gregāre</strong> = <em>to herd, to assemble a group</em></li>
-        <li><strong>lūceō, lūcēre</strong> = <em>to shine, to glow</em></li>
-        <li><strong>ōrdinō, ōrdināre</strong> = <em>to place in order, to arrange</em></li>
-      </ul>
+      <p>This review is short, with only <span id="how-many-words"></span> adjectives.</p>
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XXV-XXVII</h5>
+              <h5 class="modal-title">Vocabulary Drill, Lessons XXXIV and XXXV</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab30);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab35);
                   </script>
                 </div>
 <!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
@@ -87,8 +81,8 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXX.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXI.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXV.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVI.html'">Next->></button>
     </div>
     </div>
   </div>
@@ -96,7 +90,7 @@
 
 <script>
   window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab30.length;
+    document.getElementById("how-many-words").innerText = vocab35.length - 2;
   }
 
   const modal = document.getElementById("vocab-drill");
@@ -104,15 +98,17 @@
 
   let timeoutID = setTimeout(function() {
     $(".vocab-span").show();
+    $(".notes-span").show();
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab30));
+    $("#carousel-display").val(displayRandom(vocab35));
     $("#vocab-drill").show();
   });
 
   $("#reveal").click(function() {
     $(".vocab-span").show();
+    $(".notes-span").show();
   });
 
   $(".btn-close").click(function() {
@@ -127,8 +123,10 @@
 
   $(".slide-navigator").click(function () {
     $(".vocab-span").hide();
+    $(".notes-span").hide();
     timeoutID = setTimeout(function () {
       $(".vocab-span").show();
+      $(".notes-span").show();
     }, delay);
   });
 

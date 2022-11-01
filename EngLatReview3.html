@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review 8</title>
+  <title>English-Latin Review 3</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -31,42 +31,39 @@
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXX.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXI.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='VocabReview10.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVI.html'">Next->></button>
       </div>
 
       <h3>Vocabulary Flash Cards</h3>
-      <p>Lessons XXVIII through XXX are noun-heavy. Lesson XXVIII also reintroduces some familiar nouns that are
-        spelled very much like their English equivalents; those nouns are <em>not</em> included in this review.</p>
-      <p>Remember the stem changes that nouns in the preceding lessons undergo:</p>
+      <p>Volume III introduces nearly 200 new vocabulary words and reintroduces several others. It focuses mostly
+        on nouns and adjectives, but it does include a few verbs and others. As you cycle through this set of
+        English-to-Latin flash cards:</p>
       <ul>
-        <li>from <strong>-or</strong> to <strong>-ōris</strong></li>
-        <li>from <strong>-ō</strong> to <strong>-ōnis, -inis,</strong> or just <strong>-nis</strong></li>
-        <li>from <strong>-x</strong> to <strong>-cis</strong>, <strong>-gis</strong> (after <strong>e/ē</strong>),
-          or the rare <strong>-vis</strong></li>
+        <li>For each noun, remember the Nominative and Genitive singular forms, and whether they have an <strong>-ium</strong>
+          in the Genitive plural.</li>
+        <li>For each adjective, remember the Nominative singular forms to agree masculine, feminine, and neuter nouns.
+          (We may be using <strong>uter</strong> to refer to persons who can be either masculine or feminine, but as far
+          as we know, the Romans did not introduce an <strong>uter</strong> column in their declension tables.)
+        </li>
       </ul>
-      <p>Again, verbs in these lessons are very sparse. Here is the whole collection of verbs:</p>
-      <ul>
-        <li><strong>gregō, gregāre</strong> = <em>to herd, to assemble a group</em></li>
-        <li><strong>lūceō, lūcēre</strong> = <em>to shine, to glow</em></li>
-        <li><strong>ōrdinō, ōrdināre</strong> = <em>to place in order, to arrange</em></li>
-      </ul>
+      <p>As usual, for each word, you can wait five seconds to see whether what you've remembered is correct.</p>
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XXV-XXVII</h5>
+              <h5 class="modal-title">English-Latin Vocabulary Drill, Volume III</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab30);
+                    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(allVolumeIIIVocab);
                   </script>
                 </div>
-<!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
+                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>
 <!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -87,17 +84,17 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXX.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXI.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='VocabReview10.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVI.html'">Next->></button>
     </div>
     </div>
   </div>
 </div>
 
 <script>
-  window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab30.length;
-  }
+  // window.onload = function () {
+  //   document.getElementById("how-many-words").innerText = allVolumeIIIVocab.length;
+  // }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
@@ -107,7 +104,7 @@
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab30));
+    $("#carousel-display").val(displayRandomEngLat(allVolumeIIIVocab));
     $("#vocab-drill").show();
   });
 
