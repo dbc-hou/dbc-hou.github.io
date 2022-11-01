@@ -980,4 +980,4 @@ function displayRandomEngLat(array) {
   return html;
 }
 
-console.log(allVolumeIIVocab.length);
+console.log(vocab27.length);
