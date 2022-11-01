@@ -93,14 +93,19 @@ function volIIILinks() {
       <li id="lesson25" class="list-group-item pl-2 chapter"><a id="lesson-xxv-link" class="chapter-link" href="LessonXXV.html">XXV. Colōrēs</a></li>
       <li id="lesson26" class="list-group-item pl-2 chapter"><a id="lesson-xxvi-link" class="chapter-link" href="LessonXXVI.html">XXVI. Superlative Adjectives</a></li>
       <li id="lesson27" class="list-group-item pl-2 chapter"><a id="lesson-xxvii-link" class="chapter-link" href="LessonXXVII.html">XXVII. Declension III (Regular)</a></li>
+      <li id="vocab07" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-vii-link" class="vocab-link" href="VocabReview7.html">Vocabulary Review 7</a></li>
       <li id="lesson28" class="list-group-item pl-2 chapter"><a id="lesson-xxviii-link" class="chapter-link" href="LessonXXVIII.html">XXVIII. -or, -ōris Nouns</a></li>
       <li id="lesson29" class="list-group-item pl-2 chapter"><a id="lesson-xxix-link" class="chapter-link" href="LessonXXIX.html">XXIX. -ō, -ōnis Nouns</a></li>
       <li id="lesson30" class="list-group-item pl-2 chapter"><a id="lesson-xxx-link" class="chapter-link" href="LessonXXX.html">XXX. -x, -cis/-gis Nouns</a></li>
+      <li id="vocab08" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-viii-link" class="vocab-link" href="VocabReview8.html">Vocabulary Review 8</a></li>
       <li id="lesson31" class="list-group-item pl-2 chapter"><a id="lesson-xxxi-link" class="chapter-link" href="LessonXXXI.html">XXXI. Declension III-i, Part I</a></li>
       <li id="lesson32" class="list-group-item pl-2 chapter"><a id="lesson-xxxii-link" class="chapter-link" href="LessonXXXII.html">XXXII. Declension III-i, Part II</a></li>
       <li id="lesson33" class="list-group-item pl-2 chapter"><a id="lesson-xxxiii-link" class="chapter-link" href="LessonXXXIII.html">XXXIII. Declension III-Neuter</a></li>
+      <li id="vocab09" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-ix-link" class="vocab-link" href="VocabReview9.html">Vocabulary Review 9</a></li>
       <li id="lesson34" class="list-group-item pl-2 chapter"><a id="lesson-xxxiv-link" class="chapter-link" href="LessonXXXIV.html">XXXIV. Declension III Adjectives</a></li>
       <li id="lesson35" class="list-group-item pl-2 chapter"><a id="lesson-xxxv-link" class="chapter-link" href="LessonXXXV.html">XXXV. More Declension III Adjectives</a></li>
+      <li id="vocab10" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-x-link" class="vocab-link" href="VocabReview10.html">Vocabulary Review 10</a></li>
+      <li id="englat03" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-englat3-link" class="vocab-link" href="EngLatReview3.html">English-Latin Review 3</a></li>
       <li id="lesson36" class="list-group-item pl-2 chapter"><a id="lesson-xxxvi-link" class="chapter-link" href="LessonXXXVI.html">XXXVI. Recēnsus III</a></li>
     </ul>`
 }
