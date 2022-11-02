@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review 11</title>
+  <title>Vocab Review 12</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -35,32 +35,30 @@
         <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVI.html'">Next->></button>
       </div>
 
-      <h3>Vocabulary—Descriptive Nouns</h3>
-      <p>Here's a special drill consisting of nouns formed by adding suffixes to the stems of adjectives (and sometimes
-        other nouns) with perhaps an additional letter thrown in for pronounceability. Those suffixes are:</p>
+      <h3>Vocabulary—Perfect Verbs</h3>
+      <p>In this drill, all the verbs will appear in the perfect tense. Most of them will be 1st-person singular
+        (<em>I [have] <span style="text-decoration: underline">verb</span>ed</em>), plus a few impersonal verbs in
+        3rd-person singular (<em>it [has] <span style="text-decoration: underline">verb</span>ed</em>).</p>
+      <p>Remember the following facts from the Prelude to Volume IV:
       <ul>
-        <li><strong>-tās, -tātis</strong></li>
-        <li><strong>-tūs, -tūtis</strong></li>
-        <li><strong>-tūdō, -tūdinis</strong></li>
-        <li><strong>-ēdō, -ēdinis</strong></li>
-        <li><strong>-tia, -tiae</strong></li>
+        <li>Not all Conjugation I verbs have the standard <strong>-āvī</strong> ending for their third principal parts</li>
+        <li>Only about half of the Conjugation II verbs have the standard <strong>-uī</strong> ending.</li>
+        <li>Irregular verbs are irregular, but their perfect-system forms behave in fairly predictable ways. </li>
       </ul>
-      <p>In this drill, you can choose Latin-to-English or English-to-Latin. Either way, it will test your memory
-        of many Latin adjectives as well as the nouns related to them.</p>
 
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Descriptive Nouns</h5>
+              <h5 class="modal-title">Vocabulary Drill, Third Principal Parts</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocabDN);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab3PP);
                   </script>
                 </div>
                 <p><input id="lat-eng" type="radio" name="translation" checked>Latin to English</input></p>
@@ -94,37 +92,34 @@
 
 <script>
   // window.onload = function () {
-  //   document.getElementById("how-many-words").innerText = vocabDN.length - 2;
+  //   document.getElementById("how-many-words").innerText = vocab3PP.length - 2;
   // }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
 
   let timeoutID = setTimeout(function() {
-    $(".vocab-span").css("text-align: center").show();
+    $(".vocab-span").show();
     $(".notes-span").show();
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocabDN));
+    $("#carousel-display").val(displayRandom(vocab3PP));
     $("#vocab-drill").show();
   });
 
   $("#eng-lat").click(function() {
     $(".vocab-span").hide();
-    $(".notes-span").hide();
-    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(vocabDN);
+    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(vocab3PP);
   });
 
   $("#lat-eng").click(function() {
     $(".vocab-span").hide();
-    $(".notes-span").hide();
-    document.getElementById("carousel-display").innerHTML = displayRandom(vocabDN);
+    document.getElementById("carousel-display").innerHTML = displayRandom(vocab3PP);
   });
 
-  $(".reveal-answer").click(function () {
+  $("#reveal").click(function () {
     $(".vocab-span").show();
-    $(".notes-span").show();
   })
 
   $(".btn-close").click(function() {
@@ -139,11 +134,9 @@
 
   $(".slide-navigator").click(function () {
     $(".vocab-span").hide();
-    $(".notes-span").hide();
     timeoutID = setTimeout(function () {
       $(".vocab-span").show();
-      $(".notes-span").show();
-    }, delay);
+    }, 5000);
   });
 
   $("#num-seconds").change(function () {
