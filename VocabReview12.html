@@ -36,14 +36,16 @@
       </div>
 
       <h3>Vocabulary—Perfect Verbs</h3>
-      <p>In this drill, all the verbs will appear in the perfect tense. Most of them will be 1st-person singular
-        (<em>I [have] <span style="text-decoration: underline">verb</span>ed</em>), plus a few impersonal verbs in
+      <p>This drill consists of the third principal parts of <span id="how-many-words"></span> verbs. That means that
+        the verbs will all appear in the perfect tense, active voice. Almost all will be 1st-person singular
+        (<em>I [have] <span style="text-decoration: underline">verb</span>ed</em>); the others are impersonal verbs in
         3rd-person singular (<em>it [has] <span style="text-decoration: underline">verb</span>ed</em>).</p>
       <p>Remember the following facts from the Prelude to Volume IV:
       <ul>
-        <li>Not all Conjugation I verbs have the standard <strong>-āvī</strong> ending for their third principal parts</li>
-        <li>Only about half of the Conjugation II verbs have the standard <strong>-uī</strong> ending.</li>
-        <li>Irregular verbs are irregular, but their perfect-system forms behave in fairly predictable ways. </li>
+        <li>Not all verbs of Conjugation I have the standard <strong>-āvī</strong> ending for their third principal parts
+          (but most do).</li>
+        <li>Just over half of the Conjugation II verbs have the standard <strong>-uī</strong> ending.</li>
+        <li>Irregular verbs are, well, irregular, but their perfect-system forms behave in fairly predictable ways. </li>
       </ul>
 
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
@@ -91,9 +93,9 @@
 </div>
 
 <script>
-  // window.onload = function () {
-  //   document.getElementById("how-many-words").innerText = vocab3PP.length - 2;
-  // }
+  window.onload = function () {
+    document.getElementById("how-many-words").innerText = vocab3PP.length;
+  }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;

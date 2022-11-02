@@ -36,7 +36,7 @@
       </div>
 
       <h3>Vocabulary—Descriptive Nouns</h3>
-      <p>Here's a special drill consisting of nouns formed by adding suffixes to the stems of adjectives (and sometimes
+      <p>Here's a special drill consisting of <span id="how-many-words"></span> nouns formed by adding suffixes to the stems of adjectives (and sometimes
         other nouns) with perhaps an additional letter thrown in for pronounceability. Those suffixes are:</p>
       <ul>
         <li><strong>-tās, -tātis</strong></li>
@@ -93,9 +93,9 @@
 </div>
 
 <script>
-  // window.onload = function () {
-  //   document.getElementById("how-many-words").innerText = vocabDN.length - 2;
-  // }
+  window.onload = function () {
+    document.getElementById("how-many-words").innerText = vocabDN.length;
+  }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
