@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review 10</title>
+  <title>Vocab Review 11</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -11,7 +11,7 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/toc.js"></script>
-  <script src="js/vocabCarousel3.js"></script>
+  <script src="js/vocabCarousel4.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -25,7 +25,7 @@
       <ul id="content-links" class="list-group">
         <script>
           document.getElementById("content-links").innerHTML = tableOfContents();
-          fillContentsBox(volIIILinks());
+          fillContentsBox(volIVLinks());
         </script>
       </ul>
     </div>
@@ -35,33 +35,37 @@
         <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVI.html'">Next->></button>
       </div>
 
-      <h3>Vocabulary Flash Cards</h3>
-      <p>The final Latin-to-English vocabulary drill in Volume III is all about the Declension III adjectives.
-        These adjectives come in three main varieties: one-, two-, and three-termination.</p>
-      <p>In addition to the adjectives, Lesson XXXIV contains two nouns that are in the tiny subcategory
-        Declension III-i-neuter:</p>
+      <h3>Vocabulary—Descriptive Nouns</h3>
+      <p>Here's a special drill consisting of nouns formed by adding suffixes to the stems of adjectives (and sometimes
+        other nouns) with perhaps an additional letter thrown in for pronounceability. Those suffixes are:</p>
       <ul>
-        <li><strong>animal, animālis</strong> = <em>animal</em></li>
-        <li><strong>mare, maris</strong> = <em>sea</em></li>
+        <li><strong>-tās, -tātis</strong></li>
+        <li><strong>-tūs, -tūtis</strong></li>
+        <li><strong>-tūdō, -tūdinis</strong></li>
+        <li><strong>-ēdō, -ēdinis</strong></li>
+        <li><strong>-tia, -tiae</strong></li>
       </ul>
-      <p>This review is short, with only <span id="how-many-words"></span> adjectives.</p>
+      <p>In this drill, you can choose Latin-to-English or English-to-Latin. Either way, it will test your memory
+        of many Latin adjectives as well as the nouns related to them.</p>
+
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XXXIV and XXXV</h5>
+              <h5 class="modal-title">Vocabulary Drill, Descriptive</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab35);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocabDN);
                   </script>
                 </div>
-<!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
-<!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
+                <p><input id="lat-eng" type="radio" name="translation" checked>Latin to English</input></p>
+                <p><input id="eng-lat" type="radio" name="translation">English to Latin</p>
+                <button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button>
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
@@ -89,27 +93,39 @@
 </div>
 
 <script>
-  window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab35.length - 2;
-  }
+  // window.onload = function () {
+  //   document.getElementById("how-many-words").innerText = vocabDN.length - 2;
+  // }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
 
   let timeoutID = setTimeout(function() {
-    $(".vocab-span").show();
+    $(".vocab-span").css("text-align: center").show();
     $(".notes-span").show();
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab35));
+    $("#carousel-display").val(displayRandom(vocabDN));
     $("#vocab-drill").show();
   });
 
-  $("#reveal").click(function() {
+  $("#eng-lat").click(function() {
+    $(".vocab-span").hide();
+    $(".notes-span").hide();
+    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(vocabDN);
+  });
+
+  $("#lat-eng").click(function() {
+    $(".vocab-span").hide();
+    $(".notes-span").hide();
+    document.getElementById("carousel-display").innerHTML = displayRandom(vocabDN);
+  });
+
+  $(".reveal-answer").click(function () {
     $(".vocab-span").show();
     $(".notes-span").show();
-  });
+  })
 
   $(".btn-close").click(function() {
     $("#vocab-drill").hide();

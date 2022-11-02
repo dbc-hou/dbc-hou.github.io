@@ -12,7 +12,7 @@ const verbsAnswers = [
   "<em>to give</em>",
   "<em>to owe, to be obligated (ought)</em>",
   "<em>to teach</em>",
-  "<em>to to ride (a horse)</em>",
+  "<em>to ride (a horse)</em>",
   "<em>to wander, to stray, to err</em>",
   "<em>to be</em>",
   "<em>to become, to be made</em>",
