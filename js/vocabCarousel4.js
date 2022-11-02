@@ -972,3 +972,5 @@ function displayRandomEngLat(array) {
   }
   return html;
 }
+
+console.log(allVolumeIVVocab);
