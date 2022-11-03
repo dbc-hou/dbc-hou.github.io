@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review VIII</title>
+  <title>Vocab Review XIII</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -11,7 +11,7 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/toc.js"></script>
-  <script src="js/vocabCarousel3.js"></script>
+  <script src="js/vocabCarousel4.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -25,49 +25,43 @@
       <ul id="content-links" class="list-group">
         <script>
           document.getElementById("content-links").innerHTML = tableOfContents();
-          fillContentsBox(volIIILinks());
+          fillContentsBox(volIVLinks());
         </script>
       </ul>
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXX.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXI.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVIII.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXIX.html'">Next->></button>
       </div>
 
-      <h3>Vocabulary Flash Cards</h3>
-      <p>Lessons XXVIII through XXX are noun-heavy. Lesson XXVIII also reintroduces some familiar nouns that are
-        spelled very much like their English equivalents; those nouns are <em>not</em> included in this review.</p>
-      <p>Remember the stem changes that nouns in the preceding lessons undergo:</p>
-      <ul>
-        <li>from <strong>-or</strong> to <strong>-ōris</strong></li>
-        <li>from <strong>-ō</strong> to <strong>-ōnis, -inis,</strong> or just <strong>-nis</strong></li>
-        <li>from <strong>-x</strong> to <strong>-cis</strong>, <strong>-gis</strong> (after <strong>e/ē</strong>),
-          or the rare <strong>-vis</strong></li>
-      </ul>
-      <p>Again, verbs in these lessons are very sparse. Here is the whole collection of verbs:</p>
-      <ul>
-        <li><strong>gregō, gregāre</strong> = <em>to herd, to assemble a group</em></li>
-        <li><strong>lūceō, lūcēre</strong> = <em>to shine, to glow</em></li>
-        <li><strong>ōrdinō, ōrdināre</strong> = <em>to place in order, to arrange</em></li>
-      </ul>
+      <h3>Vocabulary—Lessons XXXVII-XXXVIII</h3>
+      <p>Let's take in a quick review and see how well you know time.</p>
+      <p>The vocabulary in this review comes only from Lessons XXXVII and XXXVIII, all having to do with time—
+        including the ordinal adjectives through <em>twelfth</em> and the months of the year (which should not be
+        very difficult) There is a mix of nouns, adjectives, and adverbs. Again, you can choose Latin to English translation
+        or <em>vice versa</em>.</p>
+      <p>Remember that the names of the months are adjectives: seven are of the <strong>-us/-a/-um</strong> variety,
+        and the rest are Declension III.</p>
+
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XXV-XXVII</h5>
+              <h5 class="modal-title">Vocabulary Drill, Lessons XXXVII-XXXVIII</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab30);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab38);
                   </script>
                 </div>
-<!--                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>-->
-<!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
+                <p><input id="lat-eng" type="radio" name="translation" checked>Latin to English</input></p>
+                <p><input id="eng-lat" type="radio" name="translation">English to Latin</p>
+                <button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button>
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
@@ -87,8 +81,8 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXX.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXI.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXVIII.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXXXIX.html'">Next->></button>
     </div>
     </div>
   </div>
@@ -96,7 +90,7 @@
 
 <script>
   window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab30.length;
+    document.getElementById("how-many-words").innerText = vocab38.length;
   }
 
   const modal = document.getElementById("vocab-drill");
@@ -104,16 +98,27 @@
 
   let timeoutID = setTimeout(function() {
     $(".vocab-span").show();
+    $(".notes-span").show();
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab30));
+    $("#carousel-display").val(displayRandom(vocab38));
     $("#vocab-drill").show();
   });
 
-  $("#reveal").click(function() {
-    $(".vocab-span").show();
+  $("#eng-lat").click(function() {
+    $(".vocab-span").hide();
+    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(vocab38);
   });
+
+  $("#lat-eng").click(function() {
+    $(".vocab-span").hide();
+    document.getElementById("carousel-display").innerHTML = displayRandom(vocab38);
+  });
+
+  $("#reveal").click(function () {
+    $(".vocab-span").show();
+  })
 
   $(".btn-close").click(function() {
     $("#vocab-drill").hide();
@@ -129,7 +134,7 @@
     $(".vocab-span").hide();
     timeoutID = setTimeout(function () {
       $(".vocab-span").show();
-    }, delay);
+    }, 5000);
   });
 
   $("#num-seconds").change(function () {

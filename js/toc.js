@@ -121,6 +121,7 @@ function volIVLinks() {
       <li id="vocab12" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xii-link" class="vocab-link" href="VocabReviewXII.html">Vocabulary Review XII</a></li>
       <li id="lesson37" class="list-group-item pl-2 chapter"><a id="lesson-xxxvii-link" class="chapter-link" href="LessonXXXVII.html">XXXVII. Timely Nouns</a></li>
       <li id="lesson38" class="list-group-item pl-2 chapter"><a id="lesson-xxxviii-link" class="chapter-link" href="LessonXXXVIII.html">XXXVIII. Timely Adverbs</a></li>
+      <li id="vocab13" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xiii-link" class="vocab-link" href="VocabReviewXIII.html">Vocabulary Review XIII</a></li>
       <li id="lesson39" class="list-group-item pl-2 chapter"><a id="lesson-xxxix-link" class="chapter-link" href="LessonXXXIX.html">XXXIX. Conjugation IV</a></li>
       <li id="lesson40" class="list-group-item pl-2 chapter"><a id="lesson-xl-link" class="chapter-link" href="LessonXL.html">XL. Conjugation III (Regular)</a></li>
       <li id="lesson41" class="list-group-item pl-2 chapter"><a id="lesson-xli-link" class="chapter-link" href="LessonXLI.html">XLI. Perfect Tense, Active</a></li>
