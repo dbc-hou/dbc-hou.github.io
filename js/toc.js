@@ -126,11 +126,14 @@ function volIVLinks() {
       <li id="lesson40" class="list-group-item pl-2 chapter"><a id="lesson-xl-link" class="chapter-link" href="LessonXL.html">XL. Conjugation III (Regular)</a></li>
       <li id="lesson41" class="list-group-item pl-2 chapter"><a id="lesson-xli-link" class="chapter-link" href="LessonXLI.html">XLI. Perfect Tense, Active</a></li>
       <li id="lesson42" class="list-group-item pl-2 chapter"><a id="lesson-xlii-link" class="chapter-link" href="LessonXLII.html">XLII. Conjugation III-i</a></li>
+      <li id="vocab14" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xiv-link" class="vocab-link" href="VocabReviewXIV.html">Vocabulary Review XIV</a></li>
       <li id="lesson43" class="list-group-item pl-2 chapter"><a id="lesson-xliii-link" class="chapter-link" href="LessonXLIII.html">XLIII. Pluperfect and Future Perfect Tenses, Active</a></li>
       <li id="lesson44" class="list-group-item pl-2 chapter"><a id="lesson-xliv-link" class="chapter-link" href="LessonXLIV.html">XLIV. Comparative Adjectives</a></li>
       <li id="lesson45" class="list-group-item pl-2 chapter"><a id="lesson-xlv-link" class="chapter-link" href="LessonXLV.html">XLV. More Declension III-Neuter Nouns</a></li>
       <li id="lesson46" class="list-group-item pl-2 chapter"><a id="lesson-xlvi-link" class="chapter-link" href="LessonXLVI.html">XLVI. Comparative and Superlative Locations</a></li>
       <li id="lesson47" class="list-group-item pl-2 chapter"><a id="lesson-xlvii-link" class="chapter-link" href="LessonXLVII.html">XLVII. Asking for Directions</a></li>
+      <li id="vocab15" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xv-link" class="vocab-link" href="VocabReviewXV.html">Vocabulary Review XV</a></li>
+      <li id="englat04" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-englat4-link" class="vocab-link" href="EngLatReviewIV.html">English-Latin Review IV</a></li>
       <li id="lesson48" class="list-group-item pl-2 chapter"><a id="lesson-xlviii-link" class="chapter-link" href="LessonXLVIII.html">XLVIII. Recēnsus IV</a></li>
     </ul>`
 }
