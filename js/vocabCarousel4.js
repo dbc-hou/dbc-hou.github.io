@@ -90,7 +90,7 @@ const vocabDN = [
   {latin: "similitūdō",
     english: "similarity, resemblance"},
   {latin: "turpitūdō",
-    english: "ugnliness, shamefulness"},
+    english: "ugliness, shamefulness"},
   {latin: "iuventūs",
     english: "youth"},
   {latin: "senectūs",
