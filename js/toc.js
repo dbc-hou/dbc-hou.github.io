@@ -146,13 +146,17 @@ function volVLinks() {
       <li id="lesson50" class="list-group-item pl-2 chapter"><a id="lesson-l-link" class="chapter-link" href="LessonL.html">L. Declension IV Neuter and Verbal Nouns</a></li>
       <li id="lesson51" class="list-group-item pl-2 chapter"><a id="lesson-li-link" class="chapter-link" href="LessonLI.html">LI. Declension V</a></li>
       <li id="lesson52" class="list-group-item pl-2 chapter"><a id="lesson-lii-link" class="chapter-link" href="LessonLII.html">LII. In Exercitū Nunc Es</a></li>
+      <li id="vocab16" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xvi-link" class="vocab-link" href="VocabReviewXVI.html">Vocabulary Review XVI</a></li>
       <li id="lesson53" class="list-group-item pl-2 chapter"><a id="lesson-liii-link" class="chapter-link" href="LessonLIII.html">LIII. Perfect System, Passive Voice</a></li>
       <li id="lesson54" class="list-group-item pl-2 chapter"><a id="lesson-liv-link" class="chapter-link" href="LessonLIV.html">LIV. Complex Compounds</a></li>
       <li id="lesson55" class="list-group-item pl-2 chapter"><a id="lesson-lv-link" class="chapter-link" href="LessonLV.html">LV. More Compounds and a Complex Pronoun</a></li>
+      <li id="vocab17" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xvii-link" class="vocab-link" href="VocabReviewXVII.html">Vocabulary Review XVII</a></li>
       <li id="lesson56" class="list-group-item pl-2 chapter"><a id="lesson-lvi-link" class="chapter-link" href="LessonLVI.html">LVI. Pronominal Declension</a></li>
       <li id="lesson57" class="list-group-item pl-2 chapter"><a id="lesson-lvii-link" class="chapter-link" href="LessonLVII.html">LVII. -dex, -fex, -spex, and -tas Nouns</a></li>
       <li id="lesson58" class="list-group-item pl-2 chapter"><a id="lesson-lviii-link" class="chapter-link" href="LessonLVIII.html">LVIII. The Magical s Termination</a></li>
       <li id="lesson59" class="list-group-item pl-2 chapter"><a id="lesson-lix-link" class="chapter-link" href="LessonLIX.html">LIX. Nouns Having Been Verbed</a></li>
+      <li id="vocab18" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-xviii-link" class="vocab-link" href="VocabReviewXVIII.html">Vocabulary Review XVIII</a></li>
+      <li id="englat05" class="list-group-item pl-2 chapter vocab-review"><a id="vocab-englat5-link" class="vocab-link" href="EngLatReviewV.html">English-Latin Review V</a></li>
       <li id="lesson60" class="list-group-item pl-2 chapter"><a id="lesson-lx-link" class="chapter-link" href="LessonLX.html">LX. Recēnsus V</a></li>
     </ul>`
 }

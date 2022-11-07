@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review XVI</title>
+  <title>English-Latin Review IV</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -31,33 +31,39 @@
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLII.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIII.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='VocabReviewXVIII.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLX.html'">Next->></button>
       </div>
 
-      <h3>Vocabulary—Lessons XLIX-LII</h3>
-      <p>The four chapters preceding this review introduced mostly nouns—focusing on Declensions IV and V, but including
-        all the others as well. We also have some related adjectives, verbs, idiomatic phrases, and a single adverb,
-        providing a total of <span id="how-many-words"></span> entries to review.</p>
-      <p>The answer for each noun will include its English meanings and Genitive singular form (or, in some cases,
-        Genitive plural).</p>
+      <h3>English-to-Latin Flash Cards</h3>
+      <p>This is a straight-ahead review of approximately <span id="how-many-words"></span> words and phrases
+        introduced in Volume V.</p>
+      <ul>
+        <li>For the English nouns, just give the Latin equivalent (or equivalents) in the Nominative singular.</li>
+        <li>For pronouns and pronominal adjectives, give the Nominative singular of all three genders.</li>
+        <li>For the other adjectives, just provide the Nominative singular masculine ("dictionary" form).</li>
+        <li>For verbs, just provide the infinitive form for each; if you can remember the other principal parts, that's
+          great but not very important for this review.</li>
+      </ul>
 
+      <p>As usual, for each word, you can wait five seconds to see whether what you've remembered is correct.</p>
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XLIX-LII</h5>
+              <h5 class="modal-title">English-Latin Vocabulary Drill, Volume V</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab52);
+                    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(allVolumeVVocab);
                   </script>
                 </div>
-                <button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button>
+                <p><button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button></p>
+<!--                <span>Wait <input type="text" size="3" id="num-seconds" placeholder="5"> seconds before displaying answer.</span>-->
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
@@ -77,8 +83,8 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLII.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIII.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='VocabReviewXVIII.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLX.html'">Next->></button>
     </div>
     </div>
   </div>
@@ -86,7 +92,7 @@
 
 <script>
   window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab52.length;
+    document.getElementById("how-many-words").innerText = allVolumeVVocab.length;
   }
 
   const modal = document.getElementById("vocab-drill");
@@ -94,18 +100,16 @@
 
   let timeoutID = setTimeout(function() {
     $(".vocab-span").show();
-    $(".notes-span").show();
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab52));
+    $("#carousel-display").val(displayRandomEngLat(allVolumeVVocab));
     $("#vocab-drill").show();
   });
 
-  $("#reveal").click(function () {
+  $("#reveal").click(function() {
     $(".vocab-span").show();
-    $(".notes-span").show();
-  })
+  });
 
   $(".btn-close").click(function() {
     $("#vocab-drill").hide();
@@ -119,11 +123,13 @@
 
   $(".slide-navigator").click(function () {
     $(".vocab-span").hide();
-    $(".notes-span").hide();
     timeoutID = setTimeout(function () {
       $(".vocab-span").show();
-      $(".notes-span").show();
-    }, 5000);
+    }, delay);
+  });
+
+  $("#num-seconds").change(function () {
+    delay = $("this").val() * 1000;
   });
 
 </script>

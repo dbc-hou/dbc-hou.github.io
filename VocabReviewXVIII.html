@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review XVI</title>
+  <title>Vocab Review XVIII</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -31,30 +31,30 @@
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLII.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIII.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIX.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='EngLatReviewV.html'">Next->></button>
       </div>
 
-      <h3>Vocabulary—Lessons XLIX-LII</h3>
-      <p>The four chapters preceding this review introduced mostly nouns—focusing on Declensions IV and V, but including
-        all the others as well. We also have some related adjectives, verbs, idiomatic phrases, and a single adverb,
-        providing a total of <span id="how-many-words"></span> entries to review.</p>
-      <p>The answer for each noun will include its English meanings and Genitive singular form (or, in some cases,
-        Genitive plural).</p>
+      <h3>Vocabulary—Lessons LVI-LIX</h3>
+      <p>The lessons leading up to this review mostly concern nouns, pronouns, and some adjectives that are declined
+        like pronouns. Some related words and an idiom or two have also sneaked in.</p>
+      <p>The answers for all the pronouns and pronominal adjectives include their Genitive and Dative singular forms,
+        which, you may recall, are respectively identical for all three genders. For example, for <strong>is, ea, id</strong>,
+        the universal Genitive singular is <strong>eius</strong>, and the Dative singular is <strong>eī</strong>.</p>
 
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XLIX-LII</h5>
+              <h5 class="modal-title">Vocabulary Drill, Lessons LVI-LIX</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab52);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab59);
                   </script>
                 </div>
                 <button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button>
@@ -77,17 +77,17 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLII.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIII.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIX.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='EngLatReviewV.html'">Next->></button>
     </div>
     </div>
   </div>
 </div>
 
 <script>
-  window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab52.length;
-  }
+  // window.onload = function () {
+  //   document.getElementById("how-many-words").innerText = vocab59.length;
+  // }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
@@ -98,7 +98,7 @@
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab52));
+    $("#carousel-display").val(displayRandom(vocab59));
     $("#vocab-drill").show();
   });
 

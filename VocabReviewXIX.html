@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <title>Vocab Review XVI</title>
+  <title>Vocab Review XV</title>
   <link rel="stylesheet" href="css/latin.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/dragdrop.css">
@@ -31,32 +31,32 @@
     </div>
     <div id="main-text" class="col-8" style="background-color: beige; color: purple">
       <div id="previous-next-top" class="row justify-content-between mb-4">
-        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLII.html'"><<-Previous</button>
-        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIII.html'">Next->></button>
+        <button id="previous-top" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXLVII.html'"><<-Previous</button>
+        <button id="next-top" class="btn btn-outline-dark col-4" onclick="window.location.href='EngLatReviewIV.html'">Next->></button>
       </div>
 
-      <h3>Vocabulary—Lessons XLIX-LII</h3>
-      <p>The four chapters preceding this review introduced mostly nouns—focusing on Declensions IV and V, but including
-        all the others as well. We also have some related adjectives, verbs, idiomatic phrases, and a single adverb,
-        providing a total of <span id="how-many-words"></span> entries to review.</p>
-      <p>The answer for each noun will include its English meanings and Genitive singular form (or, in some cases,
-        Genitive plural).</p>
+      <h3>Vocabulary Flash Cards</h3>
+      <p>Unlike the review that followed Lesson XLII, this review is entirely devoid of verbs. But is includes almost
+        all the other parts of speech. It also excludes a few familiar words that were reintroduced in Lesson XLIII.</p>
+      <p>Because we are covering five lessons, this review is lengthy: <span id="how-many-words"></span> words in all.</p>
 
       <button type="button" class="btn btn-dark" id="launch-modal">Incipe!</button>
       <div class="modal" id="vocab-drill" tabindex="-1" role="dialog" aria-labelledby="vocab-drill-label" aria-hidden="true" style="display: none">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Vocabulary Drill, Lessons XLIX-LII</h5>
+              <h5 class="modal-title">Vocabulary Drill, Lessons XLIII-XLVII</h5>
               <button type="button" id="close-modal" class="btn-close" aria-label="Close">&times;</button>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div id="carousel-display" class="carousel-inner">
                   <script>
-                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab52);
+                    document.getElementById("carousel-display").innerHTML = displayRandom(vocab47);
                   </script>
                 </div>
+                <p><input id="lat-eng" type="radio" name="translation" checked>Latin to English</input></p>
+                <p><input id="eng-lat" type="radio" name="translation">English to Latin</p>
                 <button id="reveal" type="button" class="btn btn-outline-secondary">Answer</button>
                 <button class="carousel-control-prev slide-navigator" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" onclick="$('.vocab-span').hide();">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -77,8 +77,8 @@
 
 
       <div id="previous-next-bottom" class="row justify-content-between mt-4 mb-4">
-      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLII.html'"><<-Previous</button>
-      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonLIII.html'">Next->></button>
+      <button id="previous-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='LessonXLVII.html'"><<-Previous</button>
+      <button id="next-bottom" class="btn btn-outline-dark col-4" onclick="window.location.href='EngLatReviewIV.html'">Next->></button>
     </div>
     </div>
   </div>
@@ -86,7 +86,7 @@
 
 <script>
   window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab52.length;
+    document.getElementById("how-many-words").innerText = vocab47.length;
   }
 
   const modal = document.getElementById("vocab-drill");
@@ -98,13 +98,22 @@
   }, delay);
 
   $("#launch-modal").click(function() {
-    $("#carousel-display").val(displayRandom(vocab52));
+    $("#carousel-display").val(displayRandom(vocab47));
     $("#vocab-drill").show();
+  });
+
+  $("#eng-lat").click(function() {
+    $(".vocab-span").hide();
+    document.getElementById("carousel-display").innerHTML = displayRandomEngLat(vocab47);
+  });
+
+  $("#lat-eng").click(function() {
+    $(".vocab-span").hide();
+    document.getElementById("carousel-display").innerHTML = displayRandom(vocab47);
   });
 
   $("#reveal").click(function () {
     $(".vocab-span").show();
-    $(".notes-span").show();
   })
 
   $(".btn-close").click(function() {
@@ -119,10 +128,8 @@
 
   $(".slide-navigator").click(function () {
     $(".vocab-span").hide();
-    $(".notes-span").hide();
     timeoutID = setTimeout(function () {
       $(".vocab-span").show();
-      $(".notes-span").show();
     }, 5000);
   });
 
