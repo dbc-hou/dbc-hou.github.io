@@ -429,15 +429,7 @@ const vocab55 = [
   {latin: "tortuōsus",
     english: "twisty, winding"},
   {latin: "vinculum",
-    english: "chain, fetter"},
-  {latin: "is, ea, id",
-    english: "he/she/it",
-    notes: "eius, eī"},
-  {latin: "eī, eae, ea",
-    english: "they"},
-  {latin: "īdem, eadem, idem",
-    english: "the same",
-    notes: "eiusdem, eīdem"},
+    english: "chain, fetter"}
 ]
 
 const vocab59 = [
@@ -484,6 +476,14 @@ const vocab59 = [
   {latin: "quisquis, quidquid",
     english: "anyone, anything",
     notes: "cuiuscuius, cuicui"},
+  {latin: "is, ea, id",
+    english: "he/she/it",
+    notes: "eius, eī"},
+  {latin: "eī, eae, ea",
+    english: "they"},
+  {latin: "īdem, eadem, idem",
+    english: "the same",
+    notes: "eiusdem, eīdem"},
   {latin: "hic, haec, hoc",
     english: "this, these, the latter",
     notes: "huius, huic"},
