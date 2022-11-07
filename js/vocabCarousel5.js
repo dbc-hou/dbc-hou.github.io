@@ -300,7 +300,7 @@ const vocab52 = [
 ]
 
 const vocab55 = [
-  {latin: "cāsum est",
+  {latin: "cecidit",
     english: "it has fallen, it has happened",
     notes: "cadō, cadere, cecidī, cāsum"},
   {latin: "caesum est",

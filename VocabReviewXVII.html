@@ -39,6 +39,8 @@
       <p>Most of the verbs in this review will appear in their <em>it has been <u>verb</u>ed</em> forms: 3rd-person
         singular, perfect passive indicative. But not all of our new verbs are transitive, so a few will show up in
         perfect active forms. As before, we have thrown in some related words as well.</p>
+      <p>The two pronouns from this set—<strong>is, ea, id</strong> and <strong>īdem, eadem, idem</strong>—are omitted
+        from this review and included instead in Review XVIII.</p>
       <p>In addition to the English meanings, the answer for each verb will include its principal parts. All the
         conjugations are represented here, as well as some compounds of the irregular verb <strong>eō-īre</strong>.</p>
 
@@ -85,9 +87,9 @@
 </div>
 
 <script>
-  window.onload = function () {
-    document.getElementById("how-many-words").innerText = vocab55.length;
-  }
+  // window.onload = function () {
+  //   document.getElementById("how-many-words").innerText = vocab55.length;
+  // }
 
   const modal = document.getElementById("vocab-drill");
   let delay = 5000;
@@ -100,11 +102,6 @@
   $("#launch-modal").click(function() {
     $("#carousel-display").val(displayRandom(vocab55));
     $("#vocab-drill").show();
-  });
-
-  $("#lat-eng").click(function() {
-    $(".vocab-span").hide();
-    document.getElementById("carousel-display").innerHTML = displayRandom(vocab55);
   });
 
   $("#reveal").click(function () {
