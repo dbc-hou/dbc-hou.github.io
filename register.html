@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Here!</title>
+</head>
+<body>
+  <form method="post">
+    <p>Enter a unique username (15 characters or fewer): <input id="username" type="text" size="30"></p>
+    <p>And now, a password*: <input id="password" type="text" size="30"></p>
+    <p>* Passwords must contain at least 8 characters, consisting of at least: </p>
+      <ul style="list-style-type: none">
+        <li class="verification" id="capscheck">a capital letter</li>
+        <li class="verification" id="lccheck">a lowercase letter</li>
+        <li class="verification" id="numcheck">a numeral</li>
+        <li class="verification" id="specialcheck">a special character (e.g., !@#$&*)</li>
+      </ul>
+    <button>Add Me!</button>
+  </form>
+</body>
+</html>
