@@ -138,6 +138,10 @@ label {
   color: gold;
 }
 
+.latin-vocab:hover {
+  font-style: italic;
+}
+
 .volume-row {
   justify-items: stretch;
 }
