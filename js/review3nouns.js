@@ -78,7 +78,7 @@ const nhaAnswers = [
 
 const placesLatin = ["Aegyptus—Abl. s.", "Āfrica—Acc. s.", "arbor—Dat. s.", "Āsia—Dat. s.", "collis—Dat. pl.",
   "Corsica—Gen. s.", "Crēta—Voc. s.", "Cyprus—Gen. s.", "Etrūria—Dat. s.", "flūmen—Abl. s.", "fōns—Abl. pl.",
-  "Iudaea—Abl. s.", "Lātium—Gen. s.", "Lusitānia—Acc. s.", "Macedōnia—Dat. s.", "mare—Acc. pl.", "Mauretānia—Dat. s.",
+  "Iudaea—Abl. s.", "Lātium—Gen. s.", "Lūsītānia—Acc. s.", "Macedōnia—Dat. s.", "mare—Acc. pl.", "Maurētānia—Dat. s.",
   "mōns—Acc. s.", "nix—Gen. s.", "nōx—Nom. pl.", "Numidia—Dat. s.", "Persia—Abl. s.", "regiō—Gen. pl.", "Syria—Abl. s.",
   "tempus—Nom. pl.", "vallēs—Acc. pl."];
 const placesAnswers = [
@@ -95,7 +95,7 @@ const placesAnswers = [
   "<em>fountain, spring</em>—<strong>fontibus</strong>",
   "<em>Judea, Israel</em>—<strong>Iudaeā</strong>",
   "<em>Latium, Lazio</em>—<strong>Lātiī</strong>",
-  "<em>Portugal, Western Iberia</em>—<strong>Lusitāniam</strong>",
+  "<em>Portugal, Western Iberia</em>—<strong>Lūsītāniam</strong>",
   "<em>Macedonia</em>—<strong>Macedōniae</strong>",
   "<em>sea, lake</em>—<strong>maria</strong>",
   "<em>Mauretania (northwestern Africa)</em>—<strong>Mauretāniae</strong>",
