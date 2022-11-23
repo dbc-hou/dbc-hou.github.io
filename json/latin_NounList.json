@@ -1,0 +1,6545 @@
+[
+  {
+    "ID": 1,
+    "Nominative": "abacus",
+    "Genitive": "abacī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "abacus",
+    "Notes": null
+  },
+  {
+    "ID": 2,
+    "Nominative": "abdōmen",
+    "Genitive": "abdōminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "abdomen, belly",
+    "Notes": null
+  },
+  {
+    "ID": 3,
+    "Nominative": "aciēs",
+    "Genitive": "aciēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "battle line",
+    "Notes": null
+  },
+  {
+    "ID": 4,
+    "Nominative": "actiō",
+    "Genitive": "actiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "action, act of doing",
+    "Notes": "from the verb agō, agere (do, drive)"
+  },
+  {
+    "ID": 5,
+    "Nominative": "acus",
+    "Genitive": "acūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "needle, point",
+    "Notes": null
+  },
+  {
+    "ID": 6,
+    "Nominative": "adventus",
+    "Genitive": "adventūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "arrival",
+    "Notes": "from the verb adveniō, -īre"
+  },
+  {
+    "ID": 7,
+    "Nominative": "aedifex",
+    "Genitive": "aedificis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "builder",
+    "Notes": null
+  },
+  {
+    "ID": 8,
+    "Nominative": "aedificium",
+    "Genitive": "aedificiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "building",
+    "Notes": null
+  },
+  {
+    "ID": 9,
+    "Nominative": "aedīlis",
+    "Genitive": "aedīlis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "commissioner of public works",
+    "Notes": null
+  },
+  {
+    "ID": 10,
+    "Nominative": "aedis",
+    "Genitive": "aedis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "public building, temple",
+    "Notes": null
+  },
+  {
+    "ID": 11,
+    "Nominative": "aestās",
+    "Genitive": "aestātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "summer",
+    "Notes": null
+  },
+  {
+    "ID": 12,
+    "Nominative": "aetās",
+    "Genitive": "aetātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "age, era",
+    "Notes": null
+  },
+  {
+    "ID": 13,
+    "Nominative": "ager",
+    "Genitive": "agrī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "field, farmland",
+    "Notes": null
+  },
+  {
+    "ID": 14,
+    "Nominative": "agmen",
+    "Genitive": "agminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "marching column, train",
+    "Notes": null
+  },
+  {
+    "ID": 15,
+    "Nominative": "agricola",
+    "Genitive": "agricolae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "farmer",
+    "Notes": "from ager (field) and incola (inhabitant)"
+  },
+  {
+    "ID": 16,
+    "Nominative": "āla",
+    "Genitive": "ālae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "wing",
+    "Notes": null
+  },
+  {
+    "ID": 17,
+    "Nominative": "alauda",
+    "Genitive": "alaudae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "lark",
+    "Notes": null
+  },
+  {
+    "ID": 18,
+    "Nominative": "alcēs",
+    "Genitive": "alcis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "elk",
+    "Notes": null
+  },
+  {
+    "ID": 19,
+    "Nominative": "alumna",
+    "Genitive": "alumnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "foster daughter",
+    "Notes": null
+  },
+  {
+    "ID": 20,
+    "Nominative": "alumnus",
+    "Genitive": "alumnī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "foster son",
+    "Notes": null
+  },
+  {
+    "ID": 21,
+    "Nominative": "amīca",
+    "Genitive": "amīcae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "friend (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 22,
+    "Nominative": "amīcitia",
+    "Genitive": "amīcitiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "friendship",
+    "Notes": null
+  },
+  {
+    "ID": 23,
+    "Nominative": "amīcus",
+    "Genitive": "amīcī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "friend (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 24,
+    "Nominative": "amor",
+    "Genitive": "amōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "love",
+    "Notes": null
+  },
+  {
+    "ID": 25,
+    "Nominative": "amphitheātrum",
+    "Genitive": "amphitheātrī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "amphitheatre",
+    "Notes": null
+  },
+  {
+    "ID": 26,
+    "Nominative": "anās",
+    "Genitive": "anātis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "duck",
+    "Notes": null
+  },
+  {
+    "ID": 27,
+    "Nominative": "angustia",
+    "Genitive": "angustiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "narrowness",
+    "Notes": "from the adjective angustus (narrow)"
+  },
+  {
+    "ID": 28,
+    "Nominative": "angustiae",
+    "Genitive": "angustiārum",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "difficulty, dire straits",
+    "Notes": "from the adjective angustus (narrow)"
+  },
+  {
+    "ID": 29,
+    "Nominative": "animal",
+    "Genitive": "animalis",
+    "Gender": "n",
+    "Declension": "III-i",
+    "EnglishMeanings": "animal",
+    "Notes": null
+  },
+  {
+    "ID": 30,
+    "Nominative": "annus",
+    "Genitive": "annī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "year",
+    "Notes": null
+  },
+  {
+    "ID": 31,
+    "Nominative": "anser",
+    "Genitive": "anseris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "goose",
+    "Notes": null
+  },
+  {
+    "ID": 32,
+    "Nominative": "antīquitās",
+    "Genitive": "antīquitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "antiquity",
+    "Notes": "from the adjective antīquus (ancient)"
+  },
+  {
+    "ID": 33,
+    "Nominative": "apertūra",
+    "Genitive": "apertūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "opening",
+    "Notes": "from the verb aperiō, -īre (open)"
+  },
+  {
+    "ID": 34,
+    "Nominative": "apparātus",
+    "Genitive": "apparātūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "apparatus, equipment",
+    "Notes": "from the verb apparō, -āre (prepare for)"
+  },
+  {
+    "ID": 35,
+    "Nominative": "appellātiō",
+    "Genitive": "appellātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "appellation, act of naming",
+    "Notes": "from the verb appellō, -āre (call, name)"
+  },
+  {
+    "ID": 36,
+    "Nominative": "arbiter",
+    "Genitive": "arbitrī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "judge, mediator",
+    "Notes": null
+  },
+  {
+    "ID": 37,
+    "Nominative": "arbor",
+    "Genitive": "arboris",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "tree",
+    "Notes": null
+  },
+  {
+    "ID": 38,
+    "Nominative": "arcus",
+    "Genitive": "arcūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "bow, rainbow, arch",
+    "Notes": null
+  },
+  {
+    "ID": 39,
+    "Nominative": "arēna",
+    "Genitive": "arēnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "arena, sand",
+    "Notes": null
+  },
+  {
+    "ID": 40,
+    "Nominative": "ariēs",
+    "Genitive": "ariētis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "ram, battering ram",
+    "Notes": null
+  },
+  {
+    "ID": 41,
+    "Nominative": "ārs",
+    "Genitive": "artis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "art, skill",
+    "Notes": null
+  },
+  {
+    "ID": 42,
+    "Nominative": "artēria",
+    "Genitive": "artēriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "artery",
+    "Notes": null
+  },
+  {
+    "ID": 43,
+    "Nominative": "asina",
+    "Genitive": "asinae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "ass, donkey (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 44,
+    "Nominative": "asinus",
+    "Genitive": "asinī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "ass, donkey (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 45,
+    "Nominative": "ātrium",
+    "Genitive": "atriī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "atrium, open-air living room",
+    "Notes": null
+  },
+  {
+    "ID": 46,
+    "Nominative": "auctiō",
+    "Genitive": "auctiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "auction, act of increasing",
+    "Notes": "from the verb augeō, augēre (increase)"
+  },
+  {
+    "ID": 47,
+    "Nominative": "auctor",
+    "Genitive": "auctōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "author",
+    "Notes": null
+  },
+  {
+    "ID": 48,
+    "Nominative": "auctōritās",
+    "Genitive": "auctōritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "authority",
+    "Notes": null
+  },
+  {
+    "ID": 49,
+    "Nominative": "audācia",
+    "Genitive": "audāciae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "boldness, audacity, temerity",
+    "Notes": "from the adjective audāx (bold)"
+  },
+  {
+    "ID": 50,
+    "Nominative": "auditiō",
+    "Genitive": "auditiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "audition, act of hearing",
+    "Notes": null
+  },
+  {
+    "ID": 51,
+    "Nominative": "augur",
+    "Genitive": "auguris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "priest, diviner, watcher of birds in flight",
+    "Notes": null
+  },
+  {
+    "ID": 52,
+    "Nominative": "aurīga",
+    "Genitive": "aurīgae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "charioteer",
+    "Notes": null
+  },
+  {
+    "ID": 53,
+    "Nominative": "auris",
+    "Genitive": "auris",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "ear",
+    "Notes": null
+  },
+  {
+    "ID": 54,
+    "Nominative": "auspex",
+    "Genitive": "auspicis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "priest, examiner of birds' entrails",
+    "Notes": null
+  },
+  {
+    "ID": 55,
+    "Nominative": "Auster",
+    "Genitive": "Austrī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "south, south wind",
+    "Notes": null
+  },
+  {
+    "ID": 56,
+    "Nominative": "autumnus",
+    "Genitive": "autumnī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "autumn",
+    "Notes": null
+  },
+  {
+    "ID": 57,
+    "Nominative": "auxilia",
+    "Genitive": "auxiliōrum",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "reinforcements",
+    "Notes": null
+  },
+  {
+    "ID": 58,
+    "Nominative": "auxilium",
+    "Genitive": "auxiliī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "help, aid",
+    "Notes": null
+  },
+  {
+    "ID": 59,
+    "Nominative": "avis",
+    "Genitive": "avis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "bird",
+    "Notes": null
+  },
+  {
+    "ID": 60,
+    "Nominative": "ballista",
+    "Genitive": "ballistae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "artillery, rock hurler",
+    "Notes": null
+  },
+  {
+    "ID": 61,
+    "Nominative": "barba",
+    "Genitive": "barbae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "beard",
+    "Notes": null
+  },
+  {
+    "ID": 62,
+    "Nominative": "bellum",
+    "Genitive": "bellī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "war",
+    "Notes": null
+  },
+  {
+    "ID": 63,
+    "Nominative": "beneficium",
+    "Genitive": "beneficiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "benefit",
+    "Notes": null
+  },
+  {
+    "ID": 64,
+    "Nominative": "benīgnitās",
+    "Genitive": "benīgnitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "kindness",
+    "Notes": "from the adjective benīgnus (kindly)"
+  },
+  {
+    "ID": 65,
+    "Nominative": "blanditia",
+    "Genitive": "blanditiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "flattery",
+    "Notes": "from the adjective blandus (pleasant, but also fawning)"
+  },
+  {
+    "ID": 66,
+    "Nominative": "bonitās",
+    "Genitive": "bonitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "goodness",
+    "Notes": "from the adjective bonus (good)"
+  },
+  {
+    "ID": 67,
+    "Nominative": "Boreās",
+    "Genitive": "Borea",
+    "Gender": "m",
+    "Declension": "I",
+    "EnglishMeanings": "north, north wind",
+    "Notes": null
+  },
+  {
+    "ID": 68,
+    "Nominative": "bōs",
+    "Genitive": "bōvis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "bovine, cattle",
+    "Notes": "Dative/Ablative plural bōbus or būbus"
+  },
+  {
+    "ID": 69,
+    "Nominative": "bracchium",
+    "Genitive": "bracchiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "arm",
+    "Notes": null
+  },
+  {
+    "ID": 70,
+    "Nominative": "brevitās",
+    "Genitive": "brevitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "shortness, brevity",
+    "Notes": "from the adjective brevis (short)"
+  },
+  {
+    "ID": 71,
+    "Nominative": "būbō",
+    "Genitive": "būbōnis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "owl",
+    "Notes": null
+  },
+  {
+    "ID": 72,
+    "Nominative": "caelum",
+    "Genitive": "caelī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "sky, heaven",
+    "Notes": null
+  },
+  {
+    "ID": 73,
+    "Nominative": "calliditās",
+    "Genitive": "calliditātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "cleverness, craftiness",
+    "Notes": "from the adjective callidus (clever)"
+  },
+  {
+    "ID": 74,
+    "Nominative": "calor",
+    "Genitive": "calōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "heat",
+    "Notes": null
+  },
+  {
+    "ID": 75,
+    "Nominative": "calx",
+    "Genitive": "calcis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "heel",
+    "Notes": null
+  },
+  {
+    "ID": 76,
+    "Nominative": "camela",
+    "Genitive": "camelae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "camel (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 77,
+    "Nominative": "camelus",
+    "Genitive": "camelī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "camel (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 78,
+    "Nominative": "camera",
+    "Genitive": "camerae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "room, chamber",
+    "Notes": null
+  },
+  {
+    "ID": 79,
+    "Nominative": "campus",
+    "Genitive": "campī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "field, battlefield, plain",
+    "Notes": null
+  },
+  {
+    "ID": 80,
+    "Nominative": "cancer",
+    "Genitive": "cancrī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "crab",
+    "Notes": null
+  },
+  {
+    "ID": 81,
+    "Nominative": "canis",
+    "Genitive": "canis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "dog",
+    "Notes": null
+  },
+  {
+    "ID": 82,
+    "Nominative": "caper",
+    "Genitive": "caprī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "goat (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 83,
+    "Nominative": "capillus",
+    "Genitive": "capillī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "hair",
+    "Notes": null
+  },
+  {
+    "ID": 84,
+    "Nominative": "capra",
+    "Genitive": "caprae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "goat (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 85,
+    "Nominative": "caput",
+    "Genitive": "capitis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "head",
+    "Notes": null
+  },
+  {
+    "ID": 86,
+    "Nominative": "cariēs",
+    "Genitive": "cariēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "decay, rot",
+    "Notes": null
+  },
+  {
+    "ID": 87,
+    "Nominative": "cāritās",
+    "Genitive": "cāritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "dearness, charity",
+    "Notes": "from the adjective cārus (dear, precious, expensive)"
+  },
+  {
+    "ID": 88,
+    "Nominative": "carmen",
+    "Genitive": "carminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "song, poem",
+    "Notes": null
+  },
+  {
+    "ID": 89,
+    "Nominative": "carō",
+    "Genitive": "carnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "flesh, meat",
+    "Notes": null
+  },
+  {
+    "ID": 90,
+    "Nominative": "carpus",
+    "Genitive": "carpī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "wrist",
+    "Notes": null
+  },
+  {
+    "ID": 91,
+    "Nominative": "casa",
+    "Genitive": "casae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "cottage, hut",
+    "Notes": null
+  },
+  {
+    "ID": 92,
+    "Nominative": "castra",
+    "Genitive": "castrōrum",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "camp",
+    "Notes": "plural only"
+  },
+  {
+    "ID": 93,
+    "Nominative": "cāsus",
+    "Genitive": "cāsūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "case, instance, occasion",
+    "Notes": "from the verb cadō (fall, happen)"
+  },
+  {
+    "ID": 94,
+    "Nominative": "catapulta",
+    "Genitive": "catapultae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "artillery, pike hurler",
+    "Notes": null
+  },
+  {
+    "ID": 95,
+    "Nominative": "celeritās",
+    "Genitive": "celeritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "swiftness, speed",
+    "Notes": "from the adjective celer (swift)"
+  },
+  {
+    "ID": 96,
+    "Nominative": "cēna",
+    "Genitive": "cēnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "dinner, meal",
+    "Notes": null
+  },
+  {
+    "ID": 97,
+    "Nominative": "cēnsor",
+    "Genitive": "cēnsōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "censor, arbiter of public morals",
+    "Notes": "from the verb cēnseō, -ēre (count, consider)"
+  },
+  {
+    "ID": 98,
+    "Nominative": "cēnsus",
+    "Genitive": "cēnsūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "registry of population, count",
+    "Notes": "from the verb cēnseō, -ēre (count, consider)"
+  },
+  {
+    "ID": 99,
+    "Nominative": "centuria",
+    "Genitive": "centuriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "century",
+    "Notes": "from the numeric adjective centum (one hundred)"
+  },
+  {
+    "ID": 100,
+    "Nominative": "centuriō",
+    "Genitive": "centuriōnis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "centurion",
+    "Notes": "from the numeric adjective centum (one hundred)"
+  },
+  {
+    "ID": 101,
+    "Nominative": "cerebrum",
+    "Genitive": "cerebrī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "brain",
+    "Notes": null
+  },
+  {
+    "ID": 102,
+    "Nominative": "cerva",
+    "Genitive": "cervae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "doe, deer (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 103,
+    "Nominative": "cervīx",
+    "Genitive": "cervīcis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "neck",
+    "Notes": null
+  },
+  {
+    "ID": 104,
+    "Nominative": "cervus",
+    "Genitive": "cervī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "buck, stag, deer (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 105,
+    "Nominative": "cetus",
+    "Genitive": "cetī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "whale",
+    "Notes": null
+  },
+  {
+    "ID": 106,
+    "Nominative": "cibus",
+    "Genitive": "cibī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "food",
+    "Notes": null
+  },
+  {
+    "ID": 107,
+    "Nominative": "circus",
+    "Genitive": "circī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "race track",
+    "Notes": null
+  },
+  {
+    "ID": 108,
+    "Nominative": "cīvis",
+    "Genitive": "cīvis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "citizen",
+    "Notes": null
+  },
+  {
+    "ID": 109,
+    "Nominative": "clāmātiō",
+    "Genitive": "clāmātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of shouting",
+    "Notes": "from the verb clāmō, -āre (shout)"
+  },
+  {
+    "ID": 110,
+    "Nominative": "clāmātor",
+    "Genitive": "clāmātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "shouter",
+    "Notes": "from the verb clāmō, -āre (shout)"
+  },
+  {
+    "ID": 111,
+    "Nominative": "clārātiō",
+    "Genitive": "clārātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of clarifying",
+    "Notes": null
+  },
+  {
+    "ID": 112,
+    "Nominative": "clāritās",
+    "Genitive": "clāritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "clarity, clearness",
+    "Notes": "from the adjective clārus (clear, bright, famous)"
+  },
+  {
+    "ID": 113,
+    "Nominative": "classis",
+    "Genitive": "classis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "group, rank, division, fleet",
+    "Notes": null
+  },
+  {
+    "ID": 114,
+    "Nominative": "clāvis",
+    "Genitive": "clāvis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "key",
+    "Notes": null
+  },
+  {
+    "ID": 115,
+    "Nominative": "clēmentia",
+    "Genitive": "clēmentia",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "mercy",
+    "Notes": "from the adjective clēmēns (kind, merciful)"
+  },
+  {
+    "ID": 116,
+    "Nominative": "cōgitātiō",
+    "Genitive": "cōgitātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "cogitation, act of thinking",
+    "Notes": "from the verb cōgitō, -āre (think, ponder, consider)"
+  },
+  {
+    "ID": 117,
+    "Nominative": "cōgitātor",
+    "Genitive": "cōgitātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "thinker",
+    "Notes": "from the verb cōgitō, -āre (think, ponder, consider)"
+  },
+  {
+    "ID": 118,
+    "Nominative": "cognitiō",
+    "Genitive": "cognitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "cognition, act of learning",
+    "Notes": "from the verb cognōscō, -ere (learn, recognize)"
+  },
+  {
+    "ID": 119,
+    "Nominative": "cohors",
+    "Genitive": "cohortis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "cohort, crew, regiment",
+    "Notes": null
+  },
+  {
+    "ID": 120,
+    "Nominative": "coitus",
+    "Genitive": "coitūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "going together, sexual intercourse",
+    "Notes": "from the verb coeō, coīre (meet, go together)"
+  },
+  {
+    "ID": 121,
+    "Nominative": "collis",
+    "Genitive": "collis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "hill",
+    "Notes": null
+  },
+  {
+    "ID": 122,
+    "Nominative": "collum",
+    "Genitive": "collī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "neck",
+    "Notes": null
+  },
+  {
+    "ID": 123,
+    "Nominative": "color",
+    "Genitive": "colōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "color",
+    "Notes": null
+  },
+  {
+    "ID": 124,
+    "Nominative": "columna",
+    "Genitive": "columnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "column",
+    "Notes": null
+  },
+  {
+    "ID": 125,
+    "Nominative": "commissiō",
+    "Genitive": "commissiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "commission, act of sending along",
+    "Notes": "from the verb committō, -ere (send together)"
+  },
+  {
+    "ID": 126,
+    "Nominative": "commūnitās",
+    "Genitive": "commūnitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "community, commonwealth",
+    "Notes": "from the adjective commūnis (common)"
+  },
+  {
+    "ID": 127,
+    "Nominative": "complūvium",
+    "Genitive": "complūviī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "rain-diverting roof of an atrium",
+    "Notes": null
+  },
+  {
+    "ID": 128,
+    "Nominative": "confectiō",
+    "Genitive": "confectiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of completing",
+    "Notes": "from the verb conficiō, conficere (accomplish)"
+  },
+  {
+    "ID": 129,
+    "Nominative": "coniectūra",
+    "Genitive": "coniectūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "conjecture, guesswork",
+    "Notes": "from the verb coniciō, conicere (toss, hurl)"
+  },
+  {
+    "ID": 130,
+    "Nominative": "coniūnx",
+    "Genitive": "coniugis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "spouse",
+    "Notes": null
+  },
+  {
+    "ID": 131,
+    "Nominative": "cōnscientia",
+    "Genitive": "cōnscientiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "conscience",
+    "Notes": "from the verb cōnsciō, -īre (be aware)"
+  },
+  {
+    "ID": 132,
+    "Nominative": "conscrīptiō",
+    "Genitive": "conscrīptiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "conscription, military draft",
+    "Notes": "from the verb conscrībō, -ere (draft, enlist, sign up)"
+  },
+  {
+    "ID": 133,
+    "Nominative": "cōnsilium",
+    "Genitive": "cōnsiliī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "advice, counsel, plan",
+    "Notes": null
+  },
+  {
+    "ID": 134,
+    "Nominative": "constitūtiō",
+    "Genitive": "constitūtiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "constitution, make-up, decision",
+    "Notes": "from the verb constituō, -ere (decide, set up, determine)"
+  },
+  {
+    "ID": 135,
+    "Nominative": "cōnsul",
+    "Genitive": "cōnsulis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "consul, chief executive",
+    "Notes": null
+  },
+  {
+    "ID": 136,
+    "Nominative": "cōnventiō",
+    "Genitive": "cōnventiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "convention, act of coming together",
+    "Notes": "from the verb conveniō, -īre (meet, come together)"
+  },
+  {
+    "ID": 137,
+    "Nominative": "cor",
+    "Genitive": "cordis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "heart",
+    "Notes": null
+  },
+  {
+    "ID": 138,
+    "Nominative": "cornū",
+    "Genitive": "cornūs",
+    "Gender": "n",
+    "Declension": "IV",
+    "EnglishMeanings": "horn",
+    "Notes": null
+  },
+  {
+    "ID": 139,
+    "Nominative": "corpus",
+    "Genitive": "corporis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "body",
+    "Notes": null
+  },
+  {
+    "ID": 140,
+    "Nominative": "corvus",
+    "Genitive": "corvī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "crow",
+    "Notes": null
+  },
+  {
+    "ID": 141,
+    "Nominative": "crīmen",
+    "Genitive": "crīminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "crime, offense, verdict",
+    "Notes": null
+  },
+  {
+    "ID": 142,
+    "Nominative": "crūdēlitās",
+    "Genitive": "crūdēlitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "cruelty",
+    "Notes": "from the adjective crūdēlis (cruel)"
+  },
+  {
+    "ID": 143,
+    "Nominative": "crūs",
+    "Genitive": "crūris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "leg",
+    "Notes": null
+  },
+  {
+    "ID": 144,
+    "Nominative": "crux",
+    "Genitive": "crucis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "cross, crossroads",
+    "Notes": null
+  },
+  {
+    "ID": 145,
+    "Nominative": "cubīculum",
+    "Genitive": "cubīculī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "bedroom",
+    "Notes": null
+  },
+  {
+    "ID": 146,
+    "Nominative": "cubitum",
+    "Genitive": "cubitī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "elbow",
+    "Notes": null
+  },
+  {
+    "ID": 147,
+    "Nominative": "culīna",
+    "Genitive": "culīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "kitchen",
+    "Notes": null
+  },
+  {
+    "ID": 148,
+    "Nominative": "cultūra",
+    "Genitive": "cultūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "culture, cultivation",
+    "Notes": "from the verb colō, -ere (cultivate)"
+  },
+  {
+    "ID": 149,
+    "Nominative": "cūra",
+    "Genitive": "cūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "care, concern",
+    "Notes": null
+  },
+  {
+    "ID": 150,
+    "Nominative": "cūrātiō",
+    "Genitive": "cūrātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "curation, act of caring for",
+    "Notes": "from the verb cūrō, -āre (care for)"
+  },
+  {
+    "ID": 151,
+    "Nominative": "cūrātor",
+    "Genitive": "cūrātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "caretaker, watchperson",
+    "Notes": "from the verb cūrō, -āre (care for)"
+  },
+  {
+    "ID": 152,
+    "Nominative": "cursus",
+    "Genitive": "cursūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "course",
+    "Notes": "from the verb currō, -ere (run)"
+  },
+  {
+    "ID": 153,
+    "Nominative": "custōs",
+    "Genitive": "custōdis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "caretaker, guardian, tutor",
+    "Notes": null
+  },
+  {
+    "ID": 154,
+    "Nominative": "dea",
+    "Genitive": "deae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "goddess",
+    "Notes": null
+  },
+  {
+    "ID": 155,
+    "Nominative": "decentia",
+    "Genitive": "decentiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "decency, acceptability",
+    "Notes": "from the verb decet, -ēre (it is proper)"
+  },
+  {
+    "ID": 156,
+    "Nominative": "dēceptiō",
+    "Genitive": "dēceptiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "deception",
+    "Notes": "from the verb dēcipiō, dēcipere (deceive)"
+  },
+  {
+    "ID": 157,
+    "Nominative": "dēclārātiō",
+    "Genitive": "dēclārātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "declaration, act of making clear",
+    "Notes": "from the verb dēclārō, -āre (declare, make clear)"
+  },
+  {
+    "ID": 158,
+    "Nominative": "decus",
+    "Genitive": "decoris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "honor, distinction",
+    "Notes": null
+  },
+  {
+    "ID": 159,
+    "Nominative": "dēmentia",
+    "Genitive": "dēmentiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "dementia, loss of mind",
+    "Notes": "from the adjective dēmēns (out of one's mind)"
+  },
+  {
+    "ID": 160,
+    "Nominative": "dēns",
+    "Genitive": "dentium",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "tooth",
+    "Notes": null
+  },
+  {
+    "ID": 161,
+    "Nominative": "dēnsitās",
+    "Genitive": "dēnsitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "density, thickness",
+    "Notes": "from the adjective dēnsus (thick)"
+  },
+  {
+    "ID": 162,
+    "Nominative": "deus",
+    "Genitive": "deī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "goddess",
+    "Notes": null
+  },
+  {
+    "ID": 163,
+    "Nominative": "dictātor",
+    "Genitive": "dictātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "dictator, temporary military ruler",
+    "Notes": "from the verb dīcō, -ere (say, tell)"
+  },
+  {
+    "ID": 164,
+    "Nominative": "dīctum",
+    "Genitive": "dīctĪ",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "saying, proverb",
+    "Notes": "from the verb dīcō, -ere (say, tell)"
+  },
+  {
+    "ID": 165,
+    "Nominative": "diēs",
+    "Genitive": "diēī",
+    "Gender": "m",
+    "Declension": "V-long",
+    "EnglishMeanings": "day",
+    "Notes": null
+  },
+  {
+    "ID": 166,
+    "Nominative": "difficultās",
+    "Genitive": "difficultātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "difficulty",
+    "Notes": "from the adjective difficilis (difficult)"
+  },
+  {
+    "ID": 167,
+    "Nominative": "digitus",
+    "Genitive": "digitī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "finger",
+    "Notes": null
+  },
+  {
+    "ID": 168,
+    "Nominative": "disciplīna",
+    "Genitive": "disciplīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "learning",
+    "Notes": "related to the verb discō, -ere (learn)"
+  },
+  {
+    "ID": 169,
+    "Nominative": "discipula",
+    "Genitive": "discipulae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "student (f.)",
+    "Notes": "related to the verb discō, -ere (learn)"
+  },
+  {
+    "ID": 170,
+    "Nominative": "discipulus",
+    "Genitive": "discipulī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "student (m.)",
+    "Notes": "related to the verb discō, -ere (learn)"
+  },
+  {
+    "ID": 171,
+    "Nominative": "doctor",
+    "Genitive": "doctōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "teacher, instructor",
+    "Notes": "from the verb doceō, -ēre (teach)"
+  },
+  {
+    "ID": 172,
+    "Nominative": "doctrīna",
+    "Genitive": "doctrīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "doctrine, teaching",
+    "Notes": "from the verb doceō, -ēre (teach)"
+  },
+  {
+    "ID": 173,
+    "Nominative": "dolor",
+    "Genitive": "dolōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "pain, grief, suffering",
+    "Notes": null
+  },
+  {
+    "ID": 174,
+    "Nominative": "domicilium",
+    "Genitive": "domiciliī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "homestead",
+    "Notes": null
+  },
+  {
+    "ID": 175,
+    "Nominative": "domina",
+    "Genitive": "dominae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "mistress, lady",
+    "Notes": null
+  },
+  {
+    "ID": 176,
+    "Nominative": "dominus",
+    "Genitive": "dominī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "master, lord",
+    "Notes": null
+  },
+  {
+    "ID": 177,
+    "Nominative": "domus",
+    "Genitive": "domūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "house",
+    "Notes": null
+  },
+  {
+    "ID": 178,
+    "Nominative": "dōnātiō",
+    "Genitive": "dōnātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "donation, act of granting",
+    "Notes": "from the verb dōnō, -āre (grant, bestow)"
+  },
+  {
+    "ID": 179,
+    "Nominative": "dōnum",
+    "Genitive": "dōnī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "gift",
+    "Notes": null
+  },
+  {
+    "ID": 180,
+    "Nominative": "dormītōrium",
+    "Genitive": "dormītōriī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "dormitory, room for sleeping",
+    "Notes": "related to the verb dormiō, -īre (sleep)"
+  },
+  {
+    "ID": 181,
+    "Nominative": "dorsum",
+    "Genitive": "dorsī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "back (of a person or animal)",
+    "Notes": null
+  },
+  {
+    "ID": 182,
+    "Nominative": "ductiō",
+    "Genitive": "ductiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of leading",
+    "Notes": "from the verb dūcō, -ere (lead)"
+  },
+  {
+    "ID": 183,
+    "Nominative": "dulcēdō",
+    "Genitive": "dulcēdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "sweetness",
+    "Notes": "from the adjective dulcis (sweet)"
+  },
+  {
+    "ID": 184,
+    "Nominative": "dulcitās",
+    "Genitive": "dulcitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "sweetness",
+    "Notes": "from the adjective dulcis (sweet)"
+  },
+  {
+    "ID": 185,
+    "Nominative": "dūritia",
+    "Genitive": "dūritiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "hardness",
+    "Notes": "from the adjective dūrus (hard, tough)"
+  },
+  {
+    "ID": 186,
+    "Nominative": "dux",
+    "Genitive": "ducis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "leader, chief",
+    "Notes": null
+  },
+  {
+    "ID": 187,
+    "Nominative": "elephantus",
+    "Genitive": "elephantī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "elephant",
+    "Notes": null
+  },
+  {
+    "ID": 188,
+    "Nominative": "elephās",
+    "Genitive": "elephantis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "elephant",
+    "Notes": null
+  },
+  {
+    "ID": 189,
+    "Nominative": "equa",
+    "Genitive": "equae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "mare",
+    "Notes": null
+  },
+  {
+    "ID": 190,
+    "Nominative": "eques",
+    "Genitive": "equitis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "horseman, knight",
+    "Notes": null
+  },
+  {
+    "ID": 191,
+    "Nominative": "equitātiō",
+    "Genitive": "equitātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of riding a horse",
+    "Notes": "from the verb equitō, -āre (ride a horse)"
+  },
+  {
+    "ID": 192,
+    "Nominative": "equitātus",
+    "Genitive": "equitātūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "cavalry",
+    "Notes": "related to the verb equitō, -āre (ride a horse)"
+  },
+  {
+    "ID": 193,
+    "Nominative": "equus",
+    "Genitive": "equī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "horse",
+    "Notes": null
+  },
+  {
+    "ID": 194,
+    "Nominative": "error",
+    "Genitive": "errōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "wandering, mistake",
+    "Notes": null
+  },
+  {
+    "ID": 195,
+    "Nominative": "ēsuriēs",
+    "Genitive": "ēsuriēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "hunger",
+    "Notes": "related to the verb ēsuriō, -īre (be hungry)"
+  },
+  {
+    "ID": 196,
+    "Nominative": "Eurus",
+    "Genitive": "Eurī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "east, east wind",
+    "Notes": null
+  },
+  {
+    "ID": 197,
+    "Nominative": "exercitus",
+    "Genitive": "exercitūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "army",
+    "Notes": "from the verb exerceō, -ēre (train)"
+  },
+  {
+    "ID": 198,
+    "Nominative": "experientia",
+    "Genitive": "experientiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "trial, experience",
+    "Notes": "from the verb experior, -īrī (experience, be tested)"
+  },
+  {
+    "ID": 199,
+    "Nominative": "experīmentum",
+    "Genitive": "experīmentī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "trial, experience",
+    "Notes": "from the verb experior, -īrī (experience, be tested)"
+  },
+  {
+    "ID": 200,
+    "Nominative": "fābula",
+    "Genitive": "fābulae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "story (fictional)",
+    "Notes": null
+  },
+  {
+    "ID": 201,
+    "Nominative": "faciēs",
+    "Genitive": "faciēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "face, surface",
+    "Notes": null
+  },
+  {
+    "ID": 202,
+    "Nominative": "facilitās",
+    "Genitive": "facilitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "facility, ease",
+    "Notes": "from the adjective facilis (easy)"
+  },
+  {
+    "ID": 203,
+    "Nominative": "factum",
+    "Genitive": "factī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "deed",
+    "Notes": "from the verb faciō, facere (do, make)"
+  },
+  {
+    "ID": 204,
+    "Nominative": "facultās",
+    "Genitive": "facultātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "ability, opportunity",
+    "Notes": null
+  },
+  {
+    "ID": 205,
+    "Nominative": "falcō",
+    "Genitive": "falcōnis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "falcon",
+    "Notes": null
+  },
+  {
+    "ID": 206,
+    "Nominative": "fāma",
+    "Genitive": "fāmae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "fame, reputation",
+    "Notes": null
+  },
+  {
+    "ID": 207,
+    "Nominative": "famīlia",
+    "Genitive": "famīliae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "family",
+    "Notes": null
+  },
+  {
+    "ID": 208,
+    "Nominative": "fātum",
+    "Genitive": "fātī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "fate, destiny",
+    "Notes": null
+  },
+  {
+    "ID": 209,
+    "Nominative": "faucēs",
+    "Genitive": "faucium",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "jaws",
+    "Notes": null
+  },
+  {
+    "ID": 210,
+    "Nominative": "favor",
+    "Genitive": "favōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "favor, good will, support",
+    "Notes": "related to the verb faveō, -ēre (favor)"
+  },
+  {
+    "ID": 211,
+    "Nominative": "fēlēs",
+    "Genitive": "fēlis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "cat",
+    "Notes": null
+  },
+  {
+    "ID": 212,
+    "Nominative": "fēmina",
+    "Genitive": "fēminae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "woman",
+    "Notes": null
+  },
+  {
+    "ID": 213,
+    "Nominative": "femur",
+    "Genitive": "femoris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "thigh",
+    "Notes": null
+  },
+  {
+    "ID": 214,
+    "Nominative": "fētus",
+    "Genitive": "fētūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "offspring, produce",
+    "Notes": null
+  },
+  {
+    "ID": 215,
+    "Nominative": "fīlia",
+    "Genitive": "fīliae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "daughter",
+    "Notes": null
+  },
+  {
+    "ID": 216,
+    "Nominative": "fīlius",
+    "Genitive": "fīliī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "son",
+    "Notes": null
+  },
+  {
+    "ID": 217,
+    "Nominative": "fīnēs",
+    "Genitive": "fīnium",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "territory",
+    "Notes": null
+  },
+  {
+    "ID": 218,
+    "Nominative": "fīnis",
+    "Genitive": "fīnis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "end, border, boundary",
+    "Notes": null
+  },
+  {
+    "ID": 219,
+    "Nominative": "flāvēdō",
+    "Genitive": "flāvēdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "yellowness",
+    "Notes": "from the adjective flāvus (yellow)"
+  },
+  {
+    "ID": 220,
+    "Nominative": "flōs",
+    "Genitive": "flōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "flower",
+    "Notes": null
+  },
+  {
+    "ID": 221,
+    "Nominative": "flūmen",
+    "Genitive": "flūminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "river",
+    "Notes": "related to the verb fluō, -ere (flow)"
+  },
+  {
+    "ID": 222,
+    "Nominative": "fōns",
+    "Genitive": "fontis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "fountain, spring",
+    "Notes": null
+  },
+  {
+    "ID": 223,
+    "Nominative": "forma",
+    "Genitive": "formae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "form, shape",
+    "Notes": null
+  },
+  {
+    "ID": 224,
+    "Nominative": "formātiō",
+    "Genitive": "formātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "formation, act of forming",
+    "Notes": "from the verb formō, -āre (form, shape)"
+  },
+  {
+    "ID": 225,
+    "Nominative": "fortitūdō",
+    "Genitive": "fortitūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "bravery, courage",
+    "Notes": "from the adjective fortis (brave, strong)"
+  },
+  {
+    "ID": 226,
+    "Nominative": "fōrum",
+    "Genitive": "fōrī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "forum, marketplace",
+    "Notes": null
+  },
+  {
+    "ID": 227,
+    "Nominative": "frāctiō",
+    "Genitive": "frāctiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "fraction, act of breaking",
+    "Notes": "from the verb frangō, -ere (break)"
+  },
+  {
+    "ID": 228,
+    "Nominative": "frāctūra",
+    "Genitive": "frāctūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "break, crack",
+    "Notes": "from the verb frangō, -ere (break)"
+  },
+  {
+    "ID": 229,
+    "Nominative": "frater",
+    "Genitive": "fratris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "brother",
+    "Notes": null
+  },
+  {
+    "ID": 230,
+    "Nominative": "frigor",
+    "Genitive": "frigōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "coldness",
+    "Notes": "related to the adjective frigidus (cold)"
+  },
+  {
+    "ID": 231,
+    "Nominative": "frūctus",
+    "Genitive": "frūctūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "fruit, result",
+    "Notes": "related to the verb fruor, fruī (enjoy, gain from)"
+  },
+  {
+    "ID": 232,
+    "Nominative": "frūmentum",
+    "Genitive": "frūmentī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "grain",
+    "Notes": "related to the verb fruor, fruī (enjoy, gain from)"
+  },
+  {
+    "ID": 233,
+    "Nominative": "fuga",
+    "Genitive": "fugae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "flight, escape",
+    "Notes": null
+  },
+  {
+    "ID": 234,
+    "Nominative": "functiō",
+    "Genitive": "functiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "function, act of performing",
+    "Notes": "from the verb fungor, fungī (perform, administer)"
+  },
+  {
+    "ID": 235,
+    "Nominative": "fundus",
+    "Genitive": "fundī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "farm",
+    "Notes": null
+  },
+  {
+    "ID": 236,
+    "Nominative": "fūr",
+    "Genitive": "fūris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "thief",
+    "Notes": null
+  },
+  {
+    "ID": 237,
+    "Nominative": "gallīna",
+    "Genitive": "gallīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "hen",
+    "Notes": null
+  },
+  {
+    "ID": 238,
+    "Nominative": "gallus",
+    "Genitive": "gallī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "cock, rooster",
+    "Notes": null
+  },
+  {
+    "ID": 239,
+    "Nominative": "gaudium",
+    "Genitive": "gaudiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "joy",
+    "Notes": "related to the verb gaudeō, -ēre (rejoice, be joyful)"
+  },
+  {
+    "ID": 240,
+    "Nominative": "gelū",
+    "Genitive": "gelūs",
+    "Gender": "n",
+    "Declension": "IV",
+    "EnglishMeanings": "ice",
+    "Notes": null
+  },
+  {
+    "ID": 241,
+    "Nominative": "gena",
+    "Genitive": "genae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "cheek",
+    "Notes": null
+  },
+  {
+    "ID": 242,
+    "Nominative": "gēns",
+    "Genitive": "gentis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "clan, family, tribe",
+    "Notes": null
+  },
+  {
+    "ID": 243,
+    "Nominative": "genū",
+    "Genitive": "genūs",
+    "Gender": "n",
+    "Declension": "IV",
+    "EnglishMeanings": "knee",
+    "Notes": null
+  },
+  {
+    "ID": 244,
+    "Nominative": "genus",
+    "Genitive": "generis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "kind, type",
+    "Notes": null
+  },
+  {
+    "ID": 245,
+    "Nominative": "gladiātor",
+    "Genitive": "gladiātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "gladiator, swordsman",
+    "Notes": null
+  },
+  {
+    "ID": 246,
+    "Nominative": "gladius",
+    "Genitive": "gladiī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "sword",
+    "Notes": null
+  },
+  {
+    "ID": 247,
+    "Nominative": "glōria",
+    "Genitive": "glōriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "glory",
+    "Notes": null
+  },
+  {
+    "ID": 248,
+    "Nominative": "gradus",
+    "Genitive": "gradūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "step",
+    "Notes": "related to the verb gradior, gradī (take a step)"
+  },
+  {
+    "ID": 249,
+    "Nominative": "grāmen",
+    "Genitive": "grāminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "grass, herb",
+    "Notes": null
+  },
+  {
+    "ID": 250,
+    "Nominative": "grātia",
+    "Genitive": "grātiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "grace, pleasantness, gratitude",
+    "Notes": null
+  },
+  {
+    "ID": 251,
+    "Nominative": "grāvitās",
+    "Genitive": "grāvitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "gravity, heaviness, seriousness",
+    "Notes": "from the adjective gravis (heavy, serious)"
+  },
+  {
+    "ID": 252,
+    "Nominative": "gregātiō",
+    "Genitive": "gregātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of assembling",
+    "Notes": "from the verb gregō, -āre (gather, herd)"
+  },
+  {
+    "ID": 253,
+    "Nominative": "grex",
+    "Genitive": "gregis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "herd, flock, group",
+    "Notes": null
+  },
+  {
+    "ID": 254,
+    "Nominative": "habitātiō",
+    "Genitive": "habitātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "habitation, act of dwelling",
+    "Notes": "from the verb habitō, -āre (dwell, inhabit)"
+  },
+  {
+    "ID": 255,
+    "Nominative": "habitiō",
+    "Genitive": "habitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "habit, act of having",
+    "Notes": "from the verb habeō, -ēre (have, hold)"
+  },
+  {
+    "ID": 256,
+    "Nominative": "harēna",
+    "Genitive": "harēnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "sand, dust",
+    "Notes": null
+  },
+  {
+    "ID": 257,
+    "Nominative": "haruspex",
+    "Genitive": "haruspicis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "priest, examiner of animals' entrails",
+    "Notes": null
+  },
+  {
+    "ID": 258,
+    "Nominative": "hasta",
+    "Genitive": "hastae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "spear",
+    "Notes": null
+  },
+  {
+    "ID": 259,
+    "Nominative": "hiems",
+    "Genitive": "hiemis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "winter",
+    "Notes": null
+  },
+  {
+    "ID": 260,
+    "Nominative": "histōria",
+    "Genitive": "histōriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "story, account",
+    "Notes": null
+  },
+  {
+    "ID": 261,
+    "Nominative": "homō",
+    "Genitive": "hominis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "person, human being, man",
+    "Notes": null
+  },
+  {
+    "ID": 262,
+    "Nominative": "honor",
+    "Genitive": "honōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "honor",
+    "Notes": null
+  },
+  {
+    "ID": 263,
+    "Nominative": "hōra",
+    "Genitive": "hōrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "hour",
+    "Notes": null
+  },
+  {
+    "ID": 264,
+    "Nominative": "hōrologium",
+    "Genitive": "hōrologiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "clock",
+    "Notes": null
+  },
+  {
+    "ID": 265,
+    "Nominative": "horror",
+    "Genitive": "horrōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "horror, quaking",
+    "Notes": null
+  },
+  {
+    "ID": 266,
+    "Nominative": "hospes",
+    "Genitive": "hospitis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "guest, host",
+    "Notes": null
+  },
+  {
+    "ID": 267,
+    "Nominative": "hostis",
+    "Genitive": "hostis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "enemy, foe",
+    "Notes": null
+  },
+  {
+    "ID": 268,
+    "Nominative": "humānitās",
+    "Genitive": "humānitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "humanity",
+    "Notes": "from the adjective humānus (human)"
+  },
+  {
+    "ID": 269,
+    "Nominative": "humiditās",
+    "Genitive": "humiditātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "humidity, moisture",
+    "Notes": "from the adjective humidus (moist)"
+  },
+  {
+    "ID": 270,
+    "Nominative": "humilitās",
+    "Genitive": "humilitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "humility, lowliness",
+    "Notes": "from the adjective humilis (humble, lowly)"
+  },
+  {
+    "ID": 271,
+    "Nominative": "iānua",
+    "Genitive": "iānuae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "door",
+    "Notes": null
+  },
+  {
+    "ID": 272,
+    "Nominative": "īdūs",
+    "Genitive": "īduum",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "ides, 13th or 15th of a month",
+    "Notes": null
+  },
+  {
+    "ID": 273,
+    "Nominative": "iecur",
+    "Genitive": "iecoris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "liver",
+    "Notes": null
+  },
+  {
+    "ID": 274,
+    "Nominative": "ientāculum",
+    "Genitive": "ientāculī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "breakfast",
+    "Notes": null
+  },
+  {
+    "ID": 275,
+    "Nominative": "ignis",
+    "Genitive": "ignis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "fire",
+    "Notes": null
+  },
+  {
+    "ID": 276,
+    "Nominative": "ignitiō",
+    "Genitive": "ignitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "ignition, act of setting afire",
+    "Notes": "from the verb igniō, -īre (ignite, set afire)"
+  },
+  {
+    "ID": 277,
+    "Nominative": "impedīmenta",
+    "Genitive": "impedīmentōrum",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "baggage, equipment",
+    "Notes": "from the verb impediō, -īre (hinder)"
+  },
+  {
+    "ID": 278,
+    "Nominative": "impedīmentum",
+    "Genitive": "impedīmentī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "hindrance",
+    "Notes": "from the verb impediō, -īre (hinder)"
+  },
+  {
+    "ID": 279,
+    "Nominative": "imperātor",
+    "Genitive": "imperātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "commander, general, emperor",
+    "Notes": "from the verb imperō, -āre (command)"
+  },
+  {
+    "ID": 280,
+    "Nominative": "imperium",
+    "Genitive": "imperiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "power, authority, empire",
+    "Notes": "related to the verb imperō, -āre (command)"
+  },
+  {
+    "ID": 281,
+    "Nominative": "implūvium",
+    "Genitive": "implūviī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "rain basin",
+    "Notes": null
+  },
+  {
+    "ID": 282,
+    "Nominative": "inceptiō",
+    "Genitive": "inceptiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "inception, act of beginning",
+    "Notes": "from the verb incipiō, incipere (take on, begin)"
+  },
+  {
+    "ID": 283,
+    "Nominative": "incola",
+    "Genitive": "incolae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "inhabitant",
+    "Notes": null
+  },
+  {
+    "ID": 284,
+    "Nominative": "index",
+    "Genitive": "indicis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "pointer, index finger",
+    "Notes": null
+  },
+  {
+    "ID": 285,
+    "Nominative": "īnfāns",
+    "Genitive": "īnfantis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "infant, child",
+    "Notes": null
+  },
+  {
+    "ID": 286,
+    "Nominative": "īnfēlīcitās",
+    "Genitive": "īnfēlīcitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "unhappiness",
+    "Notes": "from the adjective īnfēlīx (unhappy, unlucky)"
+  },
+  {
+    "ID": 287,
+    "Nominative": "inimīcitia",
+    "Genitive": "īnfēlīcitātis",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "unfriendliness",
+    "Notes": "from the adjective inimīcus (unfriendly)"
+  },
+  {
+    "ID": 288,
+    "Nominative": "inīquitās",
+    "Genitive": "inīquitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "inequality, injustice",
+    "Notes": "from the adjective inīquus (unfair, unjust)"
+  },
+  {
+    "ID": 289,
+    "Nominative": "instructiō",
+    "Genitive": "instructiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "instruction, act of building",
+    "Notes": "from the verb instruō, -ere (build up)"
+  },
+  {
+    "ID": 290,
+    "Nominative": "īnsula",
+    "Genitive": "īnsulae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "island, tenement house",
+    "Notes": null
+  },
+  {
+    "ID": 291,
+    "Nominative": "integritās",
+    "Genitive": "integritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "integrity, wholeness",
+    "Notes": "from the adjective integer (whole, unhurt)"
+  },
+  {
+    "ID": 292,
+    "Nominative": "inventiō",
+    "Genitive": "inventiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "discovery, act of finding",
+    "Notes": "from the verb inveniō, -īre (discover)"
+  },
+  {
+    "ID": 293,
+    "Nominative": "iocus",
+    "Genitive": "iocī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "joke, jest",
+    "Notes": null
+  },
+  {
+    "ID": 294,
+    "Nominative": "īra",
+    "Genitive": "īrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "wrath, anger",
+    "Notes": null
+  },
+  {
+    "ID": 295,
+    "Nominative": "iter",
+    "Genitive": "itineris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "journey, march",
+    "Notes": "related to the verb eō, -īre (go)"
+  },
+  {
+    "ID": 296,
+    "Nominative": "iūdex",
+    "Genitive": "iūdicis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "judge, lawgiver",
+    "Notes": "related to the noun iūs (law, right)"
+  },
+  {
+    "ID": 297,
+    "Nominative": "iūgum",
+    "Genitive": "iūgī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "yoke",
+    "Notes": "related to the verb iungō, -ere (join, yoke)"
+  },
+  {
+    "ID": 298,
+    "Nominative": "iūrātiō",
+    "Genitive": "iūrātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of swearing an oath",
+    "Notes": "from the verb iūrō, -āre (swear)"
+  },
+  {
+    "ID": 299,
+    "Nominative": "iūs",
+    "Genitive": "iūris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "civil right, law",
+    "Notes": null
+  },
+  {
+    "ID": 300,
+    "Nominative": "iussiō",
+    "Genitive": "iussiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of ordering",
+    "Notes": "from the verb iubeō, -ēre (order)"
+  },
+  {
+    "ID": 301,
+    "Nominative": "iūstitia",
+    "Genitive": "iūstitiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "justice, fairness",
+    "Notes": "from the adjective iūstus (right, just)"
+  },
+  {
+    "ID": 302,
+    "Nominative": "iuventūs",
+    "Genitive": "iuventūtis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "youth",
+    "Notes": "from the adjective iuvenis (young)"
+  },
+  {
+    "ID": 303,
+    "Nominative": "kalendae",
+    "Genitive": "kalendārum",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "Kalends, first of a month",
+    "Notes": null
+  },
+  {
+    "ID": 304,
+    "Nominative": "labium",
+    "Genitive": "labiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "lip",
+    "Notes": null
+  },
+  {
+    "ID": 305,
+    "Nominative": "lābor",
+    "Genitive": "lābōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "work, suffering",
+    "Notes": null
+  },
+  {
+    "ID": 306,
+    "Nominative": "lāborātiō",
+    "Genitive": "lāborātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of working",
+    "Notes": "from the verb lābōrō (work, suffer)"
+  },
+  {
+    "ID": 307,
+    "Nominative": "lāborātor",
+    "Genitive": "lāborātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "worker",
+    "Notes": "from the verb lābōrō (work, suffer)"
+  },
+  {
+    "ID": 308,
+    "Nominative": "lac",
+    "Genitive": "lactis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "milk",
+    "Notes": null
+  },
+  {
+    "ID": 309,
+    "Nominative": "lacus",
+    "Genitive": "lacūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "lake, pond",
+    "Notes": null
+  },
+  {
+    "ID": 310,
+    "Nominative": "laetitia",
+    "Genitive": "laetitiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "happiness",
+    "Notes": "from the adjective laetus (happy)"
+  },
+  {
+    "ID": 311,
+    "Nominative": "lapis",
+    "Genitive": "lapidis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "stone",
+    "Notes": null
+  },
+  {
+    "ID": 312,
+    "Nominative": "lāpsus",
+    "Genitive": "lāpsūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "lapse, fall",
+    "Notes": "from the verb lābor, labī (slip, slide)"
+  },
+  {
+    "ID": 313,
+    "Nominative": "largītiō",
+    "Genitive": "largītiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "largesse, generosity",
+    "Notes": "from the verb largior, -īrī (bestow, be generous)"
+  },
+  {
+    "ID": 314,
+    "Nominative": "lātitūdō",
+    "Genitive": "lātitūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "width",
+    "Notes": "from the adjective lātus (wide, broad)"
+  },
+  {
+    "ID": 315,
+    "Nominative": "latus",
+    "Genitive": "lateris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "side, flank",
+    "Notes": "not related to the adjective lātus (wide, broad)"
+  },
+  {
+    "ID": 316,
+    "Nominative": "laudātiō",
+    "Genitive": "laudātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of praising",
+    "Notes": "from the verb laudō, -āre (praise)"
+  },
+  {
+    "ID": 317,
+    "Nominative": "laudātor",
+    "Genitive": "laudātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "praiser",
+    "Notes": "from the verb laudō, -āre (praise)"
+  },
+  {
+    "ID": 318,
+    "Nominative": "laus",
+    "Genitive": "laudis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "praiser",
+    "Notes": "related to the verb laudō, -āre (praise)"
+  },
+  {
+    "ID": 319,
+    "Nominative": "lavātōrium",
+    "Genitive": "lavātōriī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "washroom",
+    "Notes": "from the verb lavō, -āre (wash)"
+  },
+  {
+    "ID": 320,
+    "Nominative": "leaena",
+    "Genitive": "leaenae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "lioness",
+    "Notes": null
+  },
+  {
+    "ID": 321,
+    "Nominative": "lectiō",
+    "Genitive": "lectiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of reading, act of gathering",
+    "Notes": "from the verb legō, -ere (read, collect)"
+  },
+  {
+    "ID": 322,
+    "Nominative": "lectus",
+    "Genitive": "lectī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "bed, couch",
+    "Notes": null
+  },
+  {
+    "ID": 323,
+    "Nominative": "lēgātus",
+    "Genitive": "lēgātī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "lieutenant, envoy",
+    "Notes": null
+  },
+  {
+    "ID": 324,
+    "Nominative": "legiō",
+    "Genitive": "legiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "legion, military division",
+    "Notes": "related to the verb legō, -ere (read, collect)"
+  },
+  {
+    "ID": 325,
+    "Nominative": "lēns",
+    "Genitive": "lentis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "lentil",
+    "Notes": null
+  },
+  {
+    "ID": 326,
+    "Nominative": "leō",
+    "Genitive": "leōnis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "lion",
+    "Notes": null
+  },
+  {
+    "ID": 327,
+    "Nominative": "leopardus",
+    "Genitive": "leopardī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "leopard",
+    "Notes": null
+  },
+  {
+    "ID": 328,
+    "Nominative": "lepus",
+    "Genitive": "leporis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "hare, rabbit",
+    "Notes": null
+  },
+  {
+    "ID": 329,
+    "Nominative": "levātiō",
+    "Genitive": "levātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of lifting",
+    "Notes": "from the verb levō, -āre (lift, lighten)"
+  },
+  {
+    "ID": 330,
+    "Nominative": "levitās",
+    "Genitive": "levitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "levity, lightness, unseriousness",
+    "Notes": "from the adjective levis (light, unserious)"
+  },
+  {
+    "ID": 331,
+    "Nominative": "lēx",
+    "Genitive": "lēgis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "law",
+    "Notes": null
+  },
+  {
+    "ID": 332,
+    "Nominative": "liber",
+    "Genitive": "librī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "book",
+    "Notes": null
+  },
+  {
+    "ID": 333,
+    "Nominative": "līberātiō",
+    "Genitive": "līberātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "liberation, act of freeing",
+    "Notes": "from the verb līberō, -āre (set free)"
+  },
+  {
+    "ID": 334,
+    "Nominative": "līberātor",
+    "Genitive": "līberātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "liberator",
+    "Notes": "from the verb līberō, -āre (set free)"
+  },
+  {
+    "ID": 335,
+    "Nominative": "lībertās",
+    "Genitive": "lībertātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "liberty, freedom",
+    "Notes": "from the adjective līber (free)"
+  },
+  {
+    "ID": 336,
+    "Nominative": "librārium",
+    "Genitive": "librāriī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "library, book room",
+    "Notes": null
+  },
+  {
+    "ID": 337,
+    "Nominative": "licentia",
+    "Genitive": "licentiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "license, liberties taken",
+    "Notes": "related to the verb licet, -ēre (it is permitted)"
+  },
+  {
+    "ID": 338,
+    "Nominative": "līmen",
+    "Genitive": "līminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "threshold",
+    "Notes": null
+  },
+  {
+    "ID": 339,
+    "Nominative": "lingua",
+    "Genitive": "linguae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "tongue, language",
+    "Notes": null
+  },
+  {
+    "ID": 340,
+    "Nominative": "lītus",
+    "Genitive": "lītoris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "shore of a lake or sea",
+    "Notes": null
+  },
+  {
+    "ID": 341,
+    "Nominative": "locātiō",
+    "Genitive": "locātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "location, act of placing",
+    "Notes": "from the verb locō, -āre (put in place)"
+  },
+  {
+    "ID": 342,
+    "Nominative": "locātor",
+    "Genitive": "locātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "locator",
+    "Notes": "from the verb locō, -āre (put in place)"
+  },
+  {
+    "ID": 343,
+    "Nominative": "locus",
+    "Genitive": "locī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "place",
+    "Notes": null
+  },
+  {
+    "ID": 344,
+    "Nominative": "locūtiō",
+    "Genitive": "locūtiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "locution, act of speaking",
+    "Notes": "from the verb loquor, loquī (speak)"
+  },
+  {
+    "ID": 345,
+    "Nominative": "longinquitās",
+    "Genitive": "longinquitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "distance",
+    "Notes": "from the adjective longinquus (far away)"
+  },
+  {
+    "ID": 346,
+    "Nominative": "longitūdō",
+    "Genitive": "longitūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "length",
+    "Notes": "from the adjective longus (long, far)"
+  },
+  {
+    "ID": 347,
+    "Nominative": "lūdus",
+    "Genitive": "lūdī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "game, school",
+    "Notes": null
+  },
+  {
+    "ID": 348,
+    "Nominative": "lūmen",
+    "Genitive": "lūminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "light, ray of light",
+    "Notes": null
+  },
+  {
+    "ID": 349,
+    "Nominative": "lupa",
+    "Genitive": "lupae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "wolf (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 350,
+    "Nominative": "lupus",
+    "Genitive": "lupī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "wolf (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 351,
+    "Nominative": "lūx",
+    "Genitive": "lūcis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "light",
+    "Notes": null
+  },
+  {
+    "ID": 352,
+    "Nominative": "magister",
+    "Genitive": "magistrī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "teacher, master",
+    "Notes": null
+  },
+  {
+    "ID": 353,
+    "Nominative": "magistra",
+    "Genitive": "magistrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "teacher, mistress",
+    "Notes": null
+  },
+  {
+    "ID": 354,
+    "Nominative": "magistrātus",
+    "Genitive": "magistrātūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "magistrate, magistracy",
+    "Notes": null
+  },
+  {
+    "ID": 355,
+    "Nominative": "magnitūdō",
+    "Genitive": "magnitūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "magnitude, greatness",
+    "Notes": "from the adjective magnus (great, large)"
+  },
+  {
+    "ID": 356,
+    "Nominative": "malitia",
+    "Genitive": "malitiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "wickedness, ill will",
+    "Notes": "from the adjective malus (bad, wicked)"
+  },
+  {
+    "ID": 357,
+    "Nominative": "manipulus",
+    "Genitive": "manipulī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "maniple, handful, military platoon",
+    "Notes": "related to the noun manus (hand)"
+  },
+  {
+    "ID": 358,
+    "Nominative": "mānsiō",
+    "Genitive": "mansiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "dwelling, act of staying",
+    "Notes": "from the verb maneō, -ēre (stay, remain)"
+  },
+  {
+    "ID": 359,
+    "Nominative": "manus",
+    "Genitive": "manūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "hand",
+    "Notes": null
+  },
+  {
+    "ID": 360,
+    "Nominative": "mare",
+    "Genitive": "maris",
+    "Gender": "n",
+    "Declension": "III-i",
+    "EnglishMeanings": "sea",
+    "Notes": null
+  },
+  {
+    "ID": 361,
+    "Nominative": "mater",
+    "Genitive": "matris",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "mother",
+    "Notes": null
+  },
+  {
+    "ID": 362,
+    "Nominative": "mathēmatica",
+    "Genitive": "mathēmaticae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "mathematics",
+    "Notes": null
+  },
+  {
+    "ID": 363,
+    "Nominative": "matrīmōnium",
+    "Genitive": "matrīmōniī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "marriage",
+    "Notes": "related to the noun mater (mother)"
+  },
+  {
+    "ID": 364,
+    "Nominative": "medicīna",
+    "Genitive": "medicīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "medicine",
+    "Notes": "the practice of medicine, not the drugs themselves"
+  },
+  {
+    "ID": 365,
+    "Nominative": "mel",
+    "Genitive": "mellis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "honey",
+    "Notes": null
+  },
+  {
+    "ID": 366,
+    "Nominative": "memōria",
+    "Genitive": "memōriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "memory",
+    "Notes": null
+  },
+  {
+    "ID": 367,
+    "Nominative": "mendācium",
+    "Genitive": "mendāciī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "lying, falsehood",
+    "Notes": null
+  },
+  {
+    "ID": 368,
+    "Nominative": "mēns",
+    "Genitive": "mentis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "mind",
+    "Notes": null
+  },
+  {
+    "ID": 369,
+    "Nominative": "mēnsis",
+    "Genitive": "mēnsis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "month",
+    "Notes": null
+  },
+  {
+    "ID": 370,
+    "Nominative": "mēnsūra",
+    "Genitive": "mēnsūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "measurement",
+    "Notes": "from the verb mētior, -īrī (measure)"
+  },
+  {
+    "ID": 371,
+    "Nominative": "mentum",
+    "Genitive": "mentī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "chin",
+    "Notes": null
+  },
+  {
+    "ID": 372,
+    "Nominative": "mercātor",
+    "Genitive": "mercātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "merchant, businessperson",
+    "Notes": "from the verb mercor, -ārī (trade, deal)"
+  },
+  {
+    "ID": 373,
+    "Nominative": "mercātus",
+    "Genitive": "mercātūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "trade, business",
+    "Notes": "from the verb mercor, -ārī (trade, deal)"
+  },
+  {
+    "ID": 374,
+    "Nominative": "merīdiēs",
+    "Genitive": "merīdiēī",
+    "Gender": "m",
+    "Declension": "V-long",
+    "EnglishMeanings": "noon, midday, south",
+    "Notes": null
+  },
+  {
+    "ID": 375,
+    "Nominative": "mīles",
+    "Genitive": "mīlitis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "soldier",
+    "Notes": null
+  },
+  {
+    "ID": 376,
+    "Nominative": "mīlia",
+    "Genitive": "mīlium",
+    "Gender": "n",
+    "Declension": "III-i",
+    "EnglishMeanings": "thousands",
+    "Notes": null
+  },
+  {
+    "ID": 377,
+    "Nominative": "miseria",
+    "Genitive": "miseriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "misery, sadness",
+    "Notes": "from the adjective miser (sad, poor, wretched)"
+  },
+  {
+    "ID": 378,
+    "Nominative": "missiō",
+    "Genitive": "missiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "mission, act of sending",
+    "Notes": "from the verb mittō, -ere (send)"
+  },
+  {
+    "ID": 379,
+    "Nominative": "modus",
+    "Genitive": "modī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "method, manner, way",
+    "Notes": null
+  },
+  {
+    "ID": 380,
+    "Nominative": "mollitia",
+    "Genitive": "mollitiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "softness",
+    "Notes": "from the adjective mollis (soft)"
+  },
+  {
+    "ID": 381,
+    "Nominative": "monitiō",
+    "Genitive": "monitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "monition, act of warning",
+    "Notes": "from the verb moneō, -ēre (warn, advise)"
+  },
+  {
+    "ID": 382,
+    "Nominative": "mōnstrātiō",
+    "Genitive": "mōnstrātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of showing",
+    "Notes": "from the verb mōnstrō, -āre (show, point out)"
+  },
+  {
+    "ID": 383,
+    "Nominative": "mōnstrātor",
+    "Genitive": "mōnstrātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who shows",
+    "Notes": "from the verb mōnstrō, -āre (show, point out)"
+  },
+  {
+    "ID": 384,
+    "Nominative": "mora",
+    "Genitive": "morae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "delay",
+    "Notes": null
+  },
+  {
+    "ID": 385,
+    "Nominative": "mors",
+    "Genitive": "mortis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "death",
+    "Notes": null
+  },
+  {
+    "ID": 386,
+    "Nominative": "mōs",
+    "Genitive": "mōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "custom, habit, behavior",
+    "Notes": null
+  },
+  {
+    "ID": 387,
+    "Nominative": "mōtiō",
+    "Genitive": "mōtiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "motion, act of moving",
+    "Notes": "from the verb moveō, -ēre (move)"
+  },
+  {
+    "ID": 388,
+    "Nominative": "mūla",
+    "Genitive": "mūlae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "mule (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 389,
+    "Nominative": "multitūdō",
+    "Genitive": "multitūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "crowd, great number",
+    "Notes": "from the plural adjective multī (many)"
+  },
+  {
+    "ID": 390,
+    "Nominative": "mūlus",
+    "Genitive": "mūlī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "mule (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 391,
+    "Nominative": "mūnitiō",
+    "Genitive": "mūnitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "munition, act of fortifying",
+    "Notes": "from the verb mūniō, -īre (fortify)"
+  },
+  {
+    "ID": 392,
+    "Nominative": "mūrus",
+    "Genitive": "mūrī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "wall",
+    "Notes": null
+  },
+  {
+    "ID": 393,
+    "Nominative": "mūs",
+    "Genitive": "mūris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "mouse",
+    "Notes": null
+  },
+  {
+    "ID": 394,
+    "Nominative": "mūsculus",
+    "Genitive": "mūsculī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "muscle, little mouse",
+    "Notes": "related to the noun mūs (mouse)"
+  },
+  {
+    "ID": 395,
+    "Nominative": "mūsica",
+    "Genitive": "mūsicae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "music, musician (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 396,
+    "Nominative": "mūsicus",
+    "Genitive": "mūsicī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "musician (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 397,
+    "Nominative": "narrātiō",
+    "Genitive": "narrātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "narration, act of telling or relating",
+    "Notes": "from the verb narrō, -āre (tell, relate)"
+  },
+  {
+    "ID": 398,
+    "Nominative": "narrātor",
+    "Genitive": "narrātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "narrator, storyteller",
+    "Notes": "from the verb narrō, -āre (tell, relate)"
+  },
+  {
+    "ID": 399,
+    "Nominative": "nāsus",
+    "Genitive": "nāsī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "nose",
+    "Notes": null
+  },
+  {
+    "ID": 400,
+    "Nominative": "natātiō",
+    "Genitive": "natātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of swimming",
+    "Notes": "from the verb natō, -āre (swim, float)"
+  },
+  {
+    "ID": 401,
+    "Nominative": "natātor",
+    "Genitive": "natātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "swimmer",
+    "Notes": "from the verb natō, -āre (swim, float)"
+  },
+  {
+    "ID": 402,
+    "Nominative": "nātūra",
+    "Genitive": "nātūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "nature",
+    "Notes": null
+  },
+  {
+    "ID": 403,
+    "Nominative": "nātus",
+    "Genitive": "nātūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "birth",
+    "Notes": null
+  },
+  {
+    "ID": 404,
+    "Nominative": "nauta",
+    "Genitive": "nautae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "sailor",
+    "Notes": null
+  },
+  {
+    "ID": 405,
+    "Nominative": "nāvigātiō",
+    "Genitive": "nāvigātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "navigation, act of sailing",
+    "Notes": "from the verb nāvigō, -āre (sail)"
+  },
+  {
+    "ID": 406,
+    "Nominative": "nāvigātor",
+    "Genitive": "nāvigātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "navigator, sailor",
+    "Notes": "from the verb nāvigō, -āre (sail)"
+  },
+  {
+    "ID": 407,
+    "Nominative": "nāvis",
+    "Genitive": "nāvis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "ship, boat",
+    "Notes": null
+  },
+  {
+    "ID": 408,
+    "Nominative": "negātiō",
+    "Genitive": "negātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "negation, act of denying",
+    "Notes": "from the verb negō, -āre (deny, refuse)"
+  },
+  {
+    "ID": 409,
+    "Nominative": "negātor",
+    "Genitive": "negātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "denier",
+    "Notes": "from the verb negō, -āre (deny, refuse)"
+  },
+  {
+    "ID": 410,
+    "Nominative": "negōtium",
+    "Genitive": "negōtiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "business, lack of leisure",
+    "Notes": null
+  },
+  {
+    "ID": 411,
+    "Nominative": "nepōs",
+    "Genitive": "nepōtis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "grandchild, nephew, niece",
+    "Notes": null
+  },
+  {
+    "ID": 412,
+    "Nominative": "nigrēdō",
+    "Genitive": "nigrēdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "blackness",
+    "Notes": "from the adjective niger (black)"
+  },
+  {
+    "ID": 413,
+    "Nominative": "nix",
+    "Genitive": "nivis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "snow",
+    "Notes": null
+  },
+  {
+    "ID": 414,
+    "Nominative": "nōmen",
+    "Genitive": "nōminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "name, clan name",
+    "Notes": null
+  },
+  {
+    "ID": 415,
+    "Nominative": "nōminātiō",
+    "Genitive": "nōminātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "nomination, act of naming",
+    "Notes": "from the verb nōminō, -āre (name, mention by name)"
+  },
+  {
+    "ID": 416,
+    "Nominative": "nōminātor",
+    "Genitive": "nōminātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "nominator, one who names",
+    "Notes": "from the verb nōminō, -āre (name, mention by name)"
+  },
+  {
+    "ID": 417,
+    "Nominative": "nōnae",
+    "Genitive": "nōnārum",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "Nones, 5th or 7th of a month",
+    "Notes": null
+  },
+  {
+    "ID": 418,
+    "Nominative": "novātiō",
+    "Genitive": "novātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of making new",
+    "Notes": "from the verb novō, -āre (make new)"
+  },
+  {
+    "ID": 419,
+    "Nominative": "nōx",
+    "Genitive": "noctis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "night",
+    "Notes": null
+  },
+  {
+    "ID": 420,
+    "Nominative": "nūmen",
+    "Genitive": "nūminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "nod of the head, divine spirit",
+    "Notes": "related to the verb nuō, -ere (nod)"
+  },
+  {
+    "ID": 421,
+    "Nominative": "numerātiō",
+    "Genitive": "numerātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of counting",
+    "Notes": "from the verb numerō, -āre (count)"
+  },
+  {
+    "ID": 422,
+    "Nominative": "numerātor",
+    "Genitive": "numerātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who counts",
+    "Notes": "from the verb numerō, -āre (count)"
+  },
+  {
+    "ID": 423,
+    "Nominative": "numerus",
+    "Genitive": "numerī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "number",
+    "Notes": "related to the verb numerō, -āre (count)"
+  },
+  {
+    "ID": 424,
+    "Nominative": "nūntia",
+    "Genitive": "nūntiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "messenger (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 425,
+    "Nominative": "nūntiātiō",
+    "Genitive": "nūntiātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "announcement, act of announcing",
+    "Notes": "from the verb nūntiō, -āre (announce, report)"
+  },
+  {
+    "ID": 426,
+    "Nominative": "nūntiātor",
+    "Genitive": "nūntiātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "announcer",
+    "Notes": "from the verb nūntiō, -āre (announce, report)"
+  },
+  {
+    "ID": 427,
+    "Nominative": "nūntius",
+    "Genitive": "nūntiī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "messenger (m.)",
+    "Notes": "related to the verb nūntiō, -āre (announce, report)"
+  },
+  {
+    "ID": 428,
+    "Nominative": "nux",
+    "Genitive": "nucis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "nut",
+    "Notes": null
+  },
+  {
+    "ID": 429,
+    "Nominative": "oblītiō",
+    "Genitive": "oblītiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of forgetting",
+    "Notes": "from the verb oblīvīscor, oblīvīscī (forget)"
+  },
+  {
+    "ID": 430,
+    "Nominative": "oblīvium",
+    "Genitive": "oblīviī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "forgetfulness",
+    "Notes": "related to the verb oblīvīscor, oblīvīscī (forget)"
+  },
+  {
+    "ID": 431,
+    "Nominative": "obscūritās",
+    "Genitive": "obscūritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "obscurity, darkness",
+    "Notes": "from the adjective obscūrus (dark)"
+  },
+  {
+    "ID": 432,
+    "Nominative": "occāsiō",
+    "Genitive": "occāsiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "occasion, act of falling or happening",
+    "Notes": "from the verb occidō, -ere (fall, happen, occur)"
+  },
+  {
+    "ID": 433,
+    "Nominative": "occidēns",
+    "Genitive": "occidentis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "west, toward the setting sun",
+    "Notes": "from the verb occidō, -ere (fall, happen, occur)"
+  },
+  {
+    "ID": 434,
+    "Nominative": "occupātiō",
+    "Genitive": "occupātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "occupation, act of seizing",
+    "Notes": "from the verb occupō, -āre (seize)"
+  },
+  {
+    "ID": 435,
+    "Nominative": "oceānus",
+    "Genitive": "oceānī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "ocean",
+    "Notes": null
+  },
+  {
+    "ID": 436,
+    "Nominative": "oculus",
+    "Genitive": "oculī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "eye",
+    "Notes": null
+  },
+  {
+    "ID": 437,
+    "Nominative": "olīva",
+    "Genitive": "olīvae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "olive, olive tree",
+    "Notes": null
+  },
+  {
+    "ID": 438,
+    "Nominative": "ōmen",
+    "Genitive": "ōminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "omen, foretelling, providence",
+    "Notes": null
+  },
+  {
+    "ID": 439,
+    "Nominative": "onus",
+    "Genitive": "oneris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "burden, responsibility",
+    "Notes": null
+  },
+  {
+    "ID": 440,
+    "Nominative": "opifex",
+    "Genitive": "opificis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "worker, craftsperson",
+    "Notes": "related to the noun opus (work, accomplishment)"
+  },
+  {
+    "ID": 441,
+    "Nominative": "oppidum",
+    "Genitive": "oppidī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "town, walled municipality",
+    "Notes": null
+  },
+  {
+    "ID": 442,
+    "Nominative": "opus",
+    "Genitive": "operis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "work, completed work, task",
+    "Notes": null
+  },
+  {
+    "ID": 443,
+    "Nominative": "ōrātiō",
+    "Genitive": "ōrātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "oration, act of paying",
+    "Notes": "from the verb ōrō, -āre (pray, beseech)"
+  },
+  {
+    "ID": 444,
+    "Nominative": "ōrātor",
+    "Genitive": "ōrātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "orator, pleader, one who prays",
+    "Notes": "from the verb ōrō, -āre (pray, beseech)"
+  },
+  {
+    "ID": 445,
+    "Nominative": "ōrdinātiō",
+    "Genitive": "ōrdinātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "ordination, act of placing in order",
+    "Notes": "from the verb ōrdinō, -āre (place in order)"
+  },
+  {
+    "ID": 446,
+    "Nominative": "ōrdinātor",
+    "Genitive": "ōrdinātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who places in order",
+    "Notes": "from the verb ōrdinō, -āre (place in order)"
+  },
+  {
+    "ID": 447,
+    "Nominative": "ōrdō",
+    "Genitive": "ōrdinis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "order, rank",
+    "Notes": "related to the verb ōrdinō, -āre (place in order)"
+  },
+  {
+    "ID": 448,
+    "Nominative": "oriēns",
+    "Genitive": "orientis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "east, toward the rising sun",
+    "Notes": "from the verb orior, -īrī (rise)"
+  },
+  {
+    "ID": 449,
+    "Nominative": "ōs",
+    "Genitive": "ōris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "mouth",
+    "Notes": null
+  },
+  {
+    "ID": 450,
+    "Nominative": "ōsculum",
+    "Genitive": "ōsculī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "kiss",
+    "Notes": "related to the noun ōs (mouth) and the verb ōsculor, -ārī (kiss)"
+  },
+  {
+    "ID": 451,
+    "Nominative": "ōtium",
+    "Genitive": "ōtiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "leisure, laziness",
+    "Notes": null
+  },
+  {
+    "ID": 452,
+    "Nominative": "ovis",
+    "Genitive": "ovis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "sheep, ewe",
+    "Notes": null
+  },
+  {
+    "ID": 453,
+    "Nominative": "ovum",
+    "Genitive": "ovī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "egg",
+    "Notes": null
+  },
+  {
+    "ID": 454,
+    "Nominative": "pānis",
+    "Genitive": "pānis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "bread",
+    "Notes": null
+  },
+  {
+    "ID": 455,
+    "Nominative": "parātiō",
+    "Genitive": "parātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of preparing",
+    "Notes": null
+  },
+  {
+    "ID": 456,
+    "Nominative": "pārs",
+    "Genitive": "partis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "part, direction",
+    "Notes": null
+  },
+  {
+    "ID": 457,
+    "Nominative": "partītiō",
+    "Genitive": "partītiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "partition, act of dividing",
+    "Notes": null
+  },
+  {
+    "ID": 458,
+    "Nominative": "parvitās",
+    "Genitive": "parvitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "smallness",
+    "Notes": null
+  },
+  {
+    "ID": 459,
+    "Nominative": "passer",
+    "Genitive": "passeris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "sparrow",
+    "Notes": null
+  },
+  {
+    "ID": 460,
+    "Nominative": "passus",
+    "Genitive": "passús",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "pace, two steps",
+    "Notes": null
+  },
+  {
+    "ID": 461,
+    "Nominative": "pastor",
+    "Genitive": "pastōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "shepherd",
+    "Notes": null
+  },
+  {
+    "ID": 462,
+    "Nominative": "pater",
+    "Genitive": "patris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "father",
+    "Notes": null
+  },
+  {
+    "ID": 463,
+    "Nominative": "patientia",
+    "Genitive": "patientiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "patience, suffering, enduring",
+    "Notes": null
+  },
+  {
+    "ID": 464,
+    "Nominative": "patria",
+    "Genitive": "patriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "fatherland, native country",
+    "Notes": null
+  },
+  {
+    "ID": 465,
+    "Nominative": "paupertās",
+    "Genitive": "paupertātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "poverty, poorness",
+    "Notes": null
+  },
+  {
+    "ID": 466,
+    "Nominative": "pāvō",
+    "Genitive": "pāvōnis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "peafowl",
+    "Notes": null
+  },
+  {
+    "ID": 467,
+    "Nominative": "pāx",
+    "Genitive": "pācis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "peace",
+    "Notes": null
+  },
+  {
+    "ID": 468,
+    "Nominative": "pectus",
+    "Genitive": "pectoris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "chest, breast",
+    "Notes": null
+  },
+  {
+    "ID": 469,
+    "Nominative": "pecūnia",
+    "Genitive": "pecūniae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "money",
+    "Notes": null
+  },
+  {
+    "ID": 470,
+    "Nominative": "pedes",
+    "Genitive": "peditis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "foot-soldier, infantry",
+    "Notes": null
+  },
+  {
+    "ID": 471,
+    "Nominative": "pellis",
+    "Genitive": "pellis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "pelt, hide, fur",
+    "Notes": null
+  },
+  {
+    "ID": 472,
+    "Nominative": "penna",
+    "Genitive": "pennae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "feather, pen",
+    "Notes": null
+  },
+  {
+    "ID": 473,
+    "Nominative": "pēs",
+    "Genitive": "pedis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "foot",
+    "Notes": null
+  },
+  {
+    "ID": 474,
+    "Nominative": "philosophia",
+    "Genitive": "philosophiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "philosophy",
+    "Notes": null
+  },
+  {
+    "ID": 475,
+    "Nominative": "philosophus",
+    "Genitive": "philosophī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "philosopher",
+    "Notes": null
+  },
+  {
+    "ID": 476,
+    "Nominative": "pictūra",
+    "Genitive": "pictūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "picture, painting",
+    "Notes": null
+  },
+  {
+    "ID": 477,
+    "Nominative": "pīlum",
+    "Genitive": "pīlī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "javelin",
+    "Notes": null
+  },
+  {
+    "ID": 478,
+    "Nominative": "pinguitia",
+    "Genitive": "pinguitiae",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "plumpness",
+    "Notes": null
+  },
+  {
+    "ID": 479,
+    "Nominative": "pīnus",
+    "Genitive": "pīnūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "pine tree",
+    "Notes": null
+  },
+  {
+    "ID": 480,
+    "Nominative": "pīrāta",
+    "Genitive": "pīrātae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "pirate",
+    "Notes": null
+  },
+  {
+    "ID": 481,
+    "Nominative": "piscīna",
+    "Genitive": "piscīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "pool, fish pond",
+    "Notes": null
+  },
+  {
+    "ID": 482,
+    "Nominative": "piscis",
+    "Genitive": "piscis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "fish",
+    "Notes": null
+  },
+  {
+    "ID": 483,
+    "Nominative": "plētiō",
+    "Genitive": "plētiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of filling",
+    "Notes": null
+  },
+  {
+    "ID": 484,
+    "Nominative": "pluvia",
+    "Genitive": "pluviae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "rain",
+    "Notes": null
+  },
+  {
+    "ID": 485,
+    "Nominative": "poena",
+    "Genitive": "poenae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "punishment",
+    "Notes": null
+  },
+  {
+    "ID": 486,
+    "Nominative": "poēta",
+    "Genitive": "poētae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "poet",
+    "Notes": null
+  },
+  {
+    "ID": 487,
+    "Nominative": "politicus",
+    "Genitive": "politicī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "politician",
+    "Notes": null
+  },
+  {
+    "ID": 488,
+    "Nominative": "pollex",
+    "Genitive": "pollicis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "thumb",
+    "Notes": null
+  },
+  {
+    "ID": 489,
+    "Nominative": "pōns",
+    "Genitive": "pontis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "bridge",
+    "Notes": null
+  },
+  {
+    "ID": 490,
+    "Nominative": "pontifex",
+    "Genitive": "pontificis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "priest, bridge-maker",
+    "Notes": null
+  },
+  {
+    "ID": 491,
+    "Nominative": "populus",
+    "Genitive": "populī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "people, nation",
+    "Notes": null
+  },
+  {
+    "ID": 492,
+    "Nominative": "porca",
+    "Genitive": "porcae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "sow",
+    "Notes": null
+  },
+  {
+    "ID": 493,
+    "Nominative": "porcus",
+    "Genitive": "porcī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "hog",
+    "Notes": null
+  },
+  {
+    "ID": 494,
+    "Nominative": "porta",
+    "Genitive": "portae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "gate",
+    "Notes": null
+  },
+  {
+    "ID": 495,
+    "Nominative": "portātiō",
+    "Genitive": "portātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of carrying",
+    "Notes": null
+  },
+  {
+    "ID": 496,
+    "Nominative": "potentia",
+    "Genitive": "potentiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "power, ability",
+    "Notes": null
+  },
+  {
+    "ID": 497,
+    "Nominative": "potestās",
+    "Genitive": "potestātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "power, authority",
+    "Notes": null
+  },
+  {
+    "ID": 498,
+    "Nominative": "praemium",
+    "Genitive": "praemiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "reward",
+    "Notes": null
+  },
+  {
+    "ID": 499,
+    "Nominative": "prandium",
+    "Genitive": "prandiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "lunch",
+    "Notes": null
+  },
+  {
+    "ID": 500,
+    "Nominative": "prex",
+    "Genitive": "precis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "prayer",
+    "Notes": null
+  },
+  {
+    "ID": 501,
+    "Nominative": "prīnceps",
+    "Genitive": "prīncipis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "chief, prince, emperor",
+    "Notes": null
+  },
+  {
+    "ID": 502,
+    "Nominative": "proelium",
+    "Genitive": "proeliī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "battle",
+    "Notes": null
+  },
+  {
+    "ID": 503,
+    "Nominative": "profunditās",
+    "Genitive": "profunditātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "profundity, depth",
+    "Notes": null
+  },
+  {
+    "ID": 504,
+    "Nominative": "prōgeniēs",
+    "Genitive": "prōgeniēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "offspring, descendants",
+    "Notes": null
+  },
+  {
+    "ID": 505,
+    "Nominative": "prōgenitor",
+    "Genitive": "prōgenitōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "progenitor, ancestor (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 506,
+    "Nominative": "prōgenitrīx",
+    "Genitive": "prōgenitrīcis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "progenitor, ancestor (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 507,
+    "Nominative": "prohibitiō",
+    "Genitive": "prohibitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "prohibition, act of preventing",
+    "Notes": null
+  },
+  {
+    "ID": 508,
+    "Nominative": "propinquitās",
+    "Genitive": "propinquitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "nearness",
+    "Notes": null
+  },
+  {
+    "ID": 509,
+    "Nominative": "prōscrīptiō",
+    "Genitive": "prōscrīptiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "proscription, act of banning",
+    "Notes": null
+  },
+  {
+    "ID": 510,
+    "Nominative": "prōvincia",
+    "Genitive": "prōvinciae",
+    "Gender": "d",
+    "Declension": "I",
+    "EnglishMeanings": "province",
+    "Notes": null
+  },
+  {
+    "ID": 511,
+    "Nominative": "psittacus",
+    "Genitive": "psittacī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "parrot",
+    "Notes": null
+  },
+  {
+    "ID": 512,
+    "Nominative": "pūblicitās",
+    "Genitive": "pūblicitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "publicity, publicness",
+    "Notes": null
+  },
+  {
+    "ID": 513,
+    "Nominative": "puella",
+    "Genitive": "puellae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "girl",
+    "Notes": null
+  },
+  {
+    "ID": 514,
+    "Nominative": "puer",
+    "Genitive": "puerī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "boy",
+    "Notes": null
+  },
+  {
+    "ID": 515,
+    "Nominative": "pugna",
+    "Genitive": "pugnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "fight",
+    "Notes": null
+  },
+  {
+    "ID": 516,
+    "Nominative": "pugnācitās",
+    "Genitive": "pugnācitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "pugnacity, inclination to fight",
+    "Notes": null
+  },
+  {
+    "ID": 517,
+    "Nominative": "pulchritūdō",
+    "Genitive": "pulchritūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "pulchritude, beauty",
+    "Notes": null
+  },
+  {
+    "ID": 518,
+    "Nominative": "pulmõ",
+    "Genitive": "pulmōnis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "lung",
+    "Notes": null
+  },
+  {
+    "ID": 519,
+    "Nominative": "pulsiō",
+    "Genitive": "pulsiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of pushing or driving",
+    "Notes": null
+  },
+  {
+    "ID": 520,
+    "Nominative": "pūnitiō",
+    "Genitive": "pūnitiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of punishing",
+    "Notes": null
+  },
+  {
+    "ID": 521,
+    "Nominative": "pūritās",
+    "Genitive": "pūritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "purity, cleanliness",
+    "Notes": null
+  },
+  {
+    "ID": 522,
+    "Nominative": "putātiō",
+    "Genitive": "putātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of thinking or considering",
+    "Notes": null
+  },
+  {
+    "ID": 523,
+    "Nominative": "quadrātus",
+    "Genitive": "quadrātī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "square",
+    "Notes": null
+  },
+  {
+    "ID": 524,
+    "Nominative": "quaestiō",
+    "Genitive": "quaestiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "question, act of seeking",
+    "Notes": null
+  },
+  {
+    "ID": 525,
+    "Nominative": "quercus",
+    "Genitive": "quercūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "oak tree",
+    "Notes": null
+  },
+  {
+    "ID": 526,
+    "Nominative": "questus",
+    "Genitive": "questūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "complaint",
+    "Notes": null
+  },
+  {
+    "ID": 527,
+    "Nominative": "quiēs",
+    "Genitive": "quiētis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "quiet, rest",
+    "Notes": null
+  },
+  {
+    "ID": 528,
+    "Nominative": "rabiēs",
+    "Genitive": "rabiēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "madness",
+    "Notes": null
+  },
+  {
+    "ID": 529,
+    "Nominative": "radīx",
+    "Genitive": "radīcis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "root",
+    "Notes": null
+  },
+  {
+    "ID": 530,
+    "Nominative": "rana",
+    "Genitive": "ranae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "frog",
+    "Notes": null
+  },
+  {
+    "ID": 531,
+    "Nominative": "rapiditās",
+    "Genitive": "rapiditātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "rapidity, speed",
+    "Notes": null
+  },
+  {
+    "ID": 532,
+    "Nominative": "raptor",
+    "Genitive": "raptōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who seizes",
+    "Notes": null
+  },
+  {
+    "ID": 533,
+    "Nominative": "rāritās",
+    "Genitive": "rāritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "rarity",
+    "Notes": null
+  },
+  {
+    "ID": 534,
+    "Nominative": "ratiō",
+    "Genitive": "ratiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "plan, theory, reasoning",
+    "Notes": null
+  },
+  {
+    "ID": 535,
+    "Nominative": "rattus",
+    "Genitive": "rattī",
+    "Gender": "u",
+    "Declension": "II",
+    "EnglishMeanings": "rat",
+    "Notes": null
+  },
+  {
+    "ID": 536,
+    "Nominative": "rēgīna",
+    "Genitive": "rēgīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "queen",
+    "Notes": null
+  },
+  {
+    "ID": 537,
+    "Nominative": "regiō",
+    "Genitive": "regiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "region",
+    "Notes": null
+  },
+  {
+    "ID": 538,
+    "Nominative": "rēn",
+    "Genitive": "rēnis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "kidney",
+    "Notes": null
+  },
+  {
+    "ID": 539,
+    "Nominative": "requiēs",
+    "Genitive": "requiēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "rest",
+    "Notes": null
+  },
+  {
+    "ID": 540,
+    "Nominative": "rēs",
+    "Genitive": "reī",
+    "Gender": "f",
+    "Declension": "V-short",
+    "EnglishMeanings": "thing, matter, affair",
+    "Notes": null
+  },
+  {
+    "ID": 541,
+    "Nominative": "responsor",
+    "Genitive": "responsōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who responds",
+    "Notes": null
+  },
+  {
+    "ID": 542,
+    "Nominative": "responsum",
+    "Genitive": "responsī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "response",
+    "Notes": null
+  },
+  {
+    "ID": 543,
+    "Nominative": "rēx",
+    "Genitive": "rēgis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "king",
+    "Notes": null
+  },
+  {
+    "ID": 544,
+    "Nominative": "rīsiō",
+    "Genitive": "rīsiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of laughing or mocking",
+    "Notes": null
+  },
+  {
+    "ID": 545,
+    "Nominative": "rīsor",
+    "Genitive": "rīsōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who laughs",
+    "Notes": null
+  },
+  {
+    "ID": 546,
+    "Nominative": "rīsus",
+    "Genitive": "rīsūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "laughter",
+    "Notes": null
+  },
+  {
+    "ID": 547,
+    "Nominative": "rogātiō",
+    "Genitive": "rogātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of asking",
+    "Notes": null
+  },
+  {
+    "ID": 548,
+    "Nominative": "rogātor",
+    "Genitive": "rogātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who asks",
+    "Notes": null
+  },
+  {
+    "ID": 549,
+    "Nominative": "rōsa",
+    "Genitive": "rōsae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "rose",
+    "Notes": null
+  },
+  {
+    "ID": 550,
+    "Nominative": "rotunditās",
+    "Genitive": "rotunditātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "rotundity, roundness",
+    "Notes": null
+  },
+  {
+    "ID": 551,
+    "Nominative": "rubēdō",
+    "Genitive": "rubēdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "redness",
+    "Notes": null
+  },
+  {
+    "ID": 552,
+    "Nominative": "rūs",
+    "Genitive": "rūris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "rural area, countryside",
+    "Notes": null
+  },
+  {
+    "ID": 553,
+    "Nominative": "sacerdōs",
+    "Genitive": "sacerdōtis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "priest",
+    "Notes": null
+  },
+  {
+    "ID": 554,
+    "Nominative": "sagitta",
+    "Genitive": "sagittae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "arrow",
+    "Notes": null
+  },
+  {
+    "ID": 555,
+    "Nominative": "saltātiō",
+    "Genitive": "saltātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of leaping",
+    "Notes": null
+  },
+  {
+    "ID": 556,
+    "Nominative": "saltātor",
+    "Genitive": "saltātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "leaper",
+    "Notes": null
+  },
+  {
+    "ID": 557,
+    "Nominative": "salūbritās",
+    "Genitive": "salūbritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "healthfulness",
+    "Notes": null
+  },
+  {
+    "ID": 558,
+    "Nominative": "salūs",
+    "Genitive": "salūtis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "health",
+    "Notes": null
+  },
+  {
+    "ID": 559,
+    "Nominative": "salūtātiō",
+    "Genitive": "salūtātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "salutation, act of greeting",
+    "Notes": null
+  },
+  {
+    "ID": 560,
+    "Nominative": "salūtātor",
+    "Genitive": "salūtātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who greets",
+    "Notes": null
+  },
+  {
+    "ID": 561,
+    "Nominative": "sānctitās",
+    "Genitive": "sānctitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "sanctity, holiness",
+    "Notes": null
+  },
+  {
+    "ID": 562,
+    "Nominative": "sanguis",
+    "Genitive": "sanguinis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "blood",
+    "Notes": null
+  },
+  {
+    "ID": 563,
+    "Nominative": "sānitās",
+    "Genitive": "sānitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "health, wholeness",
+    "Notes": null
+  },
+  {
+    "ID": 564,
+    "Nominative": "sapientia",
+    "Genitive": "sapientiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "wisdom",
+    "Notes": null
+  },
+  {
+    "ID": 565,
+    "Nominative": "sapor",
+    "Genitive": "sapōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "flavor",
+    "Notes": null
+  },
+  {
+    "ID": 566,
+    "Nominative": "saxum",
+    "Genitive": "saxī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "rock",
+    "Notes": null
+  },
+  {
+    "ID": 567,
+    "Nominative": "scelus",
+    "Genitive": "sceleris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "misdeed, wickedness",
+    "Notes": null
+  },
+  {
+    "ID": 568,
+    "Nominative": "scientia",
+    "Genitive": "scientiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "knowledge",
+    "Notes": null
+  },
+  {
+    "ID": 569,
+    "Nominative": "scorpiō",
+    "Genitive": "scorpiōnis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "scorpion",
+    "Notes": null
+  },
+  {
+    "ID": 570,
+    "Nominative": "scrība",
+    "Genitive": "scrībae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "clerk, writer",
+    "Notes": null
+  },
+  {
+    "ID": 571,
+    "Nominative": "scrīptūra",
+    "Genitive": "scrīptūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "scripture, writing",
+    "Notes": null
+  },
+  {
+    "ID": 572,
+    "Nominative": "sculptūra",
+    "Genitive": "sculptūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "sculpture",
+    "Notes": null
+  },
+  {
+    "ID": 573,
+    "Nominative": "scūtum",
+    "Genitive": "scūti",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "shield",
+    "Notes": null
+  },
+  {
+    "ID": 574,
+    "Nominative": "sectiō",
+    "Genitive": "sectiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "section, act of division",
+    "Notes": null
+  },
+  {
+    "ID": 575,
+    "Nominative": "secūtiō",
+    "Genitive": "secūtiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of following",
+    "Notes": null
+  },
+  {
+    "ID": 576,
+    "Nominative": "sella",
+    "Genitive": "sellae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "seat",
+    "Notes": null
+  },
+  {
+    "ID": 577,
+    "Nominative": "senātor",
+    "Genitive": "senātōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "senator (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 578,
+    "Nominative": "senātrīx",
+    "Genitive": "senātrīcis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "senator (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 579,
+    "Nominative": "senectūs",
+    "Genitive": "senectūtis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "old age",
+    "Notes": null
+  },
+  {
+    "ID": 580,
+    "Nominative": "sēnsus",
+    "Genitive": "sēnsūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "sense, feeling",
+    "Notes": null
+  },
+  {
+    "ID": 581,
+    "Nominative": "septentriō",
+    "Genitive": "septentriōnis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "north",
+    "Notes": null
+  },
+  {
+    "ID": 582,
+    "Nominative": "sequentia",
+    "Genitive": "sequentiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "sequence",
+    "Notes": null
+  },
+  {
+    "ID": 583,
+    "Nominative": "seriēs",
+    "Genitive": "seriēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "row, series",
+    "Notes": null
+  },
+  {
+    "ID": 584,
+    "Nominative": "serpēns",
+    "Genitive": "serpentis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "snake",
+    "Notes": null
+  },
+  {
+    "ID": 585,
+    "Nominative": "serva",
+    "Genitive": "servae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "slave (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 586,
+    "Nominative": "servātiō",
+    "Genitive": "servātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of keeping or guarding",
+    "Notes": null
+  },
+  {
+    "ID": 587,
+    "Nominative": "servātor",
+    "Genitive": "servātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who keeps or guards",
+    "Notes": null
+  },
+  {
+    "ID": 588,
+    "Nominative": "servitium",
+    "Genitive": "servitiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "service",
+    "Notes": null
+  },
+  {
+    "ID": 589,
+    "Nominative": "servitūs",
+    "Genitive": "servitūtis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "slavery",
+    "Notes": null
+  },
+  {
+    "ID": 590,
+    "Nominative": "servus",
+    "Genitive": "servī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "slave (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 591,
+    "Nominative": "sessiō",
+    "Genitive": "sessiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "session, act of sitting",
+    "Notes": null
+  },
+  {
+    "ID": 592,
+    "Nominative": "sexus",
+    "Genitive": "sexūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "sex, gender",
+    "Notes": null
+  },
+  {
+    "ID": 593,
+    "Nominative": "siccitās",
+    "Genitive": "siccitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "dryness",
+    "Notes": null
+  },
+  {
+    "ID": 594,
+    "Nominative": "silva",
+    "Genitive": "silvae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "forest, wood",
+    "Notes": null
+  },
+  {
+    "ID": 595,
+    "Nominative": "sīmia",
+    "Genitive": "sīmiae",
+    "Gender": "u",
+    "Declension": "I",
+    "EnglishMeanings": "monkey",
+    "Notes": null
+  },
+  {
+    "ID": 596,
+    "Nominative": "similitudō",
+    "Genitive": "similitudinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "similitude, likeness",
+    "Notes": null
+  },
+  {
+    "ID": 597,
+    "Nominative": "somnolentia",
+    "Genitive": "somnolentiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "somnolence, sleepiness",
+    "Notes": null
+  },
+  {
+    "ID": 598,
+    "Nominative": "somnus",
+    "Genitive": "somnī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "sleep",
+    "Notes": null
+  },
+  {
+    "ID": 599,
+    "Nominative": "soror",
+    "Genitive": "sorōris",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "sister",
+    "Notes": null
+  },
+  {
+    "ID": 600,
+    "Nominative": "sōrs",
+    "Genitive": "sortis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "lot, fate",
+    "Notes": null
+  },
+  {
+    "ID": 601,
+    "Nominative": "speciēs",
+    "Genitive": "speciēī",
+    "Gender": "f",
+    "Declension": "V-long",
+    "EnglishMeanings": "appearance",
+    "Notes": null
+  },
+  {
+    "ID": 602,
+    "Nominative": "spectāculum",
+    "Genitive": "spectāculī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "spectacle, show",
+    "Notes": null
+  },
+  {
+    "ID": 603,
+    "Nominative": "spectātiō",
+    "Genitive": "spectātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of watching",
+    "Notes": null
+  },
+  {
+    "ID": 604,
+    "Nominative": "spectātor",
+    "Genitive": "spectātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "spectator, watcher",
+    "Notes": null
+  },
+  {
+    "ID": 605,
+    "Nominative": "spērātiō",
+    "Genitive": "spērātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of hoping",
+    "Notes": null
+  },
+  {
+    "ID": 606,
+    "Nominative": "spēs",
+    "Genitive": "speī",
+    "Gender": "f",
+    "Declension": "V-short",
+    "EnglishMeanings": "hope",
+    "Notes": null
+  },
+  {
+    "ID": 607,
+    "Nominative": "spīna",
+    "Genitive": "spīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "spine, thorn",
+    "Notes": null
+  },
+  {
+    "ID": 608,
+    "Nominative": "spīrātiō",
+    "Genitive": "spīrātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of breathing",
+    "Notes": null
+  },
+  {
+    "ID": 609,
+    "Nominative": "spīrātor",
+    "Genitive": "spīrātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who breathes",
+    "Notes": null
+  },
+  {
+    "ID": 610,
+    "Nominative": "spīritus",
+    "Genitive": "spīritūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "spirit, wind, breath",
+    "Notes": null
+  },
+  {
+    "ID": 611,
+    "Nominative": "stātiō",
+    "Genitive": "stātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "station, act of standing",
+    "Notes": null
+  },
+  {
+    "ID": 612,
+    "Nominative": "stātua",
+    "Genitive": "stātuae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "statue",
+    "Notes": null
+  },
+  {
+    "ID": 613,
+    "Nominative": "stātus",
+    "Genitive": "stātūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "status, standing",
+    "Notes": null
+  },
+  {
+    "ID": 614,
+    "Nominative": "stomachus",
+    "Genitive": "stomachī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "stomach",
+    "Notes": null
+  },
+  {
+    "ID": 615,
+    "Nominative": "strīx",
+    "Genitive": "strīgis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "screech owl",
+    "Notes": null
+  },
+  {
+    "ID": 616,
+    "Nominative": "structūra",
+    "Genitive": "structūrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "structure, building",
+    "Notes": null
+  },
+  {
+    "ID": 617,
+    "Nominative": "strūthiō",
+    "Genitive": "strūthiōnis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "ostrich",
+    "Notes": null
+  },
+  {
+    "ID": 618,
+    "Nominative": "studium",
+    "Genitive": "studiī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "zeal, enthusiasm",
+    "Notes": null
+  },
+  {
+    "ID": 619,
+    "Nominative": "suāsiō",
+    "Genitive": "suāsiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of persuading",
+    "Notes": null
+  },
+  {
+    "ID": 620,
+    "Nominative": "suāsor",
+    "Genitive": "suāsōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "persuader",
+    "Notes": null
+  },
+  {
+    "ID": 621,
+    "Nominative": "sūs",
+    "Genitive": "suis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "sow, swine",
+    "Notes": null
+  },
+  {
+    "ID": 622,
+    "Nominative": "taberna",
+    "Genitive": "tabernae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "shop, market stall",
+    "Notes": null
+  },
+  {
+    "ID": 623,
+    "Nominative": "taedium",
+    "Genitive": "taediī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "boredom",
+    "Notes": null
+  },
+  {
+    "ID": 624,
+    "Nominative": "talus",
+    "Genitive": "talī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "heel",
+    "Notes": null
+  },
+  {
+    "ID": 625,
+    "Nominative": "tarditās",
+    "Genitive": "tarditātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "slowness",
+    "Notes": null
+  },
+  {
+    "ID": 626,
+    "Nominative": "taurus",
+    "Genitive": "taurī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "bull",
+    "Notes": null
+  },
+  {
+    "ID": 627,
+    "Nominative": "tempestās",
+    "Genitive": "tempestātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "storm, weather",
+    "Notes": null
+  },
+  {
+    "ID": 628,
+    "Nominative": "templum",
+    "Genitive": "templī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "temple",
+    "Notes": null
+  },
+  {
+    "ID": 629,
+    "Nominative": "temptātiō",
+    "Genitive": "temptātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "temptation, act of testing",
+    "Notes": null
+  },
+  {
+    "ID": 630,
+    "Nominative": "tempus",
+    "Genitive": "temporis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "time",
+    "Notes": null
+  },
+  {
+    "ID": 631,
+    "Nominative": "tentiō",
+    "Genitive": "tentiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of holding",
+    "Notes": null
+  },
+  {
+    "ID": 632,
+    "Nominative": "tenuitās",
+    "Genitive": "tenuitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "tenderness",
+    "Notes": null
+  },
+  {
+    "ID": 633,
+    "Nominative": "tepor",
+    "Genitive": "tepōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "warmth",
+    "Notes": null
+  },
+  {
+    "ID": 634,
+    "Nominative": "tergum",
+    "Genitive": "tergī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "back, rear",
+    "Notes": null
+  },
+  {
+    "ID": 635,
+    "Nominative": "terra",
+    "Genitive": "terrae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "land, soil, earth",
+    "Notes": null
+  },
+  {
+    "ID": 636,
+    "Nominative": "terror",
+    "Genitive": "terrōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "terror, fright",
+    "Notes": null
+  },
+  {
+    "ID": 637,
+    "Nominative": "testis",
+    "Genitive": "testis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "witness",
+    "Notes": null
+  },
+  {
+    "ID": 638,
+    "Nominative": "testūdō",
+    "Genitive": "testūdinis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "tortoise, battle formation with shields overhead",
+    "Notes": null
+  },
+  {
+    "ID": 639,
+    "Nominative": "theātrum",
+    "Genitive": "theātrī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "theatre",
+    "Notes": null
+  },
+  {
+    "ID": 640,
+    "Nominative": "tībia",
+    "Genitive": "tībiae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "shin, flute",
+    "Notes": null
+  },
+  {
+    "ID": 641,
+    "Nominative": "tībicen",
+    "Genitive": "tībicinis",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "flute player (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 642,
+    "Nominative": "tībicina",
+    "Genitive": "tībicinae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "flute player (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 643,
+    "Nominative": "tigris",
+    "Genitive": "tigridis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "tiger",
+    "Notes": null
+  },
+  {
+    "ID": 644,
+    "Nominative": "timor",
+    "Genitive": "timōris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "fear",
+    "Notes": null
+  },
+  {
+    "ID": 645,
+    "Nominative": "toga",
+    "Genitive": "togae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "toga, robe, gown",
+    "Notes": null
+  },
+  {
+    "ID": 646,
+    "Nominative": "tormentum",
+    "Genitive": "tormentī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "torment, torture, artillery equipment",
+    "Notes": null
+  },
+  {
+    "ID": 647,
+    "Nominative": "tortiō",
+    "Genitive": "tortiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "torsion, act of twisting",
+    "Notes": null
+  },
+  {
+    "ID": 648,
+    "Nominative": "trāditiō",
+    "Genitive": "trāditiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "tradition, act of handing over",
+    "Notes": null
+  },
+  {
+    "ID": 649,
+    "Nominative": "tranquillitās",
+    "Genitive": "tranquillitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "tranquility, calmness",
+    "Notes": null
+  },
+  {
+    "ID": 650,
+    "Nominative": "tribūnus",
+    "Genitive": "tribūnī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "tribune, tribal representative",
+    "Notes": null
+  },
+  {
+    "ID": 651,
+    "Nominative": "tribus",
+    "Genitive": "tribūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "tribe",
+    "Notes": null
+  },
+  {
+    "ID": 652,
+    "Nominative": "trīclinium",
+    "Genitive": "trīcliniī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "dining room",
+    "Notes": null
+  },
+  {
+    "ID": 653,
+    "Nominative": "trīnitās",
+    "Genitive": "trīnitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "trinity, group of three",
+    "Notes": null
+  },
+  {
+    "ID": 654,
+    "Nominative": "tūnica",
+    "Genitive": "tūnicae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "tunic, long shirt",
+    "Notes": null
+  },
+  {
+    "ID": 655,
+    "Nominative": "turpitūdō",
+    "Genitive": "turpitūdinis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "turpitude, ugliness, shamefullness",
+    "Notes": null
+  },
+  {
+    "ID": 656,
+    "Nominative": "ultiō",
+    "Genitive": "ultiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of avenging",
+    "Notes": null
+  },
+  {
+    "ID": 657,
+    "Nominative": "ultor",
+    "Genitive": "ultōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "avenger",
+    "Notes": null
+  },
+  {
+    "ID": 658,
+    "Nominative": "umerus",
+    "Genitive": "umerī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "shoulder",
+    "Notes": null
+  },
+  {
+    "ID": 659,
+    "Nominative": "unguis",
+    "Genitive": "unguis",
+    "Gender": "m",
+    "Declension": "III-i",
+    "EnglishMeanings": "fingernail, toenail",
+    "Notes": null
+  },
+  {
+    "ID": 660,
+    "Nominative": "ūnitās",
+    "Genitive": "ūnitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "unity, oneness",
+    "Notes": null
+  },
+  {
+    "ID": 661,
+    "Nominative": "urbs",
+    "Genitive": "urbis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "city",
+    "Notes": null
+  },
+  {
+    "ID": 662,
+    "Nominative": "ursa",
+    "Genitive": "ursae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "bear (f.)",
+    "Notes": null
+  },
+  {
+    "ID": 663,
+    "Nominative": "ursus",
+    "Genitive": "ursī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "bear (m.)",
+    "Notes": null
+  },
+  {
+    "ID": 664,
+    "Nominative": "ūsus",
+    "Genitive": "ūsūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "use, experience",
+    "Notes": null
+  },
+  {
+    "ID": 665,
+    "Nominative": "uterus",
+    "Genitive": "uterī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "uterus, womb",
+    "Notes": null
+  },
+  {
+    "ID": 666,
+    "Nominative": "ūtilitās",
+    "Genitive": "ūtilitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "utility, usefulness",
+    "Notes": null
+  },
+  {
+    "ID": 667,
+    "Nominative": "uxor",
+    "Genitive": "uxōris",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "user",
+    "Notes": null
+  },
+  {
+    "ID": 668,
+    "Nominative": "vacca",
+    "Genitive": "vaccae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "cow",
+    "Notes": null
+  },
+  {
+    "ID": 669,
+    "Nominative": "validitās",
+    "Genitive": "validitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "validity, strength, well-being",
+    "Notes": null
+  },
+  {
+    "ID": 670,
+    "Nominative": "vallēs",
+    "Genitive": "vallis",
+    "Gender": "f",
+    "Declension": "III-i",
+    "EnglishMeanings": "valley",
+    "Notes": null
+  },
+  {
+    "ID": 671,
+    "Nominative": "vehiculum",
+    "Genitive": "vehiculī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "vehicle, cart, wagon",
+    "Notes": null
+  },
+  {
+    "ID": 672,
+    "Nominative": "vēlōcitās",
+    "Genitive": "vēlōcitātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "velocity, swiftness",
+    "Notes": null
+  },
+  {
+    "ID": 673,
+    "Nominative": "vēna",
+    "Genitive": "vēnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "vein",
+    "Notes": null
+  },
+  {
+    "ID": 674,
+    "Nominative": "venter",
+    "Genitive": "ventris",
+    "Gender": "m",
+    "Declension": "III",
+    "EnglishMeanings": "belly, front of the torso",
+    "Notes": null
+  },
+  {
+    "ID": 675,
+    "Nominative": "vēr",
+    "Genitive": "vēris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "springtime",
+    "Notes": null
+  },
+  {
+    "ID": 676,
+    "Nominative": "verbum",
+    "Genitive": "verbī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "word",
+    "Notes": null
+  },
+  {
+    "ID": 677,
+    "Nominative": "vēritās",
+    "Genitive": "vēritātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "verity, truth",
+    "Notes": null
+  },
+  {
+    "ID": 678,
+    "Nominative": "versiõ",
+    "Genitive": "versiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "version, act of turning",
+    "Notes": null
+  },
+  {
+    "ID": 679,
+    "Nominative": "vetustās",
+    "Genitive": "vetustātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "old age",
+    "Notes": null
+  },
+  {
+    "ID": 680,
+    "Nominative": "via",
+    "Genitive": "viae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "road, way",
+    "Notes": null
+  },
+  {
+    "ID": 681,
+    "Nominative": "victor",
+    "Genitive": "victōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "victor, winner",
+    "Notes": null
+  },
+  {
+    "ID": 682,
+    "Nominative": "victōria",
+    "Genitive": "victōriae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "victory",
+    "Notes": null
+  },
+  {
+    "ID": 683,
+    "Nominative": "vīctus",
+    "Genitive": "vīctūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "victuals, foodstuffs",
+    "Notes": null
+  },
+  {
+    "ID": 684,
+    "Nominative": "vīcus",
+    "Genitive": "vīcī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "village",
+    "Notes": null
+  },
+  {
+    "ID": 685,
+    "Nominative": "vigil",
+    "Genitive": "vigilis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "watchperson",
+    "Notes": null
+  },
+  {
+    "ID": 686,
+    "Nominative": "vīlla",
+    "Genitive": "vīllae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "farmhouse, mansion, estate",
+    "Notes": null
+  },
+  {
+    "ID": 687,
+    "Nominative": "vinculum",
+    "Genitive": "vinculī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "chain, manacle, binding",
+    "Notes": null
+  },
+  {
+    "ID": 688,
+    "Nominative": "vīnum",
+    "Genitive": "vīnī",
+    "Gender": "n",
+    "Declension": "II",
+    "EnglishMeanings": "wine",
+    "Notes": null
+  },
+  {
+    "ID": 689,
+    "Nominative": "vir",
+    "Genitive": "virī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "man",
+    "Notes": null
+  },
+  {
+    "ID": 690,
+    "Nominative": "virgō",
+    "Genitive": "virginis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "virgin, young girl",
+    "Notes": null
+  },
+  {
+    "ID": 691,
+    "Nominative": "virtūs",
+    "Genitive": "virtūtis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "courage, manliness",
+    "Notes": null
+  },
+  {
+    "ID": 692,
+    "Nominative": "vīsiō",
+    "Genitive": "vīsiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "vision, act of seeing",
+    "Notes": null
+  },
+  {
+    "ID": 693,
+    "Nominative": "vīsor",
+    "Genitive": "vīsōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "one who sees",
+    "Notes": null
+  },
+  {
+    "ID": 694,
+    "Nominative": "vīta",
+    "Genitive": "vītae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "life",
+    "Notes": null
+  },
+  {
+    "ID": 695,
+    "Nominative": "vocātiō",
+    "Genitive": "vocātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "vocation, act of calling",
+    "Notes": null
+  },
+  {
+    "ID": 696,
+    "Nominative": "vocātor",
+    "Genitive": "vocātōris",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "caller",
+    "Notes": null
+  },
+  {
+    "ID": 697,
+    "Nominative": "volūmen",
+    "Genitive": "volūminis",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "volume, scroll",
+    "Notes": null
+  },
+  {
+    "ID": 698,
+    "Nominative": "voluntās",
+    "Genitive": "voluntātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "free will, desire",
+    "Notes": null
+  },
+  {
+    "ID": 699,
+    "Nominative": "voluptās",
+    "Genitive": "voluptātis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "pleasure, delight",
+    "Notes": null
+  },
+  {
+    "ID": 700,
+    "Nominative": "vōx",
+    "Genitive": "vocis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "voice",
+    "Notes": null
+  },
+  {
+    "ID": 701,
+    "Nominative": "vulnerātiō",
+    "Genitive": "vulnerātiōnis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "act of wounding",
+    "Notes": null
+  },
+  {
+    "ID": 702,
+    "Nominative": "vulnus",
+    "Genitive": "vulneris",
+    "Gender": "n",
+    "Declension": "III",
+    "EnglishMeanings": "wound",
+    "Notes": null
+  },
+  {
+    "ID": 703,
+    "Nominative": "vulpēs",
+    "Genitive": "vulpis",
+    "Gender": "u",
+    "Declension": "III-i",
+    "EnglishMeanings": "fox",
+    "Notes": null
+  },
+  {
+    "ID": 704,
+    "Nominative": "vultur",
+    "Genitive": "vulturis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "vulture",
+    "Notes": null
+  },
+  {
+    "ID": 705,
+    "Nominative": "vultus",
+    "Genitive": "vultūs",
+    "Gender": "m",
+    "Declension": "IV",
+    "EnglishMeanings": "face, countenance",
+    "Notes": null
+  },
+  {
+    "ID": 706,
+    "Nominative": "Zephyrus",
+    "Genitive": "Zephyrī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "Zephyr, west, west wind",
+    "Notes": null
+  },
+  {
+    "ID": 707,
+    "Nominative": "avia",
+    "Genitive": "aviae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "grandmother",
+    "Notes": null
+  },
+  {
+    "ID": 708,
+    "Nominative": "avus",
+    "Genitive": "avī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "grandfather",
+    "Notes": null
+  },
+  {
+    "ID": 709,
+    "Nominative": "neptis",
+    "Genitive": "neptis",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "granddaughter",
+    "Notes": null
+  },
+  {
+    "ID": 710,
+    "Nominative": "amita",
+    "Genitive": "amitae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "paternal aunt",
+    "Notes": null
+  },
+  {
+    "ID": 711,
+    "Nominative": "avunculus",
+    "Genitive": "avunculī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "maternal uncle",
+    "Notes": null
+  },
+  {
+    "ID": 712,
+    "Nominative": "matertera",
+    "Genitive": "materterae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "maternal aunt",
+    "Notes": null
+  },
+  {
+    "ID": 713,
+    "Nominative": "patruus",
+    "Genitive": "patruī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "paternal uncle",
+    "Notes": null
+  },
+  {
+    "ID": 714,
+    "Nominative": "cōnsobrīnus",
+    "Genitive": "cōnsobrīnī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "maternal first cousin, child of mother's sister",
+    "Notes": null
+  },
+  {
+    "ID": 715,
+    "Nominative": "cōnsobrīna",
+    "Genitive": "cōnsobrīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "maternal first cousin, child of mother's sister",
+    "Notes": "<null>"
+  },
+  {
+    "ID": 716,
+    "Nominative": "matruēlis",
+    "Genitive": "matruēlis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "maternal first cousin, child of mother's brother",
+    "Notes": null
+  },
+  {
+    "ID": 718,
+    "Nominative": "patruēlis",
+    "Genitive": "patruēlis",
+    "Gender": "u",
+    "Declension": "III",
+    "EnglishMeanings": "paternal first cousin",
+    "Notes": null
+  },
+  {
+    "ID": 719,
+    "Nominative": "sobrīnus",
+    "Genitive": "sobrīnī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "sororal nephew",
+    "Notes": null
+  },
+  {
+    "ID": 720,
+    "Nominative": "sobrīna",
+    "Genitive": "sobrīnae",
+    "Gender": "f",
+    "Declension": "I",
+    "EnglishMeanings": "sororal niece",
+    "Notes": null
+  },
+  {
+    "ID": 721,
+    "Nominative": "cōnsocer",
+    "Genitive": "cōnsocerī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "child's father-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 722,
+    "Nominative": "cōnsocrus",
+    "Genitive": "cōnsocrūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "child's mother-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 723,
+    "Nominative": "gener",
+    "Genitive": "generī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "son-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 724,
+    "Nominative": "glōs",
+    "Genitive": "glōris",
+    "Gender": "f",
+    "Declension": "III",
+    "EnglishMeanings": "sister-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 725,
+    "Nominative": "levir",
+    "Genitive": "levirī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "brother-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 726,
+    "Nominative": "socer",
+    "Genitive": "socerī",
+    "Gender": "m",
+    "Declension": "II",
+    "EnglishMeanings": "father-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 727,
+    "Nominative": "socrus",
+    "Genitive": "socrūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "mother-in-law",
+    "Notes": null
+  },
+  {
+    "ID": 728,
+    "Nominative": "nurus",
+    "Genitive": "nurūs",
+    "Gender": "f",
+    "Declension": "IV",
+    "EnglishMeanings": "daughter-in-law",
+    "Notes": null
+  }
+]

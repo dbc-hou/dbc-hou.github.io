@@ -253,6 +253,13 @@ label {
   margin: 5px;
 }
 
+.verb-container {
+  background-color: white;
+  color: purple;
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*Elements by ID*/
 
 #intro-div:hover {
@@ -270,6 +277,11 @@ label {
   margin-top: 5em;
   margin-right: 2em;
   overflow-y: scroll;
+}
+
+#list-of-verbs {
+  position: fixed;
+  margin-top: 5em ;
 }
 
 #main-text {

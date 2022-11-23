@@ -4,6 +4,7 @@
 // Notice that Conjugation III-i has similarities with both III and IV.
 // The conjugation must be specified because there are pairs of verbs that are identical in their
 // first-person singular (dictionary) forms but conjugate differently—e.g., volō (fly) and volō (want).
+
 const personalEndingsSet1 = ["ō", "s", "t", "mus", "tis", "nt"];
 const personalEndingsSet2 = ["m", "s", "t", "mus", "tis", "nt"];
 const conj1PresActIndic = ["ō", "ās", "at", "āmus", "ātis", "ant"];
@@ -609,4 +610,4 @@ function completeConjugation(firstPart,thirdPart,supine,conj,gender) {
   }
 }
 
-completeConjugation("pōnō", "pōsuī", "pōsitum", "III", "f")
+// completeConjugation("pōnō", "pōsuī", "pōsitum", "III", "f");
