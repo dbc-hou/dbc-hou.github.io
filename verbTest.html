@@ -17,12 +17,12 @@
 </header>
 <div id="main-container" class="container">
   <div id="content-row" class="row d-flex justify-items-center">
-    <div id="list-of-verbs" class="col-12 verb-container">
+    <div id="all-verbs" class="col-12 all-verb-container">
       <div id="filter-box">
         <label for="search-box">Search:</label>
         <input id="search-box" type="text" size="20">
       </div>
-      <div id="content-links">
+      <div id="verb-links">
         <div id="verb-display">
           <script>
             const verbURL = "json/latin_VerbList.json";
@@ -33,7 +33,7 @@
                 return response.json();
               })
               .then(function (data) {
-                displayVerbs(data);
+                displayVerbs(sortJSON(data));
               })
               .catch(function (err) {
                 console.log(err);
@@ -50,6 +50,14 @@
               }
               html += `</ul>`;
               thisDiv.innerHTML = html;
+            }
+
+            function sortJSON(jsObj) {
+              var sortedArray = [];
+              for(var i in jsObj) {
+                sortedArray.push(jsObj[i]);
+              }
+              return sortedArray.sort()
             }
           </script>
         </div>

@@ -260,6 +260,12 @@ label {
   font-style: normal;
 }
 
+.all-verb-container {
+  background-color: white;
+  color: purple;
+  font-size: small;
+}
+
 /*Elements by ID*/
 
 #intro-div:hover {
@@ -281,7 +287,11 @@ label {
 
 #list-of-verbs {
   position: fixed;
-  margin-top: 5em ;
+  margin-top: 5em;
+}
+
+#all-verbs {
+  margin-top: 5em;
 }
 
 #main-text {
@@ -336,4 +346,10 @@ label {
   background-color: white;
   height: 300px;
   overflow: scroll;
+}
+
+#verb-display {
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
 }
